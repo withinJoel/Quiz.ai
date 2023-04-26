@@ -1,4 +1,15 @@
 let questions = [  
+///////////////////////////////////////////////////////////HTML
+{
+  question: "What is the purpose of the 'head' section in HTML?",
+  answer: "The 'head' section is used to contain metadata about the document, including the title, author, and keywords.",
+  options: [
+  "The 'head' section is used to define the structure and content of the document's body.",
+  "The 'head' section is used to contain the main content of the document.",
+  "The 'head' section is used to define the styling for the document.",
+  "The 'head' section is used to define the scripts used in the document."
+  ]
+},
 {    
   question: "What does HTML stand for?",    
   answer: "Hyper Text Markup Language",    
@@ -10,6 +21,169 @@ let questions = [
     "Hyper Tool Multi Language"    
   ]
 },
+///////////////////////////////////////////////////////////CSS
+{
+  question: "What is the difference between 'display: block;' and 'display: inline;' in CSS?",
+  answer: "'display: block;' will make an element take up the full width of its parent container, while 'display: inline;' will make an element take up only as much width as necessary.",
+  options: [
+  "'display: block;' will make an element take up only as much width as necessary, while 'display: inline;' will make an element take up the full width of its parent container.",
+  "'display: block;' will make an element align vertically with other block-level elements, while 'display: inline;' will make an element align horizontally with other inline-level elements.",
+  "'display: block;' will make an element stack vertically with other block-level elements, while 'display: inline;' will make an element stack horizontally with other inline-level elements.",
+  "'display: block;' and 'display: inline;' are used to achieve the same effect in different contexts, and there is no inherent difference between them."
+  ]
+},
+{
+  question: "What is a CSS selector?",
+  answer: "A CSS selector is a pattern that is used to select and style HTML elements based on their attributes, classes, or IDs.",
+  options: [
+  "A CSS selector is a function that is used to manipulate the styling of HTML elements.",
+  "A CSS selector is a variable that is used to store styling information.",
+  "A CSS selector is a keyword that is used to define a new CSS rule.",
+  "A CSS selector is a pattern that is used to select and style HTML elements based on their content."
+  ]
+},
+///////////////////////////////////////////////////////////Javascript
+{
+  question: "What is the difference between the '== ' and '=== ' operators in JavaScript?",
+  answer: "The '== ' operator checks for value equality, while the '=== ' operator checks for both value and type equality.",
+  options: [
+  "The '== ' operator checks for both value and type equality, while the '=== ' operator checks for value equality only.",
+  "The '== ' operator is used to assign values to variables, while the '=== ' operator is used for comparison.",
+  "The '== ' operator checks for strict equality, while the '=== ' operator checks for loose equality.",
+  "The '== ' operator is not a valid operator in JavaScript."
+  ]
+},
+///////////////////////////////////////////////////////////C
+{
+  question: "What is the difference between a pointer and a reference in C?",
+  answer: "A pointer can be re-assigned, while a reference cannot be re-assigned.",
+  options: [
+    "A pointer can be re-assigned, while a reference cannot be re-assigned.",
+    "A reference can be used without being dereferenced, while a pointer cannot be used without being dereferenced.",
+    "A reference is a type of pointer, while a pointer is not a type of reference.",
+    "A pointer is a type of reference, while a reference is not a type of pointer."
+  ]
+},
+{
+  question: "What is the difference between ++i and i++ in C?",
+  answer: "++i increments the value of i and then returns the incremented value, while i++ returns the value of i and then increments it.",
+  options: [
+    "++i increments the value of i and then returns the incremented value, while i++ returns the value of i and then increments it.",
+    "++i and i++ are identical and can be used interchangeably.",
+    "++i increments the value of i, while i++ returns the incremented value of i.",
+    "++i returns the value of i and then increments it, while i++ increments the value of i and then returns the incremented value."
+  ]
+},
+{
+  question: "What is the difference between a static and a non-static variable in C?",
+  answer: "A static variable retains its value between function calls, while a non-static variable does not.",
+  options: [
+    "A static variable retains its value between function calls, while a non-static variable does not.",
+    "A non-static variable can only be accessed within the function it is declared in, while a static variable can be accessed by any function in the program.",
+    "A static variable is allocated on the stack, while a non-static variable does not exist.",
+    "A static variable gets no call functions."
+  ]
+},
+{
+  question: "What is a typedef in C?",
+  answer: "A typedef is a keyword in C that allows you to create a new name for a data type.",
+  options: [
+    "A typedef is a function that returns a pointer to another function.",
+    "A typedef is a variable that stores the address of a function that can be called later in the program.",
+    "A typedef is a keyword in C that allows you to create a new name for a data type.",
+    "A typedef is a special type of pointer that can be used to dynamically allocate memory for data types."
+  ]
+},
+{
+  question: "What is the difference between a stack and a heap in C?",
+  answer: "In C, the stack is used for static memory allocation and dynamic memory allocation is done on the heap. The stack is typically faster than the heap but has less memory available, while the heap has more memory available but is slower than the stack.",
+  options: [
+    "In C, the stack is used for dynamic memory allocation and static memory allocation is done on the heap. The stack is typically slower than the heap but has more memory available, while the heap has less memory available but is faster than the stack.",
+    "In C, both static and dynamic memory allocation are done on the heap. The stack and the heap are the same thing.",
+    "In C, the stack is used for static memory allocation and dynamic memory allocation is done on the heap. The stack is typically faster than the heap but has less memory available, while the heap has more memory available but is slower than the stack.",
+    "In C, both static and dynamic memory allocation are done on the stack. The heap is not used in C."
+  ]
+},
+{
+  question: "What is a recursive function in C?",
+  answer: "A recursive function is a function that calls itself during its execution.",
+  options: [
+    "A recursive function is a function that executes only once.",
+    "A recursive function is a function that calls another function during its execution.",
+    "A recursive function is a function that can only be called from another function.",
+    "A recursive function is a function that calls itself during its execution."
+  ]
+},
+{
+  question: "What is the difference between a macro and a function in C?",
+  answer: "A macro is a preprocessor directive that replaces the text of the macro with its definition during the precompilation stage. A function is a block of code that can be called multiple times during the program's execution.",
+  options: [
+    "A macro is a block of code that can be called multiple times during the program's execution. A function is a preprocessor directive that replaces the text of the function with its definition during the precompilation stage.",
+    "A macro is a preprocessor directive that replaces the text of the macro with its definition during the precompilation stage. A function is a special type of macro that can only be called once.",
+    "A macro and a function are the same thing in C.",
+    "A macro is a preprocessor directive that can be used to define variables, while a function is a block of code that performs a specific task."
+  ]
+},
+{
+  question: "What is a double pointer in C?",
+  answer: "A double pointer is a pointer that points to another pointer.",
+  options: [
+    "A double pointer is a pointer that can point to two different memory locations at the same time.",
+    "A double pointer is a pointer that is twice the size of a regular pointer.",
+    "A double pointer is a special type of pointer that can be used to access elements of a two-dimensional array.",
+    "A double pointer is a pointer that points to another pointer."
+  ]
+},
+{
+  question: "What is the difference between a struct and a union in C?",
+  answer: "A struct is a collection of variables of different types that are stored at different memory locations, while a union is a collection of variables that share the same memory location.",
+  options: [
+  "A struct is a collection of variables of different types that are stored at different memory locations, while a union is a collection of variables that share the same memory location.",
+  "A struct and a union are the same thing in C.",
+  "A struct is a collection of variables of the same type that are stored at different memory locations, while a union is a collection of variables of different types that share the same memory location.",
+  "A struct is a collection of variables that share the same memory location, while a union is a collection of variables of different types that are stored at different memory locations."
+  ]
+},
+{
+  question: "What is the difference between static and dynamic memory allocation in C?",
+  answer: "Static memory allocation is done at compile-time and allocated memory remains the same throughout the program's execution. Dynamic memory allocation is done at runtime and the allocated memory can be changed during program execution.",
+  options: [
+    "Static memory allocation is done at runtime and the allocated memory can be changed during program execution. Dynamic memory allocation is done at compile-time and allocated memory remains the same throughout the program's execution.",
+    "Static memory allocation is done at compile-time and allocated memory remains the same throughout the program's execution. Dynamic memory allocation is done at runtime and the allocated memory can be changed during program execution.",
+    "Static memory allocation is done at runtime and the allocated memory remains the same throughout the program's execution. Dynamic memory allocation is done at compile-time and the allocated memory can be changed during program execution.",
+    "Static memory allocation and dynamic memory allocation are the same thing in C."
+  ]
+},
+{
+  question: "What is a function pointer in C?",
+  answer: "A function pointer is a variable that stores the address of a function that can be called later in the program.",
+  options: [
+    "A function pointer is a function that returns a pointer to another function.",
+    "A function pointer is a pointer that points to a variable that stores a function.",
+    "A function pointer is a variable that stores the address of a function that can be called later in the program.",
+    "A function pointer is a special type of pointer that can be used to dynamically allocate memory for functions."
+  ]
+},
+{
+  question: "What is the difference between a structure and a union in C?",
+  answer: "A structure is a collection of variables of different data types that are stored in separate memory locations. A union is a special data type that allows storing different data types in the same memory location.",
+  options: [
+    "A structure is a special data type that allows storing different data types in the same memory location. A union is a collection of variables of different data types that are stored in separate memory locations.",
+    "A structure is a collection of variables of different data types that are stored in separate memory locations. A union is a special data type that allows storing different data types in the same memory location.",
+    "A structure and a union are the same thing in C.",
+    "A structure is a collection of variables of the same data type that are stored in separate memory locations. A union is a special data type that allows storing variables of different data types in the same memory location."
+  ]
+},
+{
+  question: "What is the difference between a stack and a queue in C?",
+  answer: "A stack is a last-in-first-out (LIFO) data structure, while a queue is a first-in-first-out (FIFO) data structure.",
+  options: [
+  "A stack is a last-in-first-out (LIFO) data structure, while a queue is a first-in-first-out (FIFO) data structure.",
+  "A stack and a queue are the same thing in C.",
+  "A stack is a first-in-first-out (FIFO)",
+  "A stack is both (LIFO) and (FIFO)."
+  ]
+},
 ///////////////////////////////////////////////////////////C++
 {
   question: "In C++, which of the following is a correct way to define a class template named 'MyClass' with two template parameters 'T' and 'U'?",
@@ -19,6 +193,66 @@ let questions = [
     "template<typename T, typename U> class MyClass { /* class definition */ };",
     "template<class T, typename U> class MyClass { /* class definition */ };",
     "class MyClass { /* class definition */ };"
+  ]
+},
+{
+  question: "What is wrong with the following C code?\n\nint main() {\n  int i;\n  for(i = 0; i < 5; i++)\n    int j = i;\n  return 0;\n}",
+  answer: "The variable j is declared inside the for loop and is not accessible outside the loop.",
+  options: [
+    "The variable i is not declared before its use in the for loop.",
+    "The variable j is declared outside the for loop and is not accessible inside the loop.",
+    "The variable j is declared inside the for loop and is not accessible outside the loop.",
+    "There is nothing wrong with the code."
+  ]
+},
+{
+  question: "What is wrong with the following C code?\n\nint main() {\n  char s[10];\n  s = \"hello\";\n  return 0;\n}",
+  answer: "The array s is being assigned a string literal, which is not allowed in C.",
+  options: [
+    "The array s is not declared before its use.",
+    "The array s is being assigned an integer value, which is not allowed in C.",
+    "The array s is being assigned a character value, which is not allowed in C.",
+    "The array s is being assigned a string literal, which is not allowed in C."
+  ]
+},
+{
+  question: "What is wrong with the following C code?\n\nint main() {\n  int i = 0;\n  while(i < 5);\n    i++;\n  return 0;\n}",
+  answer: "The semicolon at the end of the while loop is causing an infinite loop.",
+  options: [
+    "The variable i is not declared before its use.",
+    "The while loop is missing its condition.",
+    "The variable i is not being incremented inside the while loop.",
+    "The semicolon at the end of the while loop is causing an infinite loop."
+  ]
+},
+{
+  question: "What is wrong with the following code?\n\nint main() {\n    char str[5] = {'h', 'e', 'l', 'l', 'o'};\n    printf(\"%s\", str);\n    return 0;\n}",
+  answer: "The string 'hello' in the char array str is not null-terminated, so the printf function will continue printing characters until it finds a null character in memory. This can cause unexpected behavior or a segmentation fault.",
+  options: [
+    "The printf function is missing a format specifier for the char array str.",
+    "The char array str is not declared with the correct size to hold the string 'hello'.",
+    "The string 'hello' in the char array str is not null-terminated, so the printf function will continue printing characters until it finds a null character in memory. This can cause unexpected behavior or a segmentation fault.",
+    "The main function is missing a return statement."
+  ]
+},
+{
+  question: "What is wrong with the following code?\n\nint main() {\n    int a = 5;\n    int b = 0;\n    int c = a / b;\n    printf(\"%d\", c);\n    return 0;\n}",
+  answer: "The code attempts to divide by zero, which is not allowed and will result in a runtime error.",
+  options: [
+    "The printf function is missing a format specifier for the variable c.",
+    "The variable b is not initialized.",
+    "The code attempts to divide by zero, which is not allowed and will result in a runtime error.",
+    "The main function is missing a return statement."
+  ]
+},
+{
+  question: "What is wrong with the following code?\n\n#include <stdio.h>\n\nint main() {\n    int arr[3] = {1, 2, 3};\n    int i;\n    for (i = 0; i <= 3; i++) {\n        printf(\"%d \", arr[i]);\n    }\n    return 0;\n}",
+  answer: "The for loop in the code attempts to access an element of the array that is out of bounds (arr[3]), which can cause unexpected behavior or a segmentation fault.",
+  options: [
+    "The printf function is missing a format specifier for the variable i.",
+    "The variable i should be initialized inside the for loop.",
+    "The for loop in the code attempts to access an element of the array that is out of bounds (arr[3]), which can cause unexpected behavior or a segmentation fault.",
+    "The main function is missing a return statement."
   ]
 },
 {
@@ -313,13 +547,13 @@ let questions = [
       ]
 },
 {
-      question: "What is the output of the following code?\nprint(type(42j))",
-      answer: "<class 'complex'>",
+      question: `What is the output of the following code?\nprint(type(42j))`,
+      answer: `<class 'complex'>`,
       options: [
-        "<class 'int'>",
-        "<class 'float'>",
-        "<class 'complex'>",
-        "<class 'str'>"
+        `<class 'int'>`,
+        `<class 'float'>`,
+        `<class 'complex'>`,
+        `<class 'str'>`
       ]
 },
 {
