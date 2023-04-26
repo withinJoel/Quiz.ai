@@ -150,19 +150,30 @@ function showResult(){
     quiz_box.classList.remove("activeQuiz"); //hide quiz box
     result_box.classList.add("activeResult"); //show result box
     const scoreText = result_box.querySelector(".score_text");
-    if (userScore > 3){ // if user scored more than 3
-        //creating a new span tag and passing the user score number and total question number
-        let scoreTag = '<span>and congrats! , You got <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
-        scoreText.innerHTML = scoreTag;  //adding new span tag inside score_Text
-    }
-    else if(userScore > 1){ // if user scored more than 1
-        let scoreTag = '<span>and nice , You got <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
+    if (userScore > 90) { // if user scored above 90%
+        let scoreTag = '<span>Amazing job! You scored <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
-    }
-    else{ // if user scored less than 1
-        let scoreTag = '<span>and sorry , You got only <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
+        }
+        else if (userScore > 80) { // if user scored between 80% and 90%
+        let scoreTag = '<span>Well done! You scored <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
         scoreText.innerHTML = scoreTag;
-    }
+        }
+        else if (userScore > 70) { // if user scored between 70% and 80%
+        let scoreTag = '<span>Good job! You scored <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+        }
+        else if (userScore > 60) { // if user scored between 60% and 70%
+        let scoreTag = '<span>Not bad! You scored <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+        }
+        else if (userScore > 50) { // if user scored between 50% and 60%
+        let scoreTag = '<span>Keep it up! You scored <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+        }
+        else { // if user scored 50% or lower
+        let scoreTag = '<span>Sorry, you only scored <p>'+ userScore +'</p> out of <p>'+ quizarray.length +'</p></span>';
+        scoreText.innerHTML = scoreTag;
+        }
 }
 
 function startTimer(time){

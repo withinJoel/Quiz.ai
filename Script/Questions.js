@@ -547,16 +547,6 @@ let questions = [
       ]
 },
 {
-      question: `What is the output of the following code?\nprint(type(42j))`,
-      answer: `<class 'complex'>`,
-      options: [
-        `<class 'int'>`,
-        `<class 'float'>`,
-        `<class 'complex'>`,
-        `<class 'str'>`
-      ]
-},
-{
       question: "What is the output of the following code?\nprint(bool(()))",
       answer: "False",
       options: [

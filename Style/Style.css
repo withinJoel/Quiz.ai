@@ -5,16 +5,18 @@
     font-family: Open Sans;
 }
 
-body{
-    background: #f9c5bd;
-    animation: floatup .5s forwards;
-}
+body {
+    background-color: #9e8dd2;
+    background-image: url('../Images/background-removebg.png');
+    background-size: 800px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+  }  
 
 ::selection{
-    color: #f9c5bd;
-    background: #f9c5bd;
+    color: #5d22d9;
+    background:  #9e8dd2;
 }
-
 .start_btn{
     position: absolute;
     top: 77%;
@@ -23,7 +25,28 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
                 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
+.parent-element {
+    position: relative;
+  }
+  
+.logo-box {
+    position:absolute;
+    font-size: 55px;
+    color: #9e8dd2;
+    background-color: black;
+    font-family: Open Sans;
+    font-weight: bold;
+} 
+.header-box {
+    position: absolute;
+    top: 89%;
+    left: 40%;
+    font-size: 25px;
+    color: white;
+    background-color: #9e8dd2;
+    font-family: Open Sans;
+    font-weight: normal;
+} 
 .info_box,
 .quiz_box,
 .result_box{
@@ -47,12 +70,12 @@ body{
 .start_btn button{
     font-size: 25px;
     font-weight: 500;
-    color: #f9c5bd;
+    color: #9e8dd2;
     padding: 15px 30px;
     outline: none;
     border: none;
     border-radius: 5px;
-    background: #fff;
+    background: white;
     cursor: pointer;
     position: relative;
     z-index: 1;
@@ -60,8 +83,7 @@ body{
 }
 
 .start_btn button:hover{
-    box-shadow: 0 0 0 5px rgba(249, 197, 189, 0.5);
-    transform: translate(-5px, -5px);
+    box-shadow: 0 0 0 5px  #311873;
 }
 
 .start_btn button::before{
@@ -113,7 +135,7 @@ body{
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #f9c5bd;
+    color: #5d22d9;
 }
 .info_box .buttons{
     height: 60px;
@@ -134,7 +156,7 @@ body{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #f9c5bd;
+    border: 1px solid #5d22d9;
     transition: all 0.3s ease;
 }
 
@@ -167,9 +189,9 @@ body{
 }
 
 .quiz_box header .timer{
-    color: #f9c5bd;
+    color:  #311873;
     background: white;
-    border: 1px solid #f9c5bd;
+    border: 1px solid #9e8dd2;
     height: 45px;
     padding: 0 8px;
     border-radius: 5px;
@@ -204,7 +226,7 @@ body{
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: #f9c5bd;
+    background: #9e8dd2;
 }
 
 section{
@@ -224,7 +246,7 @@ section .option_list{
 
 section .option_list .option{
     background: white;
-    border: 1px solid #f9c5bd;
+    border: 1px solid #9e8dd2;
     border-radius: 5px;
     padding: 8px 15px;
     font-size: 17px;
@@ -242,7 +264,7 @@ section .option_list .option:last-child{
 
 section .option_list .option:hover{
     color: black;
-    background: lightpink;
+    background: #9e8dd2;
     border: 1px solid #f9c5bd;
 }
 
@@ -318,8 +340,8 @@ footer button{
     outline: none;
     color: #fff;
     border-radius: 5px;
-    background: #f9c5bd;
-    border: 1px solid #f9c5bd;
+    background: black;
+    border: 1px solid #311873;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -328,7 +350,7 @@ footer button{
 }
 
 footer button:hover{
-    background: #f9c5bd;
+    background: #311873;
 }
 
 footer button.show{
@@ -390,36 +412,35 @@ footer button.show{
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #f9c5bd;
+    border: 1px solid #311873;
     transition: all 0.3s ease;
 }
 
 .buttons button.restart{
-    color: #fff;
-    background: #f9c5bd;
+    color: white;
+    background: black;
 }
 
 .buttons button.restart:hover{
-    background: #f9c5bd;
+    background: #311873;
 }
 
 .buttons button.quit{
-    color: #f9c5bd;
-    background: #fff;
+    color: white;
+    background: black;
 }
 
 .buttons button.quit:hover{
     color: #fff;
-    background: #f9c5bd;
+    background: #311873;
 }
 .center {
     text-align: center;
-    color: #1a1a1a;
-    font-size: 24px;
-    font-family: "Open Sans", sans-serif;
-    margin: 20px;
-    padding: 10px;
+    color: black;
+    font-size: 14px;
+    font-family: Open Sans;
   }
+  
   
   @media only screen and (min-width: 768px) {
     .center {
@@ -431,7 +452,7 @@ footer button.show{
   
   @media only screen and (min-width: 1024px) {
     .center {
-      font-size: 45px;
+      font-size: 52px;
       bottom: 50px;
     }
   }  
