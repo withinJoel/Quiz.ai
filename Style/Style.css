@@ -36,7 +36,9 @@ body {
     background-color: black;
     font-family: Open Sans;
     font-weight: bold;
+    transition: text-shadow 0.3s ease; /* Add a smooth transition for the shadow effect */
 } 
+  
 .header-box {
     position: absolute;
     top: 89%;
@@ -126,6 +128,7 @@ body {
 
 .info_box .info-list{
     padding: 15px 30px;
+    text-align: left;
 }
 
 .info_box .info-list .info{
@@ -376,7 +379,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #f9c5bd;
+    color: #9e8dd2;
     margin-bottom: 10px;
 }
 
@@ -452,9 +455,16 @@ footer button.show{
   
   @media only screen and (min-width: 1024px) {
     .center {
-      font-size: 52px;
-      font-weight:normal;
-      bottom: 50px;
-    }
+        font-size: 52px;
+        font-weight: normal;
+        bottom: 50px;
+        text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); /* Add a white shadow to make the text brighter */
+        transition: text-shadow 0.3s ease; /* Add a smooth transition for the shadow effect */
+      }
+      
+      .center:hover {
+        text-shadow: 0 0 20px rgba(255, 255, 255, 1); /* Increase the shadow size and opacity on hover */
+      }      
+      
   }  
   

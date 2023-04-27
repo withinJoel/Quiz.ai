@@ -10,6 +10,15 @@ const time_line = document.querySelector("header .time_line");
 const timeText = document.querySelector(".timer .time_left_txt");
 const timeCount = document.querySelector(".timer .timer_sec");
 
+//Security
+// Detect visibility change event
+document.addEventListener("visibilitychange", function() {
+  // If the page is hidden, refresh the page
+  if (document.hidden) {
+    location.reload();
+  }
+});
+
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
     info_box.classList.add("activeInfo"); //show info box
@@ -215,7 +224,6 @@ function startTimerLine(time){
         }
     }
 }
-
 function queCounter(index){
     //creating a new span tag and passing the question number and total question
     let totalQueCounTag = '<span><p>'+ index +'</p> of <p>'+ quizarray.length +'</p> quizarray</span>';

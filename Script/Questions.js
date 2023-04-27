@@ -4,7 +4,7 @@ let questions = [
   question: "What is the purpose of the 'head' section in HTML?",
   answer: "The 'head' section is used to contain metadata about the document, including the title, author, and keywords.",
   options: [
-  "The 'head' section is used to define the structure and content of the document's body.",
+  "The 'head' section is used to contain metadata about the document, including the title, author, and keywords.",
   "The 'head' section is used to contain the main content of the document.",
   "The 'head' section is used to define the styling for the document.",
   "The 'head' section is used to define the scripts used in the document."
@@ -27,7 +27,7 @@ let questions = [
   options: [
     "The 'alt' attribute specifies the URL of the image to be displayed.",
     "The 'alt' attribute defines the width and height of the image in pixels.",
-    "The 'alt' attribute specifies the alignment of the image.",
+    "The 'alt' attribute provides alternative text for an image, which is displayed if the image cannot be loaded or if the user is using a screen reader.",
     "The 'alt' attribute sets the background color of the image."
   ]
 },
@@ -46,7 +46,7 @@ let questions = [
   answer: "The correct way to add an external CSS file to an HTML document is to use the link tag with the 'rel' attribute set to 'stylesheet' and the 'href' attribute set to the URL of the CSS file.",
   options: [
     "Use the style tag with the 'src' attribute set to the URL of the CSS file.",
-    "Use the link tag with the 'rel' attribute set to 'style' and the 'href' attribute set to the URL of the CSS file.",
+    "The correct way to add an external CSS file to an HTML document is to use the link tag with the 'rel' attribute set to 'stylesheet' and the 'href' attribute set to the URL of the CSS file.",
     "Use the script tag with the 'src' attribute set to the URL of the CSS file.",
     "Use the style tag with the 'href' attribute set to the URL of the CSS file."
   ]
@@ -86,7 +86,7 @@ let questions = [
   question: "What is the difference between 'display: block;' and 'display: inline;' in CSS?",
   answer: "'display: block;' will make an element take up the full width of its parent container, while 'display: inline;' will make an element take up only as much width as necessary.",
   options: [
-  "'display: block;' will make an element take up only as much width as necessary, while 'display: inline;' will make an element take up the full width of its parent container.",
+  "'display: block;' will make an element take up the full width of its parent container, while 'display: inline;' will make an element take up only as much width as necessary.",
   "'display: block;' will make an element align vertically with other block-level elements, while 'display: inline;' will make an element align horizontally with other inline-level elements.",
   "'display: block;' will make an element stack vertically with other block-level elements, while 'display: inline;' will make an element stack horizontally with other inline-level elements.",
   "'display: block;' and 'display: inline;' are used to achieve the same effect in different contexts, and there is no inherent difference between them."
@@ -99,7 +99,7 @@ let questions = [
   "A CSS selector is a function that is used to manipulate the styling of HTML elements.",
   "A CSS selector is a variable that is used to store styling information.",
   "A CSS selector is a keyword that is used to define a new CSS rule.",
-  "A CSS selector is a pattern that is used to select and style HTML elements based on their content."
+  "A CSS selector is a pattern that is used to select and style HTML elements based on their attributes, classes, or IDs."
   ]
 },
 {
@@ -150,7 +150,7 @@ options: [
     "A class is an instance of an object, while an object is a template for creating classes.",
     "A class is a keyword in Java, while an object is a data type.",
     "A class is a data structure, while an object is a method.",
-    "A class is a container for methods and data, while an object is an instance of a class."
+    "A class is a blueprint or template for creating objects, while an object is an instance of a class."
   ]
 },
 {
@@ -159,7 +159,7 @@ options: [
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the numbers 0 through 4 followed by a runtime error.",
-    "This code will output the numbers 0 through 5.",
+    "This code will result in a compilation error because the variable i is not defined outside the for loop.",
     "This code will output an error message, but will not result in a runtime error."
   ]
 },
@@ -168,17 +168,17 @@ options: [
   answer: "This code will throw an ArrayIndexOutOfBoundsException because the array arr only has 3 elements and the index 3 is out of bounds.",
   options: [
     "This code will compile without error, but will not output anything.",
-    "This code will output the value 0.",
+    "This code will throw an ArrayIndexOutOfBoundsException because the array arr only has 3 elements and the index 3 is out of bounds.",
     "This code will result in a compilation error because the index operator is used incorrectly.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s = \"Hello\"; if (s == \"Hello\") { System.out.println(\"Hello, world!\"); } } }",
-  answer: "This code will output the message \"Hello, world!\" because the strings are compared using the == operator, which compares object references, and the references are equal.",
+  answer: `This code will output the message \"Hello, world!\".`,
   options: [
     "This code will compile without error, but will not output anything.",
-    "This code will output the message \"Hello, world!\".",
+    `This code will output the message \"Hello, world!\".`,
     "This code will result in a compilation error because the variable s is not initialized.",
     "This code will output an error message, but will not throw an exception."
   ]
@@ -187,7 +187,7 @@ options: [
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int i = 0; while (i < 5) { System.out.println(i); i++; } System.out.println(i); } }",
   answer: "This code will output the numbers 0 through 4 followed by the number 5.",
   options: [
-    "This code will result in a compilation error because the variable i is not defined outside the while loop.",
+    "This code will output the numbers 0 through 4 followed by the number 5.",
     "This code will compile without error, but will not output anything.",
     "This code will output the numbers 1 through 5.",
     "This code will output an error message, but will not result in a runtime error."
@@ -200,7 +200,7 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the message \"Hello, world!\".",
     "This code will result in a compilation error because the variable s is not initialized.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw a NullPointerException because the variable s is null and the equals() method cannot be called on a null object."
   ]
 },
 {
@@ -210,7 +210,7 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the value 0.",
     "This code will result in a compilation error because the variable y is initialized to zero.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw an ArithmeticException because division by zero is not allowed."
   ]
 },
 {
@@ -218,9 +218,9 @@ options: [
   answer: "This code will throw an ArrayIndexOutOfBoundsException because the array arr only has 3 elements and the index 3 is out of bounds.",
   options: [
     "This code will compile without error, but will not output anything.",
-    "This code will output the value 0.",
+    "This code will throw an ArrayIndexOutOfBoundsException because the array arr only has 3 elements and the index 3 is out of bounds.",
     "This code will result in a compilation error because the index operator is used incorrectly.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw an ArithmeticException because division by zero is not allowed."
   ]
 },
 {
@@ -230,14 +230,14 @@ options: [
     "This code will result in a compilation error because the modulo operator cannot be used with integers.",
     "This code will compile without error, but will not output anything.",
     "This code will output the value 2.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will output the value 1."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s = \"hello world\"; s.toUpperCase(); System.out.println(s); } }",
   answer: "This code will output the string \"hello world\" in lowercase because the toUpperCase() method returns a new string in uppercase, but does not modify the original string s.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the string \"hello world\" in lowercase because the toUpperCase() method returns a new string in uppercase, but does not modify the original string s.",
     "This code will output the string \"HELLO WORLD\".",
     "This code will result in a compilation error because the toUpperCase() method cannot be used with strings.",
     "This code will output an error message, but will not throw an exception."
@@ -248,7 +248,7 @@ options: [
   answer: "This code will output the numbers 0 through 4 followed by the number 5.",
   options: [
     "This code will result in a compilation error because the variable i is not defined outside the for loop.",
-    "This code will compile without error, but will not output anything.",
+    "This code will output the numbers 0 through 4 followed by the number 5.",
     "This code will output the numbers 1 through 5.",
     "This code will output an error message, but will not result in a runtime error."
   ]
@@ -260,7 +260,7 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the values 1, 2, and 3.",
     "This code will result in a compilation error because the index operator is used incorrectly.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw an ArrayIndexOutOfBoundsException because the loop variable i exceeds the length of the array arr."
   ]
 },
 {
@@ -268,7 +268,7 @@ options: [
   answer: "This code will output the value 2.0 because integer division is performed before the result is converted to a double.",
   options: [
     "This code will result in a compilation error because the division operator cannot be used with integers.",
-    "This code will compile without error, but will not output anything.",
+    "This code will output the value 2.0 because integer division is performed before the result is converted to a double.",
     "This code will output the value 2.5.",
     "This code will output an error message, but will not throw an exception."
   ]
@@ -277,7 +277,7 @@ options: [
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int i = 0; while (i < 5) { System.out.println(i); i = i++; } System.out.println(i); } }",
   answer: "This code will output the numbers 0 through 4 followed by the number 0, because the post-increment operator i++ will increment the value of i after it has been evaluated, so i will always be assigned the value 0 in each iteration of the loop.",
   options: [
-    "This code will result in a compilation error because the variable i is not defined outside the while loop.",
+    "This code will output the numbers 0 through 4 followed by the number 0, because the post-increment operator i++ will increment the value of i after it has been evaluated, so i will always be assigned the value 0 in each iteration of the loop.",
     "This code will compile without error, but will not output anything.",
     "This code will output the numbers 1 through 5.",
     "This code will output an error message, but will not result in a runtime error."
@@ -287,10 +287,10 @@ options: [
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s = \"hello\"; String t = s; s = s.concat(\" world\"); System.out.println(t); } }",
   answer: "This code will output the string \"hello\" because the concat() method returns a new string with the concatenated values, but does not modify the original string s.",
   options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output the string \"hello world\".",
-    "This code will result in a compilation error because the concat() method cannot be used with strings.",
-    "This code will output an error message, but will not throw an exception."
+    `This code will output the string \"hello\" because the concat() method returns a new string with the concatenated values, but does not modify the original string s.`,
+    `This code will output the string \"hello world\".`,
+    `This code will result in a compilation error because the concat() method cannot be used with strings.`,
+    `This code will output an error message, but will not throw an exception.`
   ]
 },
 {
@@ -300,16 +300,16 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the values 1 and 2.",
     "This code will result in a compilation error because the continue statement cannot be used in a for loop.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will output the values 1 and 3, because the continue statement will skip over the value 2 in the array."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 10; System.out.println(\"x + y = \" + x + y); } }",
-  answer: "This code will output the string \"x + y = 510\" because the + operator is used to concatenate the strings, not to perform addition.",
+  answer: `This code will output the string \"x + y = 510\"`,
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the string \"x + y = 15\".",
-    "This code will result in a compilation error because the + operator cannot be used with strings.",
+    `This code will output the string \"x + y = 510\"`,
     "This code will output an error message, but will not throw an exception."
   ]
 },
@@ -318,7 +318,7 @@ options: [
   answer: "This code will result in an infinite loop because the increment statement i++ is not executed if the continue statement is executed.",
   options: [
     "This code will compile without error, but will not output anything.",
-    "This code will output the odd numbers from 1 to 9.",
+    "This code will result in an infinite loop because the increment statement i++ is not executed if the continue statement is executed.",
     "This code will result in a compilation error because the continue statement cannot be used in a while loop.",
     "This code will output an error message, but will not throw an exception."
   ]
@@ -327,19 +327,9 @@ options: [
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int i = 0; while (i < 10) { System.out.println(i); i += 2; } } }",
   answer: "This code will output the even numbers from 0 to 8 because the statement i += 2 will add 2 to i in each iteration of the loop.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the even numbers from 0 to 8 because the statement i += 2 will add 2 to i in each iteration of the loop.",
     "This code will output the odd numbers from 1 to 9.",
     "This code will result in a compilation error because the i variable is not defined.",
-    "This code will output an error message, but will not throw an exception."
-  ]
-},
-{
-  question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 10; System.out.println(\"x + y = \" + (x + y)); } }",
-  answer: "This code will output the string \"x + y = 15\" because the + operator is used to perform addition after the parentheses force the addition to occur before the concatenation.",
-  options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output the string \"x + y = 510\".",
-    "This code will result in a compilation error because the + operator cannot be used with strings.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
@@ -347,7 +337,7 @@ options: [
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int i = 0; do { System.out.println(i); i++; } while (i < 10); } }",
   answer: "This code will output the numbers from 0 to 9 because the do-while loop will execute at least once, even if the condition i < 10 is false.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the numbers from 0 to 9 because the do-while loop will execute at least once, even if the condition i < 10 is false.",
     "This code will output the numbers from 1 to 10.",
     "This code will result in a compilation error because the do-while loop requires a break statement.",
     "This code will output an error message, but will not throw an exception."
@@ -359,7 +349,7 @@ options: [
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the numbers from 1 to 10.",
-    "This code will result in a compilation error because the i variable is not defined.",
+    "This code will output the numbers from 0 to 9 because the for loop will execute while i is less than 10.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
@@ -369,26 +359,26 @@ options: [
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the elements of the arr array from index 1 to 5, inclusive.",
-    "This code will result in a compilation error because the arr array is not defined.",
+    "This code will output the elements of the arr array from index 0 to 4, inclusive.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int num = 7; if (num % 2 == 0) { System.out.println(num + \" is even\"); } else { System.out.println(num + \" is odd\"); } } }",
-  answer: "This code will output \"7 is odd\" because the if statement checks if num is even (divisible by 2), and since 7 is not even, it will execute the else block.",
+  answer: `This code will output \"7 is odd\"`,
   options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output \"7 is even\".",
+    `This code will output \"7 is odd\"`,
+    `This code will output \"7 is even\"`,
     "This code will result in a compilation error because the modulo operator is not defined for integers.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 10; int y = 5; if (x > y) { System.out.println(\"x is greater than y\"); } else { System.out.println(\"y is greater than x\"); } } }",
-  answer: "This code will output \"x is greater than y\" because the if statement checks if x is greater than y, and since 10 is greater than 5, it will execute the if block.",
+  answer: `This code will output \"x is greater than y\"`,
   options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output \"y is greater than x\".",
+    `This code will output \"x is greater than y\"`,
+    `This code will output \"y is greater than x\"`,
     "This code will result in a compilation error because the x and y variables are not initialized.",
     "This code will output an error message, but will not throw an exception."
   ]
@@ -399,7 +389,7 @@ options: [
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the characters of the str string from index 0 to length - 1, inclusive.",
-    "This code will result in a compilation error because the charAt() method is not defined for strings.",
+    "This code will throw an IndexOutOfBoundsException because the loop tries to access the character at index equal to the length of the string, which is not a valid index.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
@@ -407,7 +397,7 @@ options: [
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = new int[5]; for (int i = 1; i <= arr.length; i++) { arr[i] = i; } } }",
   answer: "This code will throw an IndexOutOfBoundsException because the loop tries to access the element at index 5 of the arr array, which is out of bounds.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will throw an IndexOutOfBoundsException because the loop tries to access the element at index 5 of the arr array, which is out of bounds.",
     "This code will fill the arr array with the values 1 to 5, inclusive.",
     "This code will result in a compilation error because the arr array is not initialized with any values.",
     "This code will output an error message, but will not throw an exception."
@@ -415,19 +405,19 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = {1, 2, 3, 4, 5}; for (int i = 0; i < arr.length; i++) { if (arr[i] == 3) { continue; } System.out.println(arr[i]); } } }",
-  answer: "This code will output the elements of the arr array from index 0 to 4, excluding the element at index 2 (which has the value 3), because the continue statement will skip over it.",
+  answer: "This code will output the elements of the arr array from index 0 to 4.",
   options: [
     "This code will compile without error, but will not output anything.",
-    "This code will output the elements of the arr array from index 0 to 4, inclusive.",
+    "This code will output the elements of the arr array from index 0 to 4.",
     "This code will result in a compilation error because the continue statement is not valid in a for loop.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; while (x > 0) { System.out.println(x); x--; } } }",
-  answer: "This code will output the values 5, 4, 3, 2, 1, in that order, because the loop condition checks if x is greater than 0, and the loop body decrements x by 1 with each iteration.",
+  answer: "This code will output the values 5, 4, 3, 2, 1, in that order",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the values 5, 4, 3, 2, 1, in that order",
     "This code will output the values 0, -1, -2, -3, -4.",
     "This code will result in a compilation error because the while loop condition is not valid.",
     "This code will output an error message, but will not throw an exception."
@@ -435,22 +425,22 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = {1, 2, 3, 4, 5}; for (int i = 0; i < arr.length; i++) { if (arr[i] == 3) { break; } System.out.println(arr[i]); } } }",
-  answer: "This code will output the elements of the arr array from index 0 to 1, inclusive, because the break statement will terminate the loop as soon as it encounters an element with value 3.",
+  answer: "This code will output the elements of the arr array from index 0 to 1",
   options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output the elements of the arr array from index 0 to 2, inclusive.",
+    "This code will output the elements of the arr array from index 0 to 1",
+    "This code will output the elements of the arr array from index 0 to 2",
     "This code will result in a compilation error because the break statement is not valid in a for loop.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = {1, 2, 3, 4, 5}; for (int i = 0; i < arr.length; i++) { if (arr[i] == 3) { return; } System.out.println(arr[i]); } } }",
-  answer: "This code will output the elements of the arr array from index 0 to 2, inclusive, because the return statement will terminate the main() method as soon as it encounters an element with value 3.",
+  answer: "This code will output the elements of the arr array from index 0 to 2",
   options: [
     "This code will compile without error, but will not output anything.",
-    "This code will output the elements of the arr array from index 0 to 4, inclusive.",
+    "This code will output the elements of the arr array from index 0 to 4",
     "This code will result in a compilation error because the return statement is not valid in a for loop.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will output the elements of the arr array from index 0 to 2",
   ]
 },
 {
@@ -460,7 +450,7 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the values 1, 2, 3, 4, 5 to the console.",
     "This code will result in a compilation error because the loop condition is not valid.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw an ArrayIndexOutOfBoundsException because the loop condition is checking for i <= 5, which means the loop will try to access arr[5], which is beyond the bounds of the array.",
   ]
 },
 {
@@ -470,7 +460,7 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the text 'Match!' to the console.",
     "This code will output the text 'No match.' to the console.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw a NullPointerException because the variable str is null and the equals() method is being called on it."
   ]
 },
 {
@@ -480,14 +470,14 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the value 10 to the console.",
     "This code will result in a compilation error because the ++ operator is not valid in this context.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will output the value 12 because the ++x operator increments the value of x before the multiplication operation is performed, resulting in (6 * 2) = 12."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; while (x > 0) { System.out.println(x); x--; } } }",
   answer: "This code will output the numbers 5, 4, 3, 2, 1 to the console because the while loop will execute as long as x is greater than 0 and will decrement x by 1 with each iteration.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the numbers 5, 4, 3, 2, 1 to the console because the while loop will execute as long as x is greater than 0 and will decrement x by 1 with each iteration.",
     "This code will output the number 5 to the console.",
     "This code will result in a compilation error because the while loop condition is not valid.",
     "This code will output an error message, but will not throw an exception."
@@ -500,14 +490,14 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the text 'Negative' to the console.",
     "This code will output the text 'Zero' to the console.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will output the text 'Positive' to the console because x is greater than 0 and does not equal 0."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = {1, 2, 3, 4, 5}; for (int i = 0; i < arr.length; i++) { System.out.println(arr[i]); } } }",
   answer: "This code will output the numbers 1, 2, 3, 4, 5 to the console because it is correctly accessing each element of the array using a for loop.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the numbers 1, 2, 3, 4, 5 to the console because it is correctly accessing each element of the array using a for loop.",
     "This code will output the text '12345' to the console.",
     "This code will result in a compilation error because the for loop condition is not valid.",
     "This code will output an error message, but will not throw an exception."
@@ -515,19 +505,19 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String[] arr = {'apple', 'banana', 'cherry'}; for (String s : arr) { System.out.println(s); } } }",
-  answer: "This code will result in a compilation error because the elements of the array are not enclosed in double quotes, which is required for string literals in Java.",
+  answer: "This code will result in a compilation error",
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the text 'apple', 'banana', 'cherry' to the console.",
     "This code will result in a runtime error because the loop variable 's' is not properly declared.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will result in a compilation error"
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = {1, 2, 3, 4, 5}; for (int i = 0; i <= arr.length; i++) { System.out.println(arr[i]); } } }",
-  answer: "This code will result in an ArrayIndexOutOfBoundsException because the loop is attempting to access an element of the array that does not exist.",
+  answer: "This code will result in an ArrayIndexOutOfBoundsException.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will result in an ArrayIndexOutOfBoundsException.",
     "This code will output the numbers 1, 2, 3, 4, 5 to the console.",
     "This code will result in a compilation error because the for loop condition is not valid.",
     "This code will output an error message, but will not throw an exception."
@@ -535,9 +525,9 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 2; double result = x / y; System.out.println(result); } }",
-  answer: "This code will output the number 2.0 to the console because integer division is being performed and the result is being assigned to a double variable.",
+  answer: "This code will output the number 2.0 to the console.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the number 2.0 to the console.",
     "This code will output the number 2.5 to the console.",
     "This code will result in a compilation error because the variable types are not compatible.",
     "This code will output an error message, but will not throw an exception."
@@ -545,9 +535,9 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 10; int y = 2; int z = x % y; System.out.println(z); } }",
-  answer: "This code will output the number 0 to the console because the modulus operator (%) returns the remainder of division and 10 is evenly divisible by 2.",
+  answer: "This code will output the number 0 to the console.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the number 0 to the console.",
     "This code will output the number 5 to the console.",
     "This code will result in a compilation error because the variable types are not compatible.",
     "This code will output an error message, but will not throw an exception."
@@ -555,39 +545,29 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s1 = 'Hello'; String s2 = 'World'; String s3 = s1 + s2; System.out.println(s3); } }",
-  answer: "This code will result in a compilation error because the string literals should be enclosed in double quotes instead of single quotes.",
+  answer: "This code will result in a compilation error.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will result in a compilation error.",
     "This code will output the text 'HelloWorld' to the console.",
     "This code will result in a runtime error because the string concatenation operator is not properly used.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
-  question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; if (x == 5) { int y = 10; } System.out.println(y); } }",
-  answer: "This code will result in a compilation error because the variable 'y' is declared inside the if statement and is not accessible outside of it.",
-  options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output the number 10 to the console.",
-    "This code will result in a runtime error because the variable 'y' is not initialized.",
-    "This code will output an error message, but will not throw an exception."
-  ]
-},
-{
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] nums = {1, 2, 3, 4, 5}; for (int i = 1; i <= nums.length; i++) { System.out.println(nums[i]); } } }",
-  answer: "This code will result in an ArrayIndexOutOfBoundsException because the for loop is trying to access an index that is out of bounds of the array. The correct condition for the for loop should be i < nums.length.",
+  answer: "This code will result in an ArrayIndexOutOfBoundsException.",
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the numbers 1, 2, 3, 4, 5 to the console.",
     "This code will result in a compilation error because the variable types are not compatible.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will result in an ArrayIndexOutOfBoundsException."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 10; int z = y / x; System.out.println(z); } }",
-  answer: "This code will output the number 2 to the console because the division of 10 by 5 results in 2. If you want to perform a floating point division, you should declare the variables as double or cast them as such.",
+  answer: "This code will output the number 2 to the console.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the number 2 to the console.",
     "This code will output the number 0.5 to the console.",
     "This code will result in a runtime error because the variables are not initialized.",
     "This code will output an error message, but will not throw an exception."
@@ -595,67 +575,67 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s1 = 'Hello'; String s2 = 'World'; String s3 = s1.concat(s2); System.out.println(s3); } }",
-  answer: "This code will compile without error, but will not output anything. The reason for that is the use of single quotes instead of double quotes to declare the string literals.",
+  answer: `This code will compile without error, but will not output anything.`,
   options: [
     "This code will output the text 'HelloWorld' to the console.",
     "This code will result in a runtime error because the string concatenation method is not properly used.",
     "This code will result in a compilation error because the variable types are not compatible.",
-    "This code will output an error message, but will not throw an exception."
+    `This code will compile without error, but will not output anything.`
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s1 = 'Hello'; String s2 = 'World'; String s3 = s1 + s2; System.out.println(s3); } }",
-  answer: "This code will result in a compilation error because the string literals are enclosed in single quotes instead of double quotes.",
+  answer: "This code will result in a compilation error.",
   options: [
     "This code will output the text 'HelloWorld' to the console.",
     "This code will result in a runtime error because the string concatenation operator is not properly used.",
     "This code will compile without error, but will not output anything.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will result in a compilation error."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] nums = new int[5]; for (int i = 0; i < nums.length; i++) { nums[i] = i + 1; } System.out.println(nums[5]); } }",
-  answer: "This code will result in an ArrayIndexOutOfBoundsException because the array index 5 is out of bounds. The last index in the array is 4.",
+  answer: "This code will result in an ArrayIndexOutOfBoundsException.",
   options: [
     "This code will output the number 5 to the console.",
     "This code will output the numbers 1, 2, 3, 4, 5 to the console.",
     "This code will result in a compilation error because the variable types are not compatible.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will result in an ArrayIndexOutOfBoundsException."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 10; double z = y / x; System.out.println(z); } }",
-  answer: "This code will output the number 2.0 to the console because the division of two integers results in an integer. To perform floating point division, at least one of the operands should be of type double or casted as such.",
+  answer: "This code will output the number 2.0 to the console.",
   options: [
     "This code will output the number 0.5 to the console.",
     "This code will compile without error, but will not output anything.",
     "This code will result in a runtime error because the variables are not initialized.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will output the number 2.0 to the console.",
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] nums = {1, 2, 3, 4, 5}; for (int i = 0; i <= nums.length; i++) { System.out.println(nums[i]); } } }",
-  answer: "This code will result in an ArrayIndexOutOfBoundsException because the loop condition should be i < nums.length instead of i <= nums.length.",
+  answer: "This code will result in an ArrayIndexOutOfBoundsException.",
   options: [
     "This code will output the numbers 1, 2, 3, 4, 5, and then an error message.",
     "This code will output the numbers 1, 2, 3, 4, 5, and then continue running without errors.",
     "This code will result in a compilation error because the variable types are not compatible.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will result in an ArrayIndexOutOfBoundsException."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 10; if (x == 5) { int z = y / x; System.out.println(z); } System.out.println(z); } }",
-  answer: "This code will result in a compilation error because the variable z is declared inside the if statement and cannot be accessed outside of it.",
+  answer: "This code will result in a compilation error.",
   options: [
     "This code will output the number 2 to the console.",
-    "This code will result in a runtime error because the variables are not initialized.",
+    "This code will result in a compilation error.",
     "This code will compile without error, but will not output anything.",
     "This code will output an error message, but will not throw an exception."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5; int y = 10; if (x == 5) { double z = (double)y / x; System.out.println(z); } } }",
-  answer: "This code will output the number 2.0 to the console because the division of two integers results in an integer. To perform floating point division, at least one of the operands should be of type double or casted as such.",
+  answer: "This code will output the number 2.0 to the console.",
   options: [
     "This code will output the number 2.0 to the console.",
     "This code will output the number 0.5 to the console.",
@@ -669,35 +649,35 @@ options: [
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the numbers 0, -1, -2, -3, and -4.",
-    "This code will result in a compilation error because the decrement operator is not used correctly.",
+    "This code will result in an infinite loop because i is always less than 5.",
     "This code will output an error message, but will not result in an infinite loop."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int x = 5, y = 10; if (x = y) { System.out.println(\"Equal\"); } else { System.out.println(\"Not equal\"); } } }",
-  answer: "This code will result in a compilation error because the assignment operator is used instead of the equality operator in the if statement.",
+  answer: "This code will result in a compilation error.",
   options: [
     "This code will compile without error, but will output the message \"Not equal\".",
     "This code will compile without error, but will output the message \"Equal\".",
     "This code will result in a runtime error because the variable x is not initialized.",
-    "This code will output an error message, but will not result in a compilation error."
+    "This code will result in a compilation error."
   ]
 },
 {
-  question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { List<String> list = new ArrayList<>(); list.add(\"Hello\"); list.add(\"World\"); for (int i = 0; i < list.size(); i++) { if (list.get(i) == \"World\") { list.remove(i); } } System.out.println(list); } }",
-  answer: "This code will not remove the element \"World\" from the list because the comparison operator == is used instead of the equals() method.",
+  question: `What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { List<String> list = new ArrayList<>(); list.add(\"Hello\"); list.add(\"World\"); for (int i = 0; i < list.size(); i++) { if (list.get(i) == \"World\") { list.remove(i); } } System.out.println(list); } }`,
+  answer: `This code will not remove the element \"World\" from the list.`,
   options: [
-    "This code will compile without error, but will not output anything.",
-    "This code will output the list [\"Hello\"] after removing the element \"World\".",
-    "This code will output the list [\"Hello\", \"World\"] without removing any elements.",
-    "This code will result in a runtime error because the list size changes during iteration."
+    `This code will compile without error, but will not output anything.`,
+    `This code will output the list [\"Hello\"] after removing the element \"World\".`,
+    `This code will output the list [\"Hello\", \"World\"] without removing any elements.`,
+    `This code will not remove the element \"World\" from the list.`,
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = new int[5]; for (int i = 0; i <= arr.length; i++) { arr[i] = i; } } }",
-  answer: "This code will throw an ArrayIndexOutOfBoundsException because the loop condition is incorrect; it should be i < arr.length.",
+  answer: "This code will throw an ArrayIndexOutOfBoundsException.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will throw an ArrayIndexOutOfBoundsException.",
     "This code will output the values 0, 1, 2, 3, 4, and 5.",
     "This code will result in a compilation error because the index operator is used incorrectly.",
     "This code will output an error message, but will not throw an exception."
@@ -705,19 +685,19 @@ options: [
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { String s = null; if (s.equals(\"Hello\")) { System.out.println(\"Hello, world!\"); } } }",
-  answer: "This code will throw a NullPointerException because the method equals() is called on a null reference s.",
+  answer: "This code will throw a NullPointerException.",
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the message \"Hello, world!\".",
     "This code will result in a compilation error because the variable s is not initialized.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw a NullPointerException."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = new int[5]; for (int i = 0; i < arr.length; i++) { arr[i] = i; } System.out.println(Arrays.toString(arr)); } }",
-  answer: "This code will output the array [0, 1, 2, 3, 4] but will not sort the array, because no sorting algorithm is used.",
+  answer: "This code will output the array [0, 1, 2, 3, 4].",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will output the array [0, 1, 2, 3, 4].",
     "This code will output the sorted array [0, 1, 2, 3, 4].",
     "This code will result in a compilation error because the method Arrays.toString() is not used correctly.",
     "This code will output an error message, but will not result in a runtime error."
@@ -730,24 +710,24 @@ options: [
     "An interface is a class that can be instantiated, while an abstract class is a keyword in Java.",
     "An interface can provide method implementations and fields, while an abstract class cannot.",
     "An interface can extend multiple classes, while an abstract class can only extend one class.",
-    "An abstract class can provide default method implementations, while an interface cannot."
+    "An interface defines a set of methods that a class must implement, while an abstract class can provide method implementations and fields, but cannot be instantiated."
   ]
 },
 {
-  question: "What is the difference between the "==" and "===" operators in Java?",
-  answer: "The "==" operator checks if two objects have the same value, while the "===" operator checks if two objects have the same value and type.",
+  question: `What is the difference between the "==" and "===" operators in Java?`,
+  answer: `The "==" operator checks if two objects have the same value, while the "===" operator checks if two objects have the same value and type.`,
   options: [
-    "The "==" operator checks if two objects have the same type, while the "===" operator checks if two objects have the same value.",
-    "The "==" operator checks if two objects have the same reference, while the "===" operator checks if two objects have the same value.",
-    "The "==" operator checks if two objects have the same hash code, while the "===" operator checks if two objects have the same reference.",
-    "The "==" operator checks if two objects have the same value and type, while the "===" operator checks if two objects have the same reference."
+    `The "==" operator checks if two objects have the same type, while the "===" operator checks if two objects have the same value.`,
+    `The "==" operator checks if two objects have the same reference, while the "===" operator checks if two objects have the same value.`,
+    `The "==" operator checks if two objects have the same value, while the "===" operator checks if two objects have the same value and type.`,
+    `The "==" operator checks if two objects have the same value and type, while the "===" operator checks if two objects have the same reference.`
   ]
 },
 {
   question: "What is wrong with the following Java code? int x = 5 / 0;",
   answer: "This code will throw an ArithmeticException because division by zero is not allowed.",
   options: [
-    "This code will compile without error, but will result in a runtime exception.",
+    "This code will throw an ArithmeticException because division by zero is not allowed.",
     "This code will result in a compilation error because division by zero is not allowed.",
     "This code will set the value of x to 0.",
     "This code will set the value of x to infinity."
@@ -760,14 +740,14 @@ options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the string \"Hello world!\".",
     "This code will result in a compilation error because the variable s is not initialized.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw a NullPointerException because the variable s is null."
   ]
 },
 {
   question: "What is wrong with the following Java code? public static void main(String[] args) { System.out.println(args[1]); }",
-  answer: "This code will throw an ArrayIndexOutOfBoundsException because the array args has only one element.",
+  answer: "This code will throw an ArrayIndexOutOfBoundsException.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will throw an ArrayIndexOutOfBoundsException.",
     "This code will output the second element of the args array.",
     "This code will result in a compilation error because the main method must have a return type.",
     "This code will output an error message, but will not throw an exception."
@@ -779,7 +759,7 @@ options: [
   options: [
     "An inner class is a static nested class that has access to the members of its enclosing class, while a nested class is a non-static nested class that does not have access to the members of its enclosing class.",
     "An inner class is a class that is defined inside another class, while a nested class is a class that is defined inside a method.",
-    "An inner class can only be instantiated inside its enclosing class, while a nested class can be instantiated anywhere.",
+    "An inner class is a non-static nested class that has access to the members of its enclosing class, while a nested class is a static nested class that does not have access to the members of its enclosing class.",
     "An inner class can only access the static members of its enclosing class, while a nested class can access both the static and non-static members of its enclosing class."
   ]
 },
@@ -790,7 +770,7 @@ options: [
     `The "throw" keyword is used to catch an exception, while the "throws" keyword is used to rethrow an exception.`,
     `The "throw" keyword is used to create a new exception object, while the "throws" keyword is used to handle an existing exception.`,
     `The "throw" keyword is used to declare a checked exception, while the "throws" keyword is used to declare an unchecked exception.`,
-    `The "throw" keyword is used to declare a variable, while the "throws" keyword is used to declare a method.`
+    `The "throw" keyword is used to throw an exception from a method or block, while the "throws" keyword is used to declare the exceptions that a method or constructor can throw.`
   ]
 },
 {
@@ -800,24 +780,24 @@ options: [
     "This code will result in a compilation error because the variable name is not initialized.",
     "This code will result in a compilation error because the constructor does not have a return type.",
     "This code will result in a compilation error because the variable name is not declared as final.",
-    "This code will result in a runtime error because the constructor parameter name is null."
+    "This code is correct and will compile without error."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { int[] arr = new int[5]; arr[5] = 10; } }",
-  answer: "This code will throw an ArrayIndexOutOfBoundsException because the array arr has only 5 elements, indexed from 0 to 4.",
+  answer: "This code will throw an ArrayIndexOutOfBoundsException.",
   options: [
     "This code will compile without error, but will not output anything.",
     "This code will output the value 10.",
     "This code will result in a compilation error because the index operator is not used correctly.",
-    "This code will output an error message, but will not throw an exception."
+    "This code will throw an ArrayIndexOutOfBoundsException."
   ]
 },
 {
   question: "What is wrong with the following Java code? public class MyClass { public static void main(String[] args) { List<String> list = new ArrayList<>(); list.add(\"Hello\"); list.add(1); System.out.println(list.get(1)); } }",
-  answer: "This code will throw a ClassCastException because the second element of the list is a String, not an integer.",
+  answer: "This code will throw a ClassCastException.",
   options: [
-    "This code will compile without error, but will not output anything.",
+    "This code will throw a ClassCastException.",
     "This code will output the value 1.",
     "This code will result in a compilation error because the list is not typed.",
     "This code will output an error message, but will not throw an exception."
@@ -828,20 +808,20 @@ options: [
   answer: "A HashSet is an unordered collection of unique elements, while a TreeSet is a sorted collection of unique elements.",
   options: [
     "A HashSet is a sorted collection of unique elements, while a TreeSet is an unordered collection of unique elements.",
-    "A HashSet allows null values, while a TreeSet does not allow null values.",
+    "A HashSet is an unordered collection of unique elements, while a TreeSet is a sorted collection of unique elements.",
     "A HashSet uses a red-black tree for internal storage, while a TreeSet uses a hash table for internal storage.",
     "A HashSet uses a hash table for internal storage, while a TreeSet uses a binary search tree for internal storage."
   ]
 },
 ///////////////////////////////////////////////////////////Javascript
 {
-  question: "What is the difference between the '== ' and '=== ' operators in JavaScript?",
-  answer: "The '== ' operator checks for value equality, while the '=== ' operator checks for both value and type equality.",
+  question: `What is the difference between the '== ' and '=== ' operators in JavaScript?`,
+  answer: `The '== ' operator checks for value equality, while the '=== ' operator checks for both value and type equality.`,
   options: [
-  "The '== ' operator checks for both value and type equality, while the '=== ' operator checks for value equality only.",
-  "The '== ' operator is used to assign values to variables, while the '=== ' operator is used for comparison.",
-  "The '== ' operator checks for strict equality, while the '=== ' operator checks for loose equality.",
-  "The '== ' operator is not a valid operator in JavaScript."
+  `The '== ' operator checks for both value and type equality, while the '=== ' operator checks for value equality only.`,
+  `The '== ' operator is used to assign values to variables, while the '=== ' operator is used for comparison.`,
+  `The '== ' operator checks for strict equality, while the '=== ' operator checks for loose equality.`,
+  `The '== ' operator checks for value equality, while the '=== ' operator checks for both value and type equality.`,
   ]
 },
 ///////////////////////////////////////////////////////////C
@@ -911,7 +891,7 @@ options: [
   options: [
     "A macro is a block of code that can be called multiple times during the program's execution. A function is a preprocessor directive that replaces the text of the function with its definition during the precompilation stage.",
     "A macro is a preprocessor directive that replaces the text of the macro with its definition during the precompilation stage. A function is a special type of macro that can only be called once.",
-    "A macro and a function are the same thing in C.",
+    "A macro is a preprocessor directive that replaces the text of the macro with its definition during the precompilation stage. A function is a block of code that can be called multiple times during the program's execution.",
     "A macro is a preprocessor directive that can be used to define variables, while a function is a block of code that performs a specific task."
   ]
 },
@@ -977,43 +957,33 @@ options: [
 },
 ///////////////////////////////////////////////////////////C++
 {
-  question: "In C++, which of the following is a correct way to define a class template named 'MyClass' with two template parameters 'T' and 'U'?",
-  answer: "template<class T, class U> class MyClass { /* class definition */ };",
+  question: `What is wrong with the following C code?\n\nint main() {\n  int i;\n  for(i = 0; i < 5; i++)\n    int j = i;\n  return 0;\n}`,
+  answer: `The variable j is declared inside the for loop and is not accessible outside the loop.`,
   options: [
-    "class MyClass<T, U> { /* class definition */ };",
-    "template<typename T, typename U> class MyClass { /* class definition */ };",
-    "template<class T, typename U> class MyClass { /* class definition */ };",
-    "class MyClass { /* class definition */ };"
+    `The variable i is not declared before its use in the for loop.`,
+    `The variable j is declared outside the for loop and is not accessible inside the loop.`,
+    `The variable j is declared inside the for loop and is not accessible outside the loop.`,
+    `There is nothing wrong with the code.`
   ]
 },
 {
-  question: "What is wrong with the following C code?\n\nint main() {\n  int i;\n  for(i = 0; i < 5; i++)\n    int j = i;\n  return 0;\n}",
-  answer: "The variable j is declared inside the for loop and is not accessible outside the loop.",
+  question: `What is wrong with the following C code?\n\nint main() {\n  char s[10];\n  s = \"hello\";\n  return 0;\n}`,
+  answer: `The array s is being assigned a string literal, which is not allowed in C.`,
   options: [
-    "The variable i is not declared before its use in the for loop.",
-    "The variable j is declared outside the for loop and is not accessible inside the loop.",
-    "The variable j is declared inside the for loop and is not accessible outside the loop.",
-    "There is nothing wrong with the code."
+    `The array s is not declared before its use.`,
+    `The array s is being assigned an integer value, which is not allowed in C.`,
+    `The array s is being assigned a character value, which is not allowed in C.`,
+    `The array s is being assigned a string literal, which is not allowed in C.`
   ]
 },
 {
-  question: "What is wrong with the following C code?\n\nint main() {\n  char s[10];\n  s = \"hello\";\n  return 0;\n}",
-  answer: "The array s is being assigned a string literal, which is not allowed in C.",
+  question: `What is wrong with the following C code?\n\nint main() {\n  int i = 0;\n  while(i < 5);\n    i++;\n  return 0;\n}`,
+  answer: `The semicolon at the end of the while loop is causing an infinite loop.`,
   options: [
-    "The array s is not declared before its use.",
-    "The array s is being assigned an integer value, which is not allowed in C.",
-    "The array s is being assigned a character value, which is not allowed in C.",
-    "The array s is being assigned a string literal, which is not allowed in C."
-  ]
-},
-{
-  question: "What is wrong with the following C code?\n\nint main() {\n  int i = 0;\n  while(i < 5);\n    i++;\n  return 0;\n}",
-  answer: "The semicolon at the end of the while loop is causing an infinite loop.",
-  options: [
-    "The variable i is not declared before its use.",
-    "The while loop is missing its condition.",
-    "The variable i is not being incremented inside the while loop.",
-    "The semicolon at the end of the while loop is causing an infinite loop."
+    `The variable i is not declared before its use.`,
+    `The while loop is missing its condition.`,
+    `The variable i is not being incremented inside the while loop.`,
+    `The semicolon at the end of the while loop is causing an infinite loop.`
   ]
 },
 {
@@ -1053,7 +1023,7 @@ options: [
     "There is no difference between them; both are pointers to const objects.",
     "A const pointer is a pointer to a constant object whose value cannot be changed, whereas a pointer to const is a pointer whose value cannot be changed.",
     "A const pointer is a pointer whose value and the value it points to cannot be changed, whereas a pointer to const is a pointer that points to a constant object whose value cannot be changed.",
-    "A pointer to const is a pointer whose value and the value it points to cannot be changed, whereas a const pointer is a pointer to a constant object whose value cannot be changed."
+    "A const pointer is a pointer whose value cannot be changed, whereas a pointer to const is a pointer that points to a constant object whose value cannot be changed."
   ]
 },
 {
@@ -1112,7 +1082,7 @@ options: [
     options: [
     "Both increment the value of i and then return it.",
     "++i returns the value of i and then increments it, while i++ increments the value of i and then returns it.",
-    "There is no difference between ++i and i++ in C++.",
+    "++i increments the value of i and then returns it, while i++ returns the value of i and then increments it.",
     "++i and i++ are not valid operators in C++."
     ]
 },
@@ -1122,7 +1092,7 @@ options: [
     options: [
     "A function that can only take a single argument.",
     "A function that can be used to allocate memory.",
-    "A function that is declared with the keyword 'lambda'.",
+    "A lambda function is an anonymous function that can be used as a local function object.",
     "An anonymous function that can be used as a local function object."
     ]
 },
@@ -1133,7 +1103,7 @@ options: [
     "A reference can be dereferenced like a pointer, while a pointer cannot be dereferenced.",
     "A pointer and a reference are the same thing in C++.",
     "A pointer is a variable that stores the memory address of another variable, while a reference is an alias for another variable.",
-    "A reference can be used to create dynamic objects, while a pointer cannot."
+    "A pointer can be reassigned to point to different memory locations, while a reference cannot be reassigned once it is initialized.",
     ]
 },
 {
@@ -1143,7 +1113,7 @@ options: [
     "An abstract class and an interface are the same thing in C++.",
     "An abstract class can only have pure virtual functions, while an interface can have both pure virtual functions and concrete implementations.",
     "An abstract class can be instantiated, while an interface cannot be instantiated.",
-    "An interface can have data members, while an abstract class cannot have data members."
+    "An abstract class can have implementation details and can have data members, while an interface only defines the signatures of its member functions."
     ]
 },
 {
@@ -1152,7 +1122,7 @@ options: [
     options: [
     "'const' and 'constexpr' are the same thing in C++.",
     "'const' is used to specify that a variable's type cannot be modified, while 'constexpr' is used to specify that a variable's value cannot be modified.",
-    "'constexpr' is used to specify that a function's return value can be computed at compile time, while 'const' is used to specify that a function's arguments cannot be modified.",
+    "'const' is used to specify that a variable's value cannot be modified, while 'constexpr' is used to specify that a variable's value can be computed at compile time.",
     "'const' is used to specify that a variable's value cannot be modified, while 'constexpr' is used to specify that a variable's value can be modified at runtime."
     ]
 },
@@ -1202,7 +1172,7 @@ options: [
       answer: "1 2 5",
       options: [
         "1 2 3",
-        "1 3 5",
+        "1 2 5",
         "1 5 2",
         "Error"
       ]
@@ -1224,7 +1194,7 @@ options: [
         "[1, 2, 3, 4] [1, 2, 3, 4]",
         "[1, 2, 3, 4, 1] [1, 2, 3, 4]",
         "[1, 2, 3, 4] [1, 2, 3, 4, 1]",
-        "Error"
+        "[1, 2, 3, 4, 1] [1, 2, 3, 4, 1]"
       ]
 },
 {
@@ -1254,7 +1224,7 @@ options: [
         "2.5",
         "2.0",
         "3",
-        "Syntax Error"
+        "2"
       ]
 },
 {
@@ -1304,7 +1274,7 @@ options: [
         "['a', 'b', 'c']",
         "['a', 'b', 'c', ' ', 'd']",
         "['a', 'b', 'c', 'd', ' ']",
-        "Syntax Error"
+        "['a', 'b', 'c', 'd']"
       ]
 },
 {
@@ -1314,7 +1284,7 @@ options: [
         "The id of the list stays the same",
         "Syntax Error",
         "Runtime Error",
-        "None of the above"
+        "The id of the list changes"
       ]
 },
 {
@@ -1414,7 +1384,7 @@ options: [
         "A shallow copy creates a new object which stores the reference of the original elements. In contrast, a deep copy creates a new object and copies the values of the original object.",
         "A shallow copy creates a new object and recursively adds the copies of nested objects as well. In contrast, a deep copy creates a new object which stores the reference of the original elements.",
         "A shallow copy creates a new object and copies the values of the original object. In contrast, a deep copy creates a new object and recursively adds the copies of nested objects as well.",
-        "A shallow copy creates a new object which stores the reference of the original elements. In contrast, a deep copy creates a new object and creates a new reference for the nested objects."
+        "A shallow copy creates a new object which stores the reference of the original elements. In contrast, a deep copy creates a new object and recursively adds the copies of nested objects as well.",
       ]
 },
 {
@@ -1502,7 +1472,7 @@ options: [
   "answer": "'is' checks if two variables refer to the same object in memory, while '==' checks if two variables have the same value.",
   "options": [
     "'is' checks if two variables have the same value, while '==' checks if two variables refer to the same object in memory.",
-    "'is' and '==' are interchangeable and mean the same thing.",
+    "'is' checks if two variables refer to the same object in memory, while '==' checks if two variables have the same value.",
     "'is' and '==' are both used for type checking in Python.",
     "'is' and '==' are both used to compare two objects in Python."
   ]
@@ -1514,17 +1484,17 @@ options: [
     "'1234'",
     "'1, 2, 3, 4'",
     "'1\n2\n3\n4'",
-    "'1 2 3 4\n'"
+    "'1 2 3 4'"
   ]
 },
 {
   "question": "What is the difference between a list and a tuple in Python?",
-  "answer": "A list is mutable (can be changed), while a tuple is immutable (cannot be changed).",
+  "answer": "A list is mutable, while a tuple is immutable.",
   "options": [
     "A list is ordered, while a tuple is not ordered.",
     "A list can only contain strings, while a tuple can contain any data type.",
     "A list is faster than a tuple for large data sets.",
-    "A tuple is faster than a list for large data sets."
+    "A list is mutable, while a tuple is immutable."
   ]
 },
 {
@@ -1534,7 +1504,7 @@ options: [
     "[0, 1, 2, 3, 4]",
     "[1, 2, 3, 4, 5]",
     "[0, 2, 4, 6, 8]",
-    "[1, 4, 9, 16, 25]"
+    "[0, 1, 4, 9, 16]"
   ]
 },
 {
@@ -1569,7 +1539,7 @@ options: [
 },
 {
   question: "What is the output of the following code? x = [1, 2, 3]\nprint(x[3])",
-  answer: "The output is an IndexError, as the index '3' is out of range for the list 'x'.",
+  answer:   "IndexError",
   options: [
   "1",
   "2",
@@ -1579,7 +1549,7 @@ options: [
   },
   {
   question: "What is the output of the following code? x = 5\nif x == 5:\n print('x is equal to 5')",
-  answer: "The output is 'x is equal to 5', as the condition 'x == 5' is true and the indented block is executed.",
+  answer: "x is equal to 5",
   options: [
   "x is equal to 5",
   "x",
@@ -1589,7 +1559,7 @@ options: [
   },
   {
   question: "What is the output of the following code? x = 5\nif x > 10:\n print('x is greater than 10')\nelse:\n print('x is less than or equal to 10')",
-  answer: "The output is 'x is less than or equal to 10', as the condition 'x > 10' is false and the else block is executed.",
+  answer: "x is less than or equal to 10",
   options: [
   "x is greater than 10",
   "x is less than or equal to 10",
@@ -1599,7 +1569,7 @@ options: [
   },
   {
   question: "What is the output of the following code? x = 'hello'\nfor i in x:\n print(i)",
-  answer: "The output is 'h e l l o', as the loop iterates over each character in the string 'x' and prints it.",
+  answer: "h e l l o",
   options: [
   "hello",
   "h e l l o",
@@ -1609,7 +1579,7 @@ options: [
   },
   {
   question: "What is the output of the following code? x = 10\nwhile x > 0:\n print(x)\n x -= 1",
-  answer: "The output is '10 9 8 7 6 5 4 3 2 1', as the loop iterates while 'x' is greater than 0 and decrements 'x' by 1 with each iteration.",
+  answer: "10 9 8 7 6 5 4 3 2 1",
   options: [
   "10",
   "9",
