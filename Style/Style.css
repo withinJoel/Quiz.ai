@@ -85,7 +85,8 @@ body {
 }
 
 .start_btn button:hover{
-    box-shadow: 0 0 0 5px  #311873;
+    background: black;
+    color:white;
 }
 
 .start_btn button::before{
@@ -219,8 +220,8 @@ body {
     border-radius: 5px;
     line-height: 30px;
     text-align: center;
-    background: #343a40;
-    border: 1px solid #343a40;
+    background: #9e8dd2;
+    border: 1px solid white;
     user-select: none;
 }
 
@@ -341,9 +342,9 @@ footer button{
     cursor: pointer;
     border: none;
     outline: none;
-    color: #fff;
+    color: #9e8dd2;
     border-radius: 5px;
-    background: black;
+    background: white;
     border: 1px solid #311873;
     line-height: 10px;
     opacity: 0;
@@ -353,7 +354,8 @@ footer button{
 }
 
 footer button:hover{
-    background: #311873;
+    background: #9e8dd2;
+    color: white;
 }
 
 footer button.show{
@@ -420,22 +422,23 @@ footer button.show{
 }
 
 .buttons button.restart{
-    color: white;
-    background: black;
+    color: #9e8dd2;
+    background: white;
 }
 
 .buttons button.restart:hover{
-    background: #311873;
+    background: #9e8dd2;
+    color: white;
 }
 
 .buttons button.quit{
-    color: white;
-    background: black;
+    color: #9e8dd2;
+    background: white;
 }
 
 .buttons button.quit:hover{
-    color: #fff;
-    background: #311873;
+    color: white;
+    background: #9e8dd2;
 }
 .center {
     text-align: center;
