@@ -824,6 +824,37 @@ options: [
   `The '== ' operator checks for value equality, while the '=== ' operator checks for both value and type equality.`,
   ]
 },
+{
+  question: "What is the difference between let and var in JavaScript?",
+  answer: "The main difference between let and var is that let is block-scoped and var is function-scoped.",
+  options: [
+    "let is used for declaring constants, while var is used for declaring variables.",
+    "var is block-scoped and let is function-scoped.",
+    "The main difference between let and var is that let is block-scoped and var is function-scoped.",
+    "var is used for declaring constants, while let is used for declaring variables."
+  ]
+},
+
+{
+  question: "What is the purpose of the 'typeof' operator in JavaScript?",
+  answer: "The 'typeof' operator is used to determine the data type of a value in JavaScript.",
+  options: [
+    "The 'typeof' operator is used to convert a value to a string in JavaScript.",
+    "The 'typeof' operator is used to declare a new variable in JavaScript.",
+    "The 'typeof' operator is used to determine the data type of a value in JavaScript.",
+    "The 'typeof' operator is used to compare two values in JavaScript."
+  ]
+},
+{
+  question: "What is a callback function in JavaScript?",
+  answer: "A callback function is a function that is passed as an argument to another function and is executed when that function is called.",
+  options: [
+    "A callback function is a function that is called automatically when a script is loaded.",
+    "A callback function is a function that is used to declare a new variable in JavaScript.",
+    "A callback function is a function that is executed immediately when it is defined.",
+    "A callback function is a function that is passed as an argument to another function and is executed when that function is called."
+  ]
+},
 ///////////////////////////////////////////////////////////C
 {
   question: "What is the difference between a pointer and a reference in C?",
@@ -836,6 +867,66 @@ options: [
   ]
 },
 {
+  question: "What is a pointer in C language?",
+  answer: "A pointer is a variable that stores the memory address of another variable.",
+  options: [
+    "A pointer is a variable that stores the memory address of another variable.",
+  "A variable that stores the memory address of a function",
+  "A variable that stores the memory address of another variable",
+  "A variable that stores the result of a mathematical operation"
+  ]
+  },
+  {
+  question: "What is the difference between '++i' and 'i++' in C?",
+  answer: "'++i' increments the value of 'i' before using it, while 'i++' increments the value of 'i' after using it.",
+  options: [
+  "There is no difference between '++i' and 'i++'",
+  "'++i' increments the value of 'i' after using it, while 'i++' increments the value of 'i' before using it",
+  "'++i' increments the value of 'i' before using it, while 'i++' increments the value of 'i' after using it.",
+  "'++i' and 'i++' are not valid C expressions"
+  ]
+  },
+  {
+  question: "What is a function in C language?",
+  answer: "A function is a block of code that performs a specific task and can be called from anywhere in a program.",
+  options: [
+  "A variable that stores a value",
+  "A loop that repeats a set of instructions",
+  "A block of code that performs a specific task and can be called from anywhere in a program",
+  "A function is a block of code that performs a specific task and can be called from anywhere in a program."
+  ]
+  },
+  {
+  question: "What is the difference between an array and a pointer in C?",
+  answer: "An array is a collection of elements of the same data type, while a pointer is a variable that stores the memory address of another variable.",
+  options: [
+  "There is no difference between an array and a pointer in C",
+  "An array is a variable that stores the memory address of another variable, while a pointer is a collection of elements of the same data type",
+  "An array is a collection of elements of the same data type, while a pointer is a variable that stores the value of another variable",
+  "An array is a collection of elements of the same data type, while a pointer is a variable that stores the memory address of another variable."
+  ]
+  },
+  {
+  question: "What is the purpose of the 'const' keyword in C?",
+  answer: "The 'const' keyword is used to define a variable as read-only.",
+  options: [
+  "The 'const' keyword is used to declare a variable as a constant",
+  "The 'const' keyword is used to declare a variable as a pointer",
+  "The 'const' keyword is used to declare a variable as a function",
+  "The 'const' keyword is used to define a variable as read-only."
+  ]
+  },
+  {
+  question: "What is the difference between 'malloc' and 'calloc' in C?",
+  answer: "'malloc' allocates memory block of given size, while 'calloc' allocates memory block of given size and initializes it to zero.",
+  options: [
+  "'malloc' and 'calloc' are synonyms and can be used interchangeably",
+  "'malloc' allocates memory block of given size and initializes it to zero, while 'calloc' allocates memory block of given size",
+  "'malloc' allocates memory block of given size, while 'calloc' allocates memory block of given size and initializes it to zero.",
+  "'malloc' and 'calloc' are not valid C functions"
+  ]
+  },
+{
   question: "What is the difference between ++i and i++ in C?",
   answer: "++i increments the value of i and then returns the incremented value, while i++ returns the value of i and then increments it.",
   options: [
@@ -845,6 +936,106 @@ options: [
     "++i returns the value of i and then increments it, while i++ increments the value of i and then returns the incremented value."
   ]
 },
+{
+question: "What is wrong with the following code: int x = 5; if(x = 10) printf('x is equal to 10'); else printf('x is not equal to 10');",
+answer: "The code is assigning 10 to 'x' instead of comparing it with 10. The condition in the if statement will always evaluate to true, and 'x' will be assigned the value of 10.",
+options: [
+"The code will print 'x is not equal to 10'",
+"There is nothing wrong with the code",
+"The code will print 'x is equal to 10'",
+"The code will cause a compile-time error"
+]
+},
+{
+question: "What is wrong with the following code: int arr[5] = {1, 2, 3};",
+answer: "The code is initializing the first three elements of the 'arr' array, but not the remaining two. The uninitialized elements will contain garbage values.",
+options: [
+"There is nothing wrong with the code",
+"The code will initialize all elements of the 'arr' array to zero",
+"The code will cause a compile-time error",
+"The uninitialized elements will contain garbage values"
+]
+},
+{
+question: "What is wrong with the following code: int x; scanf('%d', &x);",
+answer: "The code does not check whether the input provided by the user is valid. If the user enters a non-integer value, the program will enter an infinite loop.",
+options: [
+"The code will read an integer input from the user",
+"The code will print the value of 'x' to the screen",
+"The code will cause a compile-time error",
+"The program will enter an infinite loop if the user enters a non-integer value"
+]
+},
+{
+question: "What is wrong with the following code: int sum(int a, int b) { return a + b; }",
+answer: "There is nothing wrong with the code.",
+options: [
+"The code will cause a run-time error",
+"The function should have a void return type",
+"The function should take only one argument",
+"There is nothing wrong with the code"
+]
+},
+{
+question: "What is wrong with the following code: for(int i = 0; i <= 10; i++) { printf('%d', i); }",
+answer: "The code will print the numbers from 0 to 10, including 10. If the intention is to print the numbers from 0 to 9, the condition in the for loop should be 'i < 10' instead of 'i <= 10'.",
+options: [
+"The code will print the numbers from 0 to 10",
+"The code will not print anything",
+"The code will cause a compile-time error",
+"The condition in the for loop should be 'i < 10'"
+]
+},
+{
+  question: "What is wrong with the following code: int x = 5; if(x = 10) printf('x is equal to 10'); else printf('x is not equal to 10');",
+  answer: "The code is assigning 10 to 'x' instead of comparing it with 10.",
+  options: [
+  "The code will print 'x is not equal to 10'",
+  "There is nothing wrong with the code",
+  "The code will print 'x is equal to 10'",
+  "The code is assigning 10 to 'x' instead of comparing it with 10."
+  ]
+  },
+  {
+  question: "What is wrong with the following code: int arr[5] = {1, 2, 3};",
+  answer: "The code is initializing the first three elements of the 'arr' array, but not the remaining two.",
+  options: [
+  "There is nothing wrong with the code",
+  "The code is initializing the first three elements of the 'arr' array, but not the remaining two.",
+  "The code will cause a compile-time error",
+  "The uninitialized elements will contain garbage values"
+  ]
+  },
+  {
+  question: "What is wrong with the following code: int x; scanf('%d', &x);",
+  answer: "The code does not check whether the input provided by the user is valid. If the user enters a non-integer value, the program will enter an infinite loop.",
+  options: [
+  "The code will read an integer input from the user",
+  "The code will print the value of 'x' to the screen",
+  "The code does not check whether the input provided by the user is valid. If the user enters a non-integer value, the program will enter an infinite loop.",
+  "The program will enter an infinite loop if the user enters a non-integer value"
+  ]
+  },
+  {
+  question: "What is wrong with the following code: int sum(int a, int b) { return a + b; }",
+  answer: "There is nothing wrong with the code.",
+  options: [
+  "The code will cause a run-time error",
+  "The function should have a void return type",
+  "The function should take only one argument",
+  "There is nothing wrong with the code."
+  ]
+  },
+  {
+  question: "What is wrong with the following code: for(int i = 0; i <= 10; i++) { printf('%d', i); }",
+  answer: "The code will print the numbers from 0 to 10",
+  options: [
+  "The code will print the numbers from 0 to 10",
+  "The code will not print anything",
+  "The code will cause a compile-time error",
+  "The condition in the for loop should be 'i < 10'"
+  ]
+  },
 {
   question: "What is the difference between a static and a non-static variable in C?",
   answer: "A static variable retains its value between function calls, while a non-static variable does not.",
