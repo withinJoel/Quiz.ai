@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz.ai</title>
+    <link rel="stylesheet" href="../Styles/Styles.css">
+    <link rel="stylesheet" href="../Styles/Quiz_Style.css">
+    <link rel="stylesheet" href="../Font/Font.css">
+<body>
+<div class="content">
+    <h1 class="title">Quiz.ai
+      <div class="aurora">
+        <div class="aurora__item"></div>
+        <div class="aurora__item"></div>
+        <div class="aurora__item"></div>
+        <div class="aurora__item"></div>
+      </div>
+    </h1>
+    <p class="subtitle">⏰ 15 sec/question. Choose wisely, no turning back! <br>
+        🤔 Don't cheat or quit, just enjoy the ride! 🎢<br>
+        🤓 Stay focused, no multitasking. 🚫📱<br>
+        ⏳ Time's up means time's up! No cheating. <br>
+        🚫 Trapped, but smart. Score points, earn bragging rights, show off. 😎💪</p>
+</div>
+<!--------------------------------------------- Quiz ----------------------------------------->
+<div class="start_btn">
+    <button>Start Quiz</button>
+</div>
+<!-- Info Box -->
+<div class="info_box">
+    <div class="buttons">
+        <button class="quit">Exit 🚪</button>
+        <button class="restart">Continue 🚀</button>
+    </div>
+</div>
+<div class="quiz_box">
+    <header>
+        <div class="quiztitle">Quiz.ai</div>
+        <div class="timer">
+            <div class="time_left_txt">Time Left</div>
+            <div class="timer_sec">15</div>
+        </div>
+    </header>
+    <section>
+        <div class="que_text">
+            <!-- Here I've inserted question from JavaScript -->
+        </div>
+        <div class="option_list">
+            <!-- Here I've inserted options from JavaScript -->
+        </div>
+    </section>
+
+    <!-- footer of Quiz Box -->
+    <footer>
+        <div class="total_que">
+            <!-- Here I've inserted Question Count Number from JavaScript -->
+        </div>
+        <button class="next_btn">Next</button>
+    </footer>
+</div>
+
+<!-- Result Box -->
+<div class="result_box">
+    <div class="icon">
+        <i class="fas fa-crown"></i>
+    </div>
+    <div class="complete_text">You've completed the Quiz!</div>
+    <div class="score_text">
+        <!-- Here I've inserted Score Result from JavaScript -->
+    </div>
+    <div class="buttons">
+        <button class="restart">Replay Quiz</button>
+        <button class="quit">Quit Quiz</button>
+    </div>
+</div>
+<div class="header-box">Made with ❤️ by Joel Jolly</div>
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="../Script/Questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="../Script/Script.js"></script>
+</body>
+</head>
+</html>
