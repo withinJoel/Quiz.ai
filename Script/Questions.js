@@ -472,7 +472,7 @@ let questions = [
 	},
 	{
 		question: "What is the name of the hormone that is released in large amounts during sex and leads to feelings of attachment and bonding?",
-		answer: "Oxytocin",
+		answer: "🤗 Oxytocin",
 		options: [
 			"💊 Endorphins",
 			"🧠 Dopamine",
@@ -482,7 +482,7 @@ let questions = [
 	},
 	{
 		question: "What is the term used to describe the process of falling out of love?",
-		answer: "Disenchantment",
+		answer: "💔 Desensitization",
 		options: [
 			"💔 Desensitization",
 			"💭 Disillusionment",
@@ -492,7 +492,7 @@ let questions = [
 	},
 	{
 		question: "What is the term used to describe a romantic attraction to someone of the same gender?",
-		answer: "Homosexuality",
+		answer: "👭 Homosexuality",
 		options: [
 			"👬 Heterosexuality",
 			"👭 Homosexuality",
@@ -502,7 +502,7 @@ let questions = [
 	},
 	{
 		question: "What is the scientific term for the 'butterflies' feeling in your stomach when you're in love?",
-		answer: "Limerence",
+		answer: "💘 Limerence",
 		options: [
 			"💕 Lovebug",
 			"🦋 Butterflying",
@@ -512,7 +512,7 @@ let questions = [
 	},
 	{
 		question: "What is the name for the fear of falling in love?",
-		answer: "Philophobia",
+		answer: "🕵️‍♀️ Philophobia",
 		options: [
 			"😱 Lovepanic",
 			"👻 Ghosting",
@@ -551,7 +551,7 @@ let questions = [
 		]
 	},
 	{
-		question: "What is the name of the popular dating app that allows users to swipe left or right to indicate interest in a potential match?",
+		question: "What is the name of the popular dating app ❤️ that allows users to swipe left or right to indicate interest in a potential match?",
 		answer: "Tinder",
 		options: [
 			"Bumble",
@@ -1217,6 +1217,7 @@ let questions = [
 		answer: "🔥🧱 A security system that monitors and controls incoming and outgoing network traffic",
 		options: [
 			"🔌 A device that connects two or more networks together",
+			"🔥🧱 A security system that monitors and controls incoming and outgoing network traffic",
 			"💽 A data storage device",
 			"📡 A wireless access point"
 		]
@@ -1227,6 +1228,7 @@ let questions = [
 		options: [
 			"🗝️ A password used to authenticate users",
 			"📧 An email address",
+			"🌐🔢 A unique numerical identifier assigned to each device connected to a computer network",
 			"📝 A note-taking app"
 		]
 	},
@@ -1236,6 +1238,7 @@ let questions = [
 		options: [
 			"🖥️ A device that displays output from a computer",
 			"🎮 A gaming console",
+			"📡🛣️ A networking device that forwards data packets between computer networks",
 			"📠 A fax machine"
 		]
 	},
@@ -1244,6 +1247,7 @@ let questions = [
 		answer: "🔒🌐 A virtual private network that provides a secure connection between remote computers",
 		options: [
 			"🖥️ A desktop computer",
+			"🔒🌐 A virtual private network that provides a secure connection between remote computers",
 			"📶 A wireless signal booster",
 			"📡 A satellite dish"
 		]
@@ -1253,6 +1257,7 @@ let questions = [
 		answer: "📡📶 A device that converts digital signals into analog signals and vice versa to enable communication over a telephone line",
 		options: [
 			"🎶 A music player",
+			"📡📶 A device that converts digital signals into analog signals and vice versa to enable communication over a telephone line",
 			"📚 An e-book reader",
 			"📠 A fax machine"
 		]
@@ -1263,6 +1268,7 @@ let questions = [
 		options: [
 			"🔋 A device that stores electrical energy",
 			"🖨️ A printer",
+			"🌐🔄 A device that connects multiple devices together in a network and forwards data between them",
 			"🖥️ A desktop computer"
 		]
 	},
@@ -1486,16 +1492,6 @@ let questions = [
 		]
 	},
 	{
-		question: "In 'Gone with the Wind', who is the love interest of Scarlett O'Hara?",
-		answer: "Rhett Butler 🎩💋",
-		options: [
-			"Ashley Wilkes 🍃🌸",
-			"Frank Kennedy 💼💵",
-			"Rhett Butler 🎩💋",
-			"Charles Hamilton 🎓📜"
-		]
-	},
-	{
 		question: "Which novel tells the story of Noah and Allie, two lovers separated by social class?",
 		answer: "The Notebook by Nicholas Sparks 📓🖋️",
 		options: [
@@ -1531,6 +1527,7 @@ let questions = [
 		options: [
 			"Romancephobe 💔",
 			"Lovesick 🤒",
+			"Philophobe 🥀",
 			"Hopeless romantic 💕"
 		]
 	},
@@ -1539,7 +1536,7 @@ let questions = [
 		answer: "Philemaphobia 😰",
 		options: [
 			"Emetophobia 🤢",
-			"Acrophobia 🌉",
+			"Philemaphobia 😰",
 			"Claustrophobia 🚪",
 			"Philematophobia 😘"
 		]
@@ -1551,7 +1548,7 @@ let questions = [
 			"Force them to say it 😠",
 			"Tease them for being scared 😂",
 			"Ignore their feelings and move on 😒",
-			"Offer to say it for them 🙊"
+			"Encourage them and give them time to express their feelings at their own pace ❤️"
 		]
 	},
 	{
@@ -1559,7 +1556,7 @@ let questions = [
 		answer: "They may have had a bad experience with love in the past, or they may be afraid of rejection or vulnerability 💔",
 		options: [
 			"They are selfish and don't want to commit to a relationship 😒",
-			"They are too busy with work or other priorities 📚",
+			"They may have had a bad experience with love in the past, or they may be afraid of rejection or vulnerability 💔",
 			"They don't believe in love or romance 🙅‍♂️",
 			"They are waiting for the perfect moment or person 🤩"
 		]
@@ -1568,7 +1565,7 @@ let questions = [
 		question: "What is one way to show love without saying 'I love you'?",
 		answer: "Actions speak louder than words - do something thoughtful or romantic ❤️🌹",
 		options: [
-			"Say it in a different language 🗣️",
+			"Actions speak louder than words - do something thoughtful or romantic ❤️🌹",
 			"Write a love letter 💌",
 			"Sing a love song 🎤",
 			"Give a meaningful gift 🎁"
@@ -1955,16 +1952,6 @@ let questions = [
 		]
 	},
 	{
-		question: "👑 Who is the current king of Saudi Arabia?",
-		answer: "👑 Salman bin Abdulaziz Al Saud",
-		options: [
-			"👑 Abdullah bin Abdulaziz Al Saud",
-			"👑 Mohammed bin Salman",
-			"👑 Salman bin Abdulaziz Al Saud",
-			"👑 Fahd bin Abdulaziz Al Saud"
-		]
-	},
-	{
 		question: "📺 Who was the original host of the TV game show 'Jeopardy!'?",
 		answer: "📺 Art Fleming",
 		options: [
@@ -1988,7 +1975,7 @@ let questions = [
 		question: "🎭 Who won the Academy Award for Best Actor in a Leading Role in 2021?",
 		answer: "🎭 Anthony Hopkins",
 		options: [
-			"🎭 Riz Ahmed",
+			"🎭 Jackie Chan",
 			"🎭 Chadwick Boseman",
 			"🎭 Anthony Hopkins",
 			"🎭 Gary Oldman"
@@ -2252,16 +2239,6 @@ let questions = [
 			"🎮 1984",
 			"🎮 1990",
 			"🎮 1995"
-		]
-	},
-	{
-		question: "🏛️ What is the name of the famous building in India that is a symbol of love?",
-		answer: "🏛️ Taj Mahal",
-		options: [
-			"🏛️ Hawa Mahal",
-			"🏛️ Charminar",
-			"🏛️ Gateway of India",
-			"🏛️ Taj Mahal"
 		]
 	},
 	{
@@ -2535,16 +2512,6 @@ let questions = [
 		]
 	},
 	{
-		question: "🥊 In which year did Muhammad Ali win his first world heavyweight boxing title?",
-		answer: "🥊 1964",
-		options: [
-			"🥊 1974",
-			"🥊 1964",
-			"🥊 1984",
-			"🥊 1994"
-		]
-	},
-	{
 		question: "🎭 Who is the only actor to receive an Oscar nomination for playing Batman?",
 		answer: "🎭 Michael Keaton",
 		options: [
@@ -2698,8 +2665,8 @@ let questions = [
 		question: "🦠 What does the acronym AIDS stand for?",
 		answer: "🩸 Acquired Immune Deficiency Syndrome",
 		options: [
-			"🦠 Acquired Immune Deficiency Syndrome",
-			"🩸 Acquired Immunodeficiency Syndrome",
+			"🩸 Acquired Immune Deficiency Syndrome",
+			"🦠 Acquired Immunodeficiency Syndrome",
 			"🧬 Autoimmune Immune Deficiency Syndrome",
 			"🧪 Antibody Induced Deficiency Syndrome"
 		]
@@ -2726,12 +2693,12 @@ let questions = [
 	},
 	{
 		question: "🏆 Which country has won the most FIFA World Cup titles?",
-		answer: "🇧🇷 Brazil",
+		answer: "Brazil",
 		options: [
-			"🇮🇹 Italy",
-			"🇩🇪 Germany",
-			"🇦🇷 Argentina",
-			"🇧🇷 Brazil"
+			"Italy",
+			"Germany",
+			"Argentina",
+			"Brazil"
 		]
 	},
 	{
@@ -3231,7 +3198,7 @@ let questions = [
 			"🗽 Christ the Redeemer",
 			"🗽 The Vatican",
 			"🗽 The Great Wall of China",
-			"🗽 Taj Mahal"
+			"🗽 Statue of Liberty"
 		]
 	},
 	{
@@ -3512,16 +3479,6 @@ let questions = [
 			"🎬 Martin Scorsese",
 			"🎬 Todd Phillips",
 			"🎬 Quentin Tarantino"
-		]
-	},
-	{
-		question: "🏀 Who is the all-time leading scorer in NBA history?",
-		answer: "🏀 Kareem Abdul-Jabbar",
-		options: [
-			"🏀 Michael Jordan",
-			"🏀 Kobe Bryant",
-			"🏀 LeBron James",
-			"🏀 Kareem Abdul-Jabbar"
 		]
 	},
 	{
@@ -4322,6 +4279,1693 @@ let questions = [
 			"👑 Victoria",
 			"👑 Mary I",
 			"👑 Anne"
+		]
+	},
+	{
+		question: "What is a common sign that someone is afraid to say 'I love you'?",
+		answer: "They avoid saying it or changing the subject when it comes up 🙊",
+		options: [
+			"They say 'I love you' all the time to compensate 😘",
+			"They try to make the other person say it first 🤔",
+			"They avoid saying it or changing the subject when it comes up 🙊",
+			"They only say it in public 🎤"
+		]
+	},
+	{
+		question: "What is a fear that may be behind someone's fear of saying 'I love you'?",
+		answer: "Fear of vulnerability 😰",
+		options: [
+			"Fear of intimacy 😳",
+			"Fear of commitment 💍",
+			"Fear of rejection 😔",
+			"Fear of vulnerability 😰"
+		]
+	},
+	{
+		question: "What is a common experience that can trigger fear of saying 'I love you'?",
+		answer: "Past rejection or heartbreak 💔",
+		options: [
+			"Meeting the other person's family 👨‍👩‍👧‍👦",
+			"Going on a first date 🌹",
+			"Having a fight 🥊",
+			"Past rejection or heartbreak 💔"
+		]
+	},
+	{
+		question: "What emoji can represent the feeling of being stuck in a cycle of fear and avoidance when it comes to saying 'I love you'?",
+		answer: "🌀",
+		options: [
+			"❤️",
+			"💔",
+			"😔",
+			"🌀"
+		]
+	},
+	{
+		question: "What is a technique someone can use to practice saying 'I love you'?",
+		answer: "Role-playing with a friend or therapist 🎭",
+		options: [
+			"Writing it in a letter 📝",
+			"Saying it in their head 💭",
+			"Drinking alcohol to loosen up 🍺",
+			"Role-playing with a friend or therapist 🎭"
+		]
+	},
+	{
+		question: "What is a way to express affection without saying 'I love you'?",
+		answer: "Acts of service, such as cooking a favorite meal or doing chores 🍲",
+		options: [
+			"Giving extravagant gifts 🎁",
+			"Sending frequent text messages 📱",
+			"Spending all your time together 🕰️",
+			"Acts of service, such as cooking a favorite meal or doing chores 🍲"
+		]
+	},
+	{
+		question: "What is a technique someone can use to calm their nerves before saying 'I love you'?",
+		answer: "Taking deep breaths and visualizing a positive outcome 🧘",
+		options: [
+			"Chewing gum to distract themselves 🍬",
+			"Listening to music to calm down 🎵",
+			"Trying to make the other person laugh 😆",
+			"Taking deep breaths and visualizing a positive outcome 🧘"
+		]
+	},
+	{
+		question: "What is a common misconception about people who are afraid to say 'I love you'?",
+		answer: "That they don't feel love as deeply as others 💔",
+		options: [
+			"That they are not interested in a relationship 💔",
+			"That they are being manipulative 😈",
+			"That they are not capable of love 😢",
+			"That they don't feel love as deeply as others 💔"
+		]
+	},
+	{
+		question: "What is a common fear behind the fear of saying 'I love you'?",
+		answer: "Fear of rejection ❌",
+		options: [
+			"Fear of commitment 💍",
+			"Fear of vulnerability 🛡️",
+			"Fear of losing independence 🏃",
+			"Fear of rejection ❌"
+		]
+	},
+	{
+		question: "What is a possible reason why someone might feel anxious about saying 'I love you'?",
+		answer: "They feel like they don't deserve love 💔",
+		options: [
+			"They're afraid of the other person's reaction 😬",
+			"They're worried about the future of the relationship 🤔",
+			"They feel like they don't deserve love 💔",
+			"They're not actually in love with the other person 🚫"
+		]
+	},
+	{
+		question: "What emoji can represent the feeling of relief after finally saying 'I love you'?",
+		answer: "😌",
+		options: [
+			"😍",
+			"😭",
+			"😬",
+			"😌"
+		]
+	},
+	{
+		question: "What is a technique someone can use to build up their confidence before saying 'I love you'?",
+		answer: "Practice positive self-talk 🗣️",
+		options: [
+			"Watch romantic movies 🎥",
+			"Read love poems 📖",
+			"Take a relaxing bath 🛀",
+			"Practice positive self-talk 🗣️"
+		]
+	},
+	{
+		question: "What is a possible reason why someone might feel guilty about saying 'I love you'?",
+		answer: "They haven't been honest about their feelings in the past 🤥",
+		options: [
+			"They're afraid of being rejected 😰",
+			"They're worried about the other person's reaction 🤔",
+			"They feel like they're moving too fast in the relationship 🏎️",
+			"They haven't been honest about their feelings in the past 🤥"
+		]
+	},
+	{
+		question: "What is the term for the fear of saying 'I love you' first?",
+		answer: "Philemaphobia 😰",
+		options: [
+			"Philemaphobia 😰",
+			"Arachnophobia 🕷️",
+			"Acrophobia 🌁",
+			"Claustrophobia 🚪"
+		]
+	},
+	{
+		question: "What emoji can represent the feeling of being tongue-tied or unable to express your feelings?",
+		answer: "🤐",
+		options: [
+			"😊",
+			"😂",
+			"🤐",
+			"😎"
+		]
+	},
+	{
+		question: "What is the term used to describe a relationship where one person has more power and control than the other?",
+		answer: "Power imbalance",
+		options: [
+			"Domination",
+			"Controlled relationship",
+			"Power imbalance",
+			"Submissive relationship"
+		]
+	},
+	{
+		question: "What is the term used to describe a situation where a person seeks out relationships with people who are emotionally unavailable or uninterested?",
+		answer: "Emotional masochism",
+		options: [
+			"Codependency",
+			"Emotional sadism",
+			"Emotional masochism",
+			"Attachment disorder"
+		]
+	},
+	{
+		question: "What is the term used to describe the tendency to seek out partners who have similar characteristics to one's parents?",
+		answer: "Oedipus complex",
+		options: [
+			"Parental attachment",
+			"Electra complex",
+			"Oedipus complex",
+			"Parental mirroring"
+		]
+	},
+	{
+		question: "What is a common symptom of someone who is afraid to say 'I love you'?",
+		answer: "They have trouble with physical touch 😶",
+		options: [
+			"They say 'I love you' too soon 🤗",
+			"They always want to be together 💑",
+			"They have trouble with physical touch 😶",
+			"They are overly critical of their partner 🤨"
+		]
+	},
+	{
+		question: "What is a strategy for dealing with fear of saying 'I love you'?",
+		answer: "Being honest about your feelings and discussing them with your partner 🗣️",
+		options: [
+			"Avoiding the topic altogether 🙅‍♀️",
+			"Trying to forget about your feelings ❌",
+			"Making your partner say it first 🙋‍♂️",
+			"Being honest about your feelings and discussing them with your partner 🗣️"
+		]
+	},
+	{
+		question: "What is an emoji that can represent the feeling of being overwhelmed with emotion when saying 'I love you'?",
+		answer: "😍",
+		options: [
+			"😍",
+			"😭",
+			"😡",
+			"😴"
+		]
+	},
+	{
+		question: "What is the term used to describe a website's ability to adjust its layout to fit the size of the screen it is being viewed on?",
+		answer: "Responsive design 📱",
+		options: [
+			"Dynamic layout 💻",
+			"Fluid design 🌊",
+			"Responsive design 📱",
+			"Adaptive layout 📏"
+		]
+	},
+	{
+		question: "What do you call a snowman with a six-pack?",
+		answer: "An abdominal snowman! 😂",
+		options: [
+			"An icy Hulk",
+			"A jolly green giant",
+			"An abdominal snowman! 😂",
+			"A frosty bodybuilder"
+		]
+	},
+	{
+		question: "Why was the math book sad?",
+		answer: "Because it had too many problems. 🤣",
+		options: [
+			"Because it was dropped on the floor",
+			"Because it was missing pages",
+			"Because it had too many problems. 🤣",
+			"Because it was outdated"
+		]
+	},
+	{
+		question: "Why did the tomato turn red?",
+		answer: "Because it saw the salad dressing! 🍅",
+		options: [
+			"Because it was ripe",
+			"Because it was angry",
+			"Because it saw the salad dressing! 🍅",
+			"Because it was blushing"
+		]
+	},
+	{
+		question: "Why don't scientists trust atoms?",
+		answer: "Because they make up everything. 😆",
+		options: [
+			"Because they're too small to see",
+			"Because they're too unpredictable",
+			"Because they make up everything. 😆",
+			"Because they're too expensive"
+		]
+	},
+	{
+		question: "What did the grape say when it got stepped on?",
+		answer: "Nothing, it just let out a little wine. 🍷",
+		options: [
+			"Ouch!",
+			"I'm squished!",
+			"Nothing, it just let out a little wine. 🍷",
+			"Please don't step on me"
+		]
+	},
+	{
+		question: "What is the name of the website that allows users to connect with professionals in various fields for one-on-one conversations?",
+		answer: "Clarity.fm 🌐",
+		options: [
+			"LinkedIn 🌐",
+			"Indeed 🌐",
+			"Clarity.fm 🌐",
+			"Upwork 🌐"
+		]
+	},
+	{
+		question: "What is the name of the website that provides resources for online learning and MOOCs?",
+		answer: "Coursera 🌐",
+		options: [
+			"Codecademy 🌐",
+			"Khan Academy 🌐",
+			"Udacity 🌐",
+			"Coursera 🌐"
+		]
+	},
+	{
+		question: "What is the name of the website that allows users to create and share presentations, infographics, and other visual content?",
+		answer: "Canva 🌐",
+		options: [
+			"Prezi 🌐",
+			"Canva 🌐",
+			"Haiku Deck 🌐",
+			"Slideshare 🌐"
+		]
+	},
+	{
+		question: "What is the name of the website that allows users to search for and book accommodations, such as hotels and vacation rentals?",
+		answer: "Booking.com 🌐",
+		options: [
+			"Airbnb 🌐",
+			"Expedia 🌐",
+			"Booking.com 🌐",
+			"TripAdvisor 🌐"
+		]
+	},
+	{
+		question: "What is the name of the website that allows users to sell handmade or vintage items, as well as craft supplies?",
+		answer: "Etsy 🌐",
+		options: [
+			"eBay 🌐",
+			"Amazon Handmade 🌐",
+			"Etsy 🌐",
+			"ArtFire 🌐"
+		]
+	},
+	{
+		question: "What is the term used to describe the practice of optimizing a website to appear higher in search engine results?",
+		answer: "Search engine optimization (SEO) 🔍",
+		options: [
+			"Web traffic management 🚦",
+			"Social media marketing 📱",
+			"Search engine marketing (SEM) 🔎",
+			"Search engine optimization (SEO) 🔍"
+		]
+	},
+	{
+		question: "What is the name of the programming language used to create dynamic and interactive web pages?",
+		answer: "JavaScript 🖥️",
+		options: [
+			"Python 🐍",
+			"Java ☕",
+			"Ruby 💎",
+			"JavaScript 🖥️"
+		]
+	},
+	{
+		question: "What is the term used to describe a website's ability to handle a large amount of traffic without crashing or slowing down?",
+		answer: "Scalability 🚀",
+		options: [
+			"Reliability 💪",
+			"Security 🔒",
+			"Scalability 🚀",
+			"Compatibility 🔄"
+		]
+	},
+	{
+		question: "What is the name of the web standard that defines the structure and content of a webpage?",
+		answer: "HTML 🌐",
+		options: [
+			"CSS 💅",
+			"XML 📄",
+			"PHP 🐘",
+			"HTML 🌐"
+		]
+	},
+	{
+		question: "What is a term for someone who is easily annoyed or angered?",
+		answer: "Hot-headed 🔥",
+		options: [
+			"Impulsive 🤪",
+			"Hot-headed 🔥",
+			"Cynical 🙄",
+			"Reserved 😐"
+		]
+	},
+	{
+		question: "What flower is commonly associated with love and romance?",
+		answer: "Red rose 🌹",
+		options: [
+			"Daisy 🌼",
+			"Tulip 🌷",
+			"Red rose 🌹",
+			"Sunflower 🌻"
+		]
+	},
+	{
+		question: "What does 'merry' mean in Elizabethan English?",
+		answer: "Happy or cheerful 😊",
+		options: [
+			"Sad or gloomy 😔",
+			"Angry or irritable 😠",
+			"Excited or nervous 😬",
+			"Happy or cheerful 😊"
+		]
+	},
+	{
+		question: "What is the Christian belief that Jesus rose from the dead after his crucifixion called? 🙏",
+		answer: "Resurrection",
+		options: [
+			"Redemption",
+			"Reconciliation",
+			"Resurrection",
+			"Revelation"
+		]
+	},
+	{
+		question: "What is the traditional attire worn by Scottish men?",
+		answer: "Kilt 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+		options: [
+			"Sarong 🏝️",
+			"Kimono 🇯🇵",
+			"Kilt 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+			"Dashiki 🌍"
+		]
+	},
+	{
+		question: "What do you call an alligator in a vest?",
+		answer: "An investigator 🐊🕵️",
+		options: [
+			"A fashionista 🐊👗",
+			"A swamp detective 🐊🔍",
+			"A dapper croc 🐊💼",
+			"An investigator 🐊🕵️"
+		]
+	},
+	{
+		question: "Why did the tomato turn red?",
+		answer: "Because it saw the salad dressing! 🍅🥗",
+		options: [
+			"Because it was blushing 🍅😳",
+			"Because it was ripe 🍅👌",
+			"Because it was sunburned 🍅🌞",
+			"Because it saw the salad dressing! 🍅🥗"
+		]
+	},
+	{
+		question: "What do you call a fish wearing a bowtie?",
+		answer: "Sofishticated 🎩🐟",
+		options: [
+			"Sofishticated 🎩🐟",
+			"Fintastic 🐠👌",
+			"Gill-ty Pleasure 🐟😂",
+			"Bass-tard 🐟🤪"
+		]
+	},
+	{
+		question: "What is celebrated on August 26th in the United States?",
+		answer: "National Dog Day 🐶",
+		options: [
+			"National Donut Day 🍩",
+			"National Hamburger Day 🍔",
+			"National Dog Day 🐶",
+			"National Ice Cream Day 🍦"
+		]
+	},
+	{
+		question: "What is celebrated on September 19th in the United States?",
+		answer: "Talk Like a Pirate Day 🏴‍☠️",
+		options: [
+			"National Coffee Day ☕️",
+			"National Sandwich Day 🥪",
+			"Talk Like a Pirate Day 🏴‍☠️",
+			"National Donut Day 🍩"
+		]
+	},
+	{
+		question: "What is celebrated on October 26th in the United States?",
+		answer: "National Pumpkin Day 🎃",
+		options: [
+			"National Taco Day 🌮",
+			"National Pizza Day 🍕",
+			"National Donut Day 🍩",
+			"National Pumpkin Day 🎃"
+		]
+	},
+	{
+		question: "What is celebrated on November 3rd in the United States?",
+		answer: "National Sandwich Day 🥪",
+		options: [
+			"National Taco Day 🌮",
+			"National Pizza Day 🍕",
+			"National Sandwich Day 🥪",
+			"National Donut Day 🍩"
+		]
+	},
+	{
+		question: "What is celebrated on December 4th in the United States?",
+		answer: "National Cookie Day 🍪",
+		options: [
+			"National Cake Day 🎂",
+			"National Pie Day 🥧",
+			"National Ice Cream Day 🍦",
+			"National Cookie Day 🍪"
+		]
+	},
+	{
+		question: "What is celebrated on January 29th in the United States?",
+		answer: "National Puzzle Day 🧩",
+		options: [
+			"National Popcorn Day 🍿",
+			"National Chocolate Day 🍫",
+			"National Puzzle Day 🧩",
+			"National Pretzel Day 🥨"
+		]
+	},
+	{
+		question: "What day is National Hug Day celebrated in the United States?",
+		answer: "January 21 🤗",
+		options: [
+			"February 14 💕",
+			"April 22 🌍",
+			"July 4 🇺🇸",
+			"January 21 🤗"
+		]
+	},
+	{
+		question: "What day is National Ice Cream Day celebrated in the United States?",
+		answer: "Third Sunday in July 🍦",
+		options: [
+			"August 26 🍍",
+			"June 1 🌞",
+			"Third Sunday in July 🍦",
+			"September 7 🎓"
+		]
+	},
+	{
+		question: "What day is National Cat Day celebrated in the United States?",
+		answer: "October 29 😺",
+		options: [
+			"November 26 🦃",
+			"October 31 🎃",
+			"October 29 😺",
+			"September 19 🐶"
+		]
+	},
+	{
+		question: "What day is National Pizza Day celebrated in the United States?",
+		answer: "February 9 🍕",
+		options: [
+			"March 14 🥧",
+			"April 1 🤡",
+			"February 9 🍕",
+			"May 5 🌮"
+		]
+	},
+	{
+		question: "What day is National Donut Day celebrated in the United States?",
+		answer: "First Friday in June 🍩",
+		options: [
+			"July 4 🇺🇸",
+			"January 1 🎉",
+			"First Friday in June 🍩",
+			"November 11 🎖️"
+		]
+	},
+	{
+		question: "What is the date of National Hamburger Day in the United States?",
+		answer: "May 28 🍔",
+		options: [
+			"May 1 🍔",
+			"May 28 🍔",
+			"June 18 🍔",
+			"July 4 🍔"
+		]
+	},
+	{
+		question: "Which country celebrates National Tea Day on April 21st?",
+		answer: "United Kingdom 🇬🇧",
+		options: [
+			"India 🇮🇳",
+			"China 🇨🇳",
+			"United Kingdom 🇬🇧",
+			"Japan 🇯🇵"
+		]
+	},
+	{
+		question: "What is the date of National Ice Cream Day in the United States?",
+		answer: "Third Sunday in July 🍦",
+		options: [
+			"July 1 🍦",
+			"First Sunday in July 🍦",
+			"Third Sunday in July 🍦",
+			"Last Sunday in July 🍦"
+		]
+	},
+	{
+		question: "What is the date of National Popcorn Day in the United States?",
+		answer: "January 19 🍿",
+		options: [
+			"January 1 🍿",
+			"January 15 🍿",
+			"January 19 🍿",
+			"January 31 🍿"
+		]
+	},
+	{
+		question: "What is the date of National Pizza Day in the United States?",
+		answer: "February 9 🍕",
+		options: [
+			"February 1 🍕",
+			"February 9 🍕",
+			"February 14 🍕",
+			"February 28 🍕"
+		]
+	},
+	{
+		question: "What is the date of National Taco Day in the United States?",
+		answer: "October 4 🌮",
+		options: [
+			"September 16 🌮",
+			"October 4 🌮",
+			"November 3 🌮",
+			"December 25 🌮"
+		]
+	},
+	{
+		question: "What is the date of National Coffee Day in the United States?",
+		answer: "September 29 ☕️",
+		options: [
+			"August 29 ☕️",
+			"September 29 ☕️",
+			"October 29 ☕️",
+			"November 29 ☕️"
+		]
+	},
+	{
+		question: "What is the date of National Donut Day in the United States?",
+		answer: "First Friday in June 🍩",
+		options: [
+			"May 1 🍩",
+			"First Friday in June 🍩",
+			"July 4 🍩",
+			"September 19 🍩"
+		]
+	},
+	{
+		question: "What holiday is celebrated on October 31st each year?",
+		answer: "Halloween 🎃",
+		options: [
+			"Christmas 🎄",
+			"Thanksgiving 🦃",
+			"Easter 🐰",
+			"Halloween 🎃"
+		]
+	},
+	{
+		question: "What holiday is celebrated on July 4th in the United States?",
+		answer: "Independence Day 🇺🇸",
+		options: [
+			"New Year's Day 🎉",
+			"Labor Day 🏭",
+			"Memorial Day 🎖️",
+			"Independence Day 🇺🇸"
+		]
+	},
+	{
+		question: "What holiday is celebrated on February 14th?",
+		answer: "Valentine's Day 💘",
+		options: [
+			"Halloween 🎃",
+			"Easter 🐰",
+			"Thanksgiving 🦃",
+			"Valentine's Day 💘"
+		]
+	},
+	{
+		question: "What holiday is celebrated on December 25th?",
+		answer: "Christmas 🎄",
+		options: [
+			"Easter 🐰",
+			"Thanksgiving 🦃",
+			"New Year's Day 🎉",
+			"Christmas 🎄"
+		]
+	},
+	{
+		question: "What holiday is celebrated on the first Monday in September in the United States?",
+		answer: "Labor Day 🏭",
+		options: [
+			"Memorial Day 🎖️",
+			"Independence Day 🇺🇸",
+			"Christmas 🎄",
+			"Labor Day 🏭"
+		]
+	},
+	{
+		question: "Why did the tomato turn red?",
+		answer: "Because it saw the salad dressing 👀🍅",
+		options: [
+			"Because it was ripe 🍅👌",
+			"Because it was cooked 🔥🍅",
+			"Because it saw the salad dressing 👀🍅",
+			"Because it was embarrassed 🙈🍅"
+		]
+	},
+	{
+		question: "What do you call a fake noodle?",
+		answer: "An impasta 🍝😆",
+		options: [
+			"An impasta 🍝😆",
+			"A fauxfettuccine 🍝😂",
+			"A counterfettucine 🍝🤪",
+			"A no-oodle 🍝😜"
+		]
+	},
+	{
+		question: "Why did the banana go to the doctor?",
+		answer: "Because it wasn't peeling well 🍌😷",
+		options: [
+			"Because it had a bruise 🍌🤕",
+			"Because it was feeling yellow 🍌😕",
+			"Because it wanted a checkup 🍌😜",
+			"Because it wasn't peeling well 🍌😷"
+		]
+	},
+	{
+		question: "What do you get when you cross a snowman and a shark?",
+		answer: "Frostbite 🌨️🦈",
+		options: [
+			"Snowshark ❄️🦈",
+			"Ice jaws 🧊🦈",
+			"Frostbite 🌨️🦈",
+			"Freeze fin 🌬️🦈"
+		]
+	},
+	{
+		question: "Why did the scarecrow win an award?",
+		answer: "Because he was outstanding in his field! 🌾🏆",
+		options: [
+			"Because he was a real straw-man 🌾👨‍🌾",
+			"Because he had a lot of crows as fans 🌾🐦",
+			"Because he was a great listener 🌾👂",
+			"Because he was outstanding in his field! 🌾🏆"
+		]
+	},
+	{
+		question: "What do you call a group of cows playing instruments?",
+		answer: "A moo-sical band 🐄🎶",
+		options: [
+			"A cow-phony orchestra 🐄🎻",
+			"A bovine brass ensemble 🐄🎺",
+			"A pasture quartet 🐄🎵",
+			"A moo-sical band 🐄🎶"
+		]
+	},
+	{
+		question: "Why did the banana go to the doctor?",
+		answer: "Because it wasn't peeling well 🍌👨‍⚕️",
+		options: [
+			"Because it was feeling yellow 🍌😔",
+			"Because it had a bad split 🍌😭",
+			"Because it had a vitamin deficiency 🍌💊",
+			"Because it wasn't peeling well 🍌👨‍⚕️"
+		]
+	},
+	{
+		question: "What is a traditional Japanese tea ceremony called?",
+		answer: "Chanoyu (茶の湯) 🍵",
+		options: [
+			"Sado (茶道) 🍵",
+			"Chanoyu (茶の湯) 🍵",
+			"Ikebana (生け花) 🌸",
+			"Kabuki (歌舞伎) 🎭"
+		]
+	},
+	{
+		question: "What is the national animal of Scotland?",
+		answer: "Unicorn 🦄",
+		options: [
+			"Lion 🦁",
+			"Dragon 🐲",
+			"Unicorn 🦄",
+			"Horse 🐴"
+		]
+	},
+	{
+		question: "What is the traditional dance of Hawaii?",
+		answer: "Hula 💃",
+		options: [
+			"Salsa 💃",
+			"Flamenco 💃",
+			"Hula 💃",
+			"Tango 💃"
+		]
+	},
+	{
+		question: "What is the traditional clothing of India for women called?",
+		answer: "Sari (साड़ी) 👗",
+		options: [
+			"Kilt 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+			"Kimono (着物) 👘",
+			"Sari (साड़ी) 👗",
+			"Dirndl 🇦🇹"
+		]
+	},
+	{
+		question: "What is the traditional headwear for men in Saudi Arabia called?",
+		answer: "Ghutra (غُترة) 👳",
+		options: [
+			"Turban 🎩",
+			"Kufi (قُفِّي) 👳",
+			"Ghutra (غُترة) 👳",
+			"Fez 👲"
+		]
+	},
+	{
+		question: "What is the traditional greeting in India?",
+		answer: "Namaste 🙏",
+		options: [
+			"Bonjour",
+			"Konnichiwa",
+			"Namaste 🙏",
+			"Ciao"
+		]
+	},
+
+	{
+		question: "What is the national sport of Japan?",
+		answer: "Sumo wrestling",
+		options: [
+			"Football ⚽",
+			"Cricket 🏏",
+			"Baseball ⚾",
+			"Sumo wrestling"
+		]
+	},
+
+	{
+		question: "What is the traditional dance of Hawaii?",
+		answer: "Hula 💃",
+		options: [
+			"Samba 💃",
+			"Ballet 🩰",
+			"Tango 💃",
+			"Hula 💃"
+		]
+	},
+
+	{
+		question: "What is the traditional food of Mexico?",
+		answer: "Tacos 🌮",
+		options: [
+			"Sushi 🍣",
+			"Pizza 🍕",
+			"Spaghetti 🍝",
+			"Tacos 🌮"
+		]
+	},
+
+	{
+		question: "What is the traditional drink of Russia?",
+		answer: "Vodka 🍸",
+		options: [
+			"Tequila 🍹",
+			"Sake 🍶",
+			"Whiskey 🥃",
+			"Vodka 🍸"
+		]
+	},
+	{
+		question: "What is the term for the Christian sacrament in which bread and wine are consecrated and consumed as the body and blood of Christ? 🍷",
+		answer: "Eucharist",
+		options: [
+			"Baptism",
+			"Confirmation",
+			"Eucharist",
+			"Anointing of the Sick"
+		]
+	},
+	{
+		question: "What is the term for the Christian rite of initiation by which a person is welcomed into the Church? 🙏",
+		answer: "Baptism",
+		options: [
+			"Baptism",
+			"Confirmation",
+			"Eucharist",
+			"Anointing of the Sick"
+		]
+	},
+	{
+		question: "What is the Christian belief in the three persons of the one Godhead known as? 🙏",
+		answer: "Trinity",
+		options: [
+			"Redemption",
+			"Reconciliation",
+			"Resurrection",
+			"Trinity"
+		]
+	},
+	{
+		question: "What is the Christian term for the belief in the second coming of Jesus Christ? ⏰",
+		answer: "Parousia",
+		options: [
+			"Transfiguration",
+			"Ascension",
+			"Pentecost",
+			"Parousia"
+		]
+	},
+	{
+		question: "What was the main form of entertainment during the Elizabethan era?",
+		answer: "Theater 🎭",
+		options: [
+			"Sports 🏀",
+			"Board games 🎲",
+			"Music 🎶",
+			"Theater 🎭"
+		]
+	},
+	{
+		question: "What is the holy book of Judaism?",
+		answer: "The Torah 📖",
+		options: [
+			"The Bible 📖",
+			"The Quran 📖",
+			"The Bhagavad Gita 📖",
+			"The Torah 📖"
+		]
+	},
+	{
+		question: "What is the name of the prophet who founded Islam?",
+		answer: "Muhammad 🕋",
+		options: [
+			"Moses 🕋",
+			"Jesus 🕋",
+			"Buddha 🕋",
+			"Muhammad 🕋"
+		]
+	},
+	{
+		question: "What is the ultimate goal of Buddhism?",
+		answer: "To achieve enlightenment and end the cycle of rebirth 🔥",
+		options: [
+			"To be reunited with God in Heaven 🙏",
+			"To follow the path of the Eightfold Noble Path 🛣️",
+			"To create a personal relationship with Jesus Christ 🙏",
+			"To achieve enlightenment and end the cycle of rebirth 🔥"
+		]
+	},
+	{
+		question: "What is the name of the first book of the Bible?",
+		answer: "Genesis 📖",
+		options: [
+			"Exodus 📖",
+			"Leviticus 📖",
+			"Numbers 📖",
+			"Genesis 📖"
+		]
+	},
+	{
+		question: "What is the holy text of Hinduism?",
+		answer: "The Vedas 📖",
+		options: [
+			"The Quran 📖",
+			"The Bible 📖",
+			"The Bhagavad Gita 📖",
+			"The Vedas 📖"
+		]
+	},
+	{
+		question: "What is the name of the holy river in Hinduism?",
+		answer: "Ganges 🌊",
+		options: [
+			"Jordan 🌊",
+			"Nile 🌊",
+			"Amazon 🌊",
+			"Ganges 🌊"
+		]
+	},
+	{
+		question: "What is the name of the Jewish day of rest?",
+		answer: "Shabbat 🕯️",
+		options: [
+			"Sabbath 🕯️",
+			"Sunday 🕯️",
+			"Saturday 🕯️",
+			"Shabbat 🕯️"
+		]
+	},
+	{
+		question: "What was the name of the most famous Elizabethan playwright?",
+		answer: "William Shakespeare 🎭",
+		options: [
+			"Christopher Marlowe 🎭",
+			"Ben Jonson 🎭",
+			"William Shakespeare 🎭",
+			"Thomas Middleton 🎭"
+		]
+	},
+	{
+		question: "What was the main color worn by the nobility during the Elizabethan era?",
+		answer: "Purple 💜",
+		options: [
+			"Red ❤️",
+			"Green 💚",
+			"Yellow 💛",
+			"Purple 💜"
+		]
+	},
+	{
+		question: "What was the name of the famous Elizabethan monarch?",
+		answer: "Queen Elizabeth I 👑",
+		options: [
+			"Queen Victoria 👑",
+			"Queen Elizabeth II 👑",
+			"Queen Mary I 👑",
+			"Queen Elizabeth I 👑"
+		]
+	},
+	{
+		question: "What was the name of the popular Elizabethan instrument similar to a guitar?",
+		answer: "Lute 🎸",
+		options: [
+			"Harp 🎵",
+			"Violin 🎻",
+			"Lute 🎸",
+			"Flute 🎶"
+		]
+	},
+	{
+		question: "What is the name of the famous Elizabethan play featuring a tragic love story?",
+		answer: "Romeo and Juliet 🎭",
+		options: [
+			"Macbeth 🎭",
+			"Hamlet 🎭",
+			"Othello 🎭",
+			"Romeo and Juliet 🎭"
+		]
+	},
+	{
+		question: "What was the name of the Elizabethan theater where Shakespeare's plays were performed?",
+		answer: "The Globe 🌍",
+		options: [
+			"The Rose 🌹",
+			"The Swan 🦢",
+			"The Fortune 🍀",
+			"The Globe 🌍"
+		]
+	},
+	{
+		question: "What is the name of the famous Elizabethan dress with a fitted bodice and full skirt?",
+		answer: "The Elizabethan gown 👗",
+		options: [
+			"The Victorian corset 👗",
+			"The Georgian robe 👗",
+			"The Regency dress 👗",
+			"The Elizabethan gown 👗"
+		]
+	},
+	{
+		question: "What was the name of the popular Elizabethan dance that involved hopping?",
+		answer: "The Galliard 💃",
+		options: [
+			"The Waltz 💃",
+			"The Tango 💃",
+			"The Foxtrot 💃",
+			"The Galliard 💃"
+		]
+	},
+	{
+		question: "What does 'thou' mean in Elizabethan English?",
+		answer: "You 👉",
+		options: [
+			"Me 👈",
+			"Them 👥",
+			"We 👫",
+			"You 👉"
+		]
+	},
+
+	{
+		question: "What does 'anon' mean in Elizabethan English?",
+		answer: "Soon or shortly ⏱️",
+		options: [
+			"Never ❌",
+			"Always 🕰️",
+			"Occasionally 🌅",
+			"Soon or shortly ⏱️"
+		]
+	},
+
+	{
+		question: "What emoji represents the Elizabethan era?",
+		answer: "🏰",
+		options: [
+			"🎭",
+			"👑",
+			"🏰",
+			"🕰️"
+		]
+	},
+
+	{
+		question: "What does 'forsooth' mean in Elizabethan English?",
+		answer: "Indeed or truly 👍",
+		options: [
+			"Maybe or perhaps 🤔",
+			"Never or not at all ❌",
+			"Sometimes or occasionally 🤷",
+			"Indeed or truly 👍"
+		]
+	},
+	{
+		question: "What is the largest mammal in the world?",
+		answer: "Blue Whale 🐋",
+		options: [
+			"Elephant 🐘",
+			"Giraffe 🦒",
+			"Blue Whale 🐋",
+			"Hippopotamus 🦛"
+		]
+	},
+	{
+		question: "What type of animal is known for carrying its young in a pouch?",
+		answer: "Kangaroo 🦘",
+		options: [
+			"Giraffe 🦒",
+			"Kangaroo 🦘",
+			"Penguin 🐧",
+			"Koala 🐨"
+		]
+	},
+	{
+		question: "What is the fastest land animal in the world?",
+		answer: "Cheetah 🐆",
+		options: [
+			"Lion 🦁",
+			"Cheetah 🐆",
+			"Leopard 🐆",
+			"Hyena 🐾"
+		]
+	},
+	{
+		question: "What animal is often used to represent intelligence?",
+		answer: "Owl 🦉",
+		options: [
+			"Raven 🐦",
+			"Fox 🦊",
+			"Owl 🦉",
+			"Monkey 🐒"
+		]
+	},
+	{
+		question: "What animal is known for being slow-moving and carrying its home on its back?",
+		answer: "Snail 🐌",
+		options: [
+			"Turtle 🐢",
+			"Crab 🦀",
+			"Snail 🐌",
+			"Beetle 🐞"
+		]
+	},
+	{
+		question: "What animal is the symbol of the United States of America?",
+		answer: "Bald Eagle 🦅",
+		options: [
+			"Bald Eagle 🦅",
+			"Penguin 🐧",
+			"Puma 🐆",
+			"Alligator 🐊"
+		]
+	},
+	{
+		question: "What is the national animal of Australia?",
+		answer: "Kangaroo 🦘",
+		options: [
+			"Kangaroo 🦘",
+			"Koala 🐨",
+			"Emu 🦆",
+			"Wombat 🐻"
+		]
+	},
+	{
+		question: "What animal is known for its ability to camouflage itself to blend into its surroundings?",
+		answer: "Chameleon 🦎",
+		options: [
+			"Chameleon 🦎",
+			"Peacock 🦚",
+			"Zebra 🦓",
+			"Gorilla 🦍"
+		]
+	},
+	{
+		question: "What flower is known for its vibrant, multi-colored petals?",
+		answer: "Hydrangea 🌺",
+		options: [
+			"Lily 🌸",
+			"Orchid 🌺",
+			"Hydrangea 🌺",
+			"Carnation 🌷"
+		]
+	},
+	{
+		question: "What flower is often used as a symbol of purity and innocence?",
+		answer: "White lily 🌸",
+		options: [
+			"Chrysanthemum 🌼",
+			"Peony 🌺",
+			"White lily 🌸",
+			"Iris 🌸"
+		]
+	},
+	{
+		question: "What flower is known for its strong and sweet fragrance?",
+		answer: "Jasmine 🌼",
+		options: [
+			"Sunflower 🌻",
+			"Cherry blossom 🌸",
+			"Jasmine 🌼",
+			"Daffodil 🌼"
+		]
+	},
+	{
+		question: "What flower is often used to represent gratitude and thankfulness?",
+		answer: "Pink carnation 🌷",
+		options: [
+			"Yellow rose 🌹",
+			"Red poppy 🌺",
+			"Pink carnation 🌷",
+			"Bluebell 🌼"
+		]
+	},
+	{
+		question: "What is a term for someone who is kind and compassionate?",
+		answer: "Empathetic ❤️",
+		options: [
+			"Charismatic 💫",
+			"Introverted 🤫",
+			"Empathetic ❤️",
+			"Opinionated 💬"
+		]
+	},
+	{
+		question: "What emoji could represent someone who is introverted?",
+		answer: "🤫",
+		options: [
+			"🥳",
+			"🤔",
+			"🤫",
+			"🙌"
+		]
+	},
+	{
+		question: "What is a personality trait often associated with the 🦁 emoji?",
+		answer: "Confidence",
+		options: [
+			"Shyness",
+			"Compassion",
+			"Intelligence",
+			"Confidence"
+		]
+	},
+	{
+		question: "What emoji could represent someone who is analytical and logical?",
+		answer: "🤔",
+		options: [
+			"😂",
+			"🤔",
+			"❤️",
+			"💩"
+		]
+	},
+	{
+		question: "What is a personality trait often associated with the 🐶 emoji?",
+		answer: "Loyalty",
+		options: [
+			"Dishonesty",
+			"Impulsiveness",
+			"Anger",
+			"Loyalty"
+		]
+	},
+	{
+		question: "What emoji could represent someone who is empathetic and compassionate?",
+		answer: "❤️",
+		options: [
+			"💰",
+			"👑",
+			"🚀",
+			"❤️"
+		]
+	},
+	{
+		question: "What is a term for someone who is quiet and reserved?",
+		answer: "Introverted 🤫",
+		options: [
+			"Adventurous 🌎",
+			"Confident 😎",
+			"Introverted 🤫",
+			"Arrogant 😒"
+		]
+	},
+	{
+		question: "What is a term for someone who is confident and self-assured?",
+		answer: "Bold 💪",
+		options: [
+			"Timid 😔",
+			"Bold 💪",
+			"Anxious 😰",
+			"Skeptical 🤔"
+		]
+	},
+	{
+		question: "What is a term for someone who is easily swayed or influenced by others?",
+		answer: "Gullible 🤥",
+		options: [
+			"Assertive 🧐",
+			"Rebellious 🤘",
+			"Gullible 🤥",
+			"Intuitive 🤔"
+		]
+	},
+	{
+		question: "What is a term for someone who enjoys spending time alone?",
+		answer: "Introvert 🙎‍♂️",
+		options: [
+			"Extrovert 🙎‍♀️",
+			"Ambivert 🧍‍♂️",
+			"Introvert 🙎‍♂️",
+			"Loner 🕵️‍♂️"
+		]
+	},
+	{
+		question: "What is a personality trait associated with the color blue?",
+		answer: "Calmness and stability 💙",
+		options: [
+			"Excitement and passion ❤️",
+			"Calmness and stability 💙",
+			"Power and authority 👑",
+			"Spontaneity and creativity 🎨"
+		]
+	},
+	{
+		question: "What is a term for someone who is obsessed with their own appearance?",
+		answer: "Narcissist 💄",
+		options: [
+			"Perfectionist ✨",
+			"Narcissist 💄",
+			"Pessimist 😞",
+			"Optimist 😊"
+		]
+	},
+	{
+		question: "What is a personality trait associated with the zodiac sign Leo?",
+		answer: "Confidence and leadership 🦁",
+		options: [
+			"Intelligence and analytical thinking 🤓",
+			"Compassion and empathy 🤗",
+			"Confidence and leadership 🦁",
+			"Creativity and imagination 🎭"
+		]
+	},
+	{
+		question: "What is a term for someone who is afraid of social situations?",
+		answer: "Social anxiety 🥺",
+		options: [
+			"Introvert 🙎‍♂️",
+			"Extrovert 🙎‍♀️",
+			"Social anxiety 🥺",
+			"Phobia 🕷️"
+		]
+	},
+	{
+		question: "What is a personality trait associated with the element fire?",
+		answer: "Passion and energy 🔥",
+		options: [
+			"Calmness and tranquility 🌊",
+			"Intelligence and wisdom 📚",
+			"Passion and energy 🔥",
+			"Sensitivity and emotion 🌸"
+		]
+	},
+	{
+		question: "What is a term for someone who enjoys being the center of attention?",
+		answer: "Attention-seeker 🌟",
+		options: [
+			"Introvert 🙎‍♂️",
+			"Extrovert 🙎‍♀️",
+			"Attention-seeker 🌟",
+			"Egomaniac 💁‍♂️"
+		]
+	},
+	{
+		question: "What is a personality trait associated with the zodiac sign Pisces?",
+		answer: "Compassion and empathy 🐟",
+		options: [
+			"Confidence and leadership 🦁",
+			"Intelligence and analytical thinking 🤓",
+			"Compassion and empathy 🐟",
+			"Creativity and imagination 🎭"
+		]
+	},
+	{
+		question: "What is the name of the largest online database of song lyrics?",
+		answer: "Genius",
+		options: [
+			"Spotify",
+			"Genius",
+			"Musixmatch",
+			"Lyrics.com"
+		]
+	},
+	{
+		question: "What is the name of the highest-selling album of all time?",
+		answer: "Thriller",
+		options: [
+			"Back in Black",
+			"Dark Side of the Moon",
+			"Thriller",
+			"The Eagles Greatest Hits"
+		]
+	},
+	{
+		question: "What musical term means 'gradually getting louder' and is often represented by the symbol 'cresc.'?",
+		answer: "Crescendo 📈",
+		options: [
+			"Vibrato 🎵",
+			"Syncopation 🎶",
+			"Crescendo 📈",
+			"Legato 🎼"
+		]
+	},
+	{
+		question: "What is the name of the device used to change the pitch of a guitar?",
+		answer: "Whammy bar 🎸",
+		options: [
+			"Tremolo arm 🎸",
+			"Whammy bar 🎸",
+			"Pitch shifter 🎛️",
+			"Modulation wheel 🎹"
+		]
+	},
+	{
+		question: "What is the highest male singing voice?",
+		answer: "Falsetto 🎤",
+		options: [
+			"Soprano 🎤",
+			"Tenor 🎤",
+			"Baritone 🎤",
+			"Falsetto 🎤"
+		]
+	},
+	{
+		question: "What is the name of the popular electronic music festival held annually in the Nevada desert?",
+		answer: "Burning Man 🔥👨",
+		options: [
+			"Electric Daisy Carnival 🎡🎶",
+			"Coachella 🌴🎸",
+			"Bonnaroo 🐻🎶",
+			"Burning Man 🔥👨"
+		]
+	},
+	{
+		question: "What is the most common time signature in music?",
+		answer: "4/4 time ⏱️",
+		options: [
+			"2/4 time ⏱️",
+			"3/4 time ⏱️",
+			"4/4 time ⏱️",
+			"6/8 time ⏱️"
+		]
+	},
+	{
+		question: "What is the name of the iconic guitar riff from the song 'Smoke on the Water'?",
+		answer: "Riff Raff",
+		options: [
+			"Riff Raff",
+			"Iron Man",
+			"Sweet Child o' Mine",
+			"Enter Sandman"
+		]
+	},
+	{
+		question: "What is the name of the Swedish music streaming service that has a green logo?",
+		answer: "Spotify",
+		options: [
+			"Pandora",
+			"Apple Music",
+			"Tidal",
+			"Spotify"
+		]
+	},
+	{
+		question: "What is the name of the popular singing competition show that has been on the air since 2002?",
+		answer: "American Idol",
+		options: [
+			"The Voice",
+			"The X Factor",
+			"American Idol",
+			"America's Got Talent"
+		]
+	},
+	{
+		question: "Which website is known for its user-generated reviews and ratings of businesses and services?",
+		answer: "Yelp 🍽️",
+		options: [
+			"Amazon 🛍️",
+			"Yelp 🍽️",
+			"Reddit 🗣️",
+			"Twitter 🐦"
+		]
+	},
+	{
+		question: "What is the best-selling album of all time?",
+		answer: "Thriller by Michael Jackson 🎵🕺",
+		options: [
+			"The Eagles Greatest Hits",
+			"Back in Black by AC/DC",
+			"Thriller by Michael Jackson 🎵🕺",
+			"The Dark Side of the Moon by Pink Floyd"
+		]
+	},
+	{
+		question: "What is the name of the guitar-playing, top hat-wearing member of Guns N' Roses?",
+		answer: "Slash 🎸🎩",
+		options: [
+			"Axl Rose",
+			"Izzy Stradlin",
+			"Slash 🎸🎩",
+			"Duff McKagan"
+		]
+	},
+	{
+		question: "What famous rock band wrote the hit song 'Stairway to Heaven'?",
+		answer: "Led Zeppelin 🎵🎸",
+		options: [
+			"AC/DC",
+			"Van Halen",
+			"The Rolling Stones",
+			"Led Zeppelin 🎵🎸"
+		]
+	},
+	{
+		question: "What music legend was known as 'The King of Pop'?",
+		answer: "Michael Jackson 🎤👑",
+		options: [
+			"Elvis Presley",
+			"James Brown",
+			"Prince",
+			"Michael Jackson 🎤👑"
+		]
+	},
+	{
+		question: "What is the name of Beyoncé's alter ego?",
+		answer: "Sasha Fierce 🎶💃",
+		options: [
+			"Lemonade",
+			"Queen Bey",
+			"Mrs. Carter",
+			"Sasha Fierce 🎶💃"
+		]
+	},
+	{
+		question: "Which website is a popular online marketplace for buying and selling handmade or vintage items?",
+		answer: "Etsy 🎨",
+		options: [
+			"Amazon 🛍️",
+			"Walmart 🏬",
+			"Etsy 🎨",
+			"eBay 🛒"
+		]
+	},
+	{
+		question: "Which website is a video-sharing platform that allows users to upload, share, and view videos?",
+		answer: "YouTube 📹",
+		options: [
+			"Facebook 📱",
+			"Twitter 🐦",
+			"Instagram 📷",
+			"YouTube 📹"
+		]
+	},
+	{
+		question: "Which website is a popular social networking platform that allows users to connect with friends and family, join groups, and share updates and media?",
+		answer: "Facebook 📱",
+		options: [
+			"LinkedIn 🕴️",
+			"Twitter 🐦",
+			"Instagram 📷",
+			"Facebook 📱"
+		]
+	},
+	{
+		question: "Which website is a popular blogging platform that allows users to create and publish content on a variety of topics?",
+		answer: "WordPress 📝",
+		options: [
+			"Tumblr ✒️",
+			"Blogger 📝",
+			"Medium 📚",
+			"WordPress 📝"
+		]
+	},
+	{
+		question: "What is the name of the website that allows users to rate and review businesses and services?",
+		answer: "Yelp 🍽️",
+		options: [
+			"Amazon 📦",
+			"TripAdvisor ✈️",
+			"Yelp 🍽️",
+			"Angie's List 🛠️"
+		]
+	},
+	{
+		question: "What is the name of the website where users can post and answer questions on a variety of topics?",
+		answer: "Quora 🤔",
+		options: [
+			"Reddit 🗣️",
+			"Stack Overflow 💻",
+			"Quora 🤔",
+			"Yahoo Answers 📚"
+		]
+	},
+	{
+		question: "What is the name of the website that provides online courses and tutorials?",
+		answer: "Udemy 🎓",
+		options: [
+			"Lynda 🖥️",
+			"Codecademy 💻",
+			"Udemy 🎓",
+			"Khan Academy 📚"
+		]
+	},
+	{
+		question: "What is the name of the website where users can search for job openings and post their resumes?",
+		answer: "LinkedIn 💼",
+		options: [
+			"Indeed 🏢",
+			"Monster 🐲",
+			"Glassdoor 📊",
+			"LinkedIn 💼"
+		]
+	},
+	{
+		question: "What is the name of the website that allows users to book accommodations and experiences while traveling?",
+		answer: "Airbnb 🏠",
+		options: [
+			"Expedia ✈️",
+			"Booking.com 🏨",
+			"Airbnb 🏠",
+			"Hotels.com 🛏️"
+		]
+	},
+	{
+		question: "What is a common sign that someone is afraid to say 'I love you'?",
+		answer: "They avoid saying it or changing the subject when it comes up 💬",
+		options: [
+			"They say 'I love you' all the time to compensate 💕",
+			"They try to make the other person say it first 🤔",
+			"They avoid saying it or changing the subject when it comes up 💬",
+			"They only say it in public 🌇"
+		]
+	},
+	{
+		question: "What is a fear that may be behind someone's fear of saying 'I love you'?",
+		answer: "Fear of intimacy 😳",
+		options: [
+			"Fear of rejection 🚫",
+			"Fear of abandonment 🗝️",
+			"Fear of commitment 💍",
+			"Fear of intimacy 😳"
+		]
+	},
+	{
+		question: "What is a common experience that can trigger fear of saying 'I love you'?",
+		answer: "A past negative relationship experience 💔",
+		options: [
+			"Meeting the other person's family 👨‍👩‍👧‍👦",
+			"Going on a first date 👫",
+			"Having a fight 🤬",
+			"A past negative relationship experience 💔"
+		]
+	},
+	{
+		question: "What emoji can represent the feeling of being emotionally paralyzed when it comes to saying 'I love you'?",
+		answer: "😶",
+		options: [
+			"😍",
+			"😢",
+			"😰",
+			"😶"
+		]
+	},
+	{
+		question: "What is a strategy someone can use to overcome their fear of saying 'I love you'?",
+		answer: "Practicing self-compassion and positive self-talk 💭",
+		options: [
+			"Taking a break from the relationship 👋",
+			"Talking to multiple friends for advice 🗣️",
+			"Acting confident and rehearsing lines 🎭",
+			"Practicing self-compassion and positive self-talk 💭"
 		]
 	},
 	///////////////////////////////////////////////////////////HTML
@@ -6562,11 +8206,16 @@ function shuffleArray(array) {
 	return array;
 }
 
-//////////To shuffle the questions
 let quizarray = [];
-for (let i = 0; i < 5; i++) {
-	let randomQuestion = questions[Math.floor(Math.random() * questions.length)];
+let remainingQuestions = [...questions]; // make a copy of the questions array
+for (let i = 0; i < 200; i++) {
+	let randomIndex = Math.floor(Math.random() * remainingQuestions.length);
+	let randomQuestion = remainingQuestions[randomIndex];
+	remainingQuestions.splice(randomIndex, 1); // remove selected question from remainingQuestions
 	let shuffledOptions = shuffleArray(randomQuestion.options.slice());
 	randomQuestion.options = shuffledOptions;
 	quizarray.push(randomQuestion);
+	if (remainingQuestions.length === 0) {
+		remainingQuestions = [...questions]; // reset remainingQuestions if all questions have been used
+	}
 }
