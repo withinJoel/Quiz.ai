@@ -76,7 +76,7 @@ body {
 .aurora__item {
   overflow: hidden;
   position: absolute;
-  width: 60vw;
+  width: 80vw;
   height: 60vw;
   background-color: var(--clr-1);
   border-radius: 37% 29% 27% 27% / 28% 25% 41% 37%;

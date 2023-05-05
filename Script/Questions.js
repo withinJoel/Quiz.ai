@@ -11,6 +11,568 @@ let questions = [
 		]
 	},
 	{
+		question: "What is the hormone that is associated with love and bonding?",
+		answer: "💕 Oxytocin",
+		options: ["💤 Melatonin", "💕 Oxytocin", "🧠 Dopamine", "🚀 Adrenaline"]
+	},
+	{
+		question: "What is the phenomenon where people are attracted to others with similar characteristics known as?",
+		answer: "👥 Assortative mating",
+		options: ["💞 Love at first sight", "👥 Assortative mating", "💔 Breakup", "🎉 Celebration"]
+	},
+	{
+		question: "What is the name for the chemical that is produced by the brain and is associated with pleasure and reward?",
+		answer: "🧠 Dopamine",
+		options: ["🧬 DNA", "💪 Protein", "🧠 Dopamine", "🌰 Serotonin"]
+	},
+	{
+		question: "What is the process of two atomic nuclei coming together to form a heavier nucleus called?",
+		answer: "💘 Fusion",
+		options: ["💔 Fission", "💘 Fusion", "🌪️ Tornado", "🌊 Erosion"]
+	},
+	{
+		question: "What is the term for the physical and emotional attraction to someone of the same sex?",
+		answer: "🏳️‍🌈 Homosexuality",
+		options: ["🚻 Gender identity", "🔍 Sexual orientation", "🏳️‍🌈 Homosexuality", "👨‍❤️‍👨 Bromance"]
+	},
+	{
+		question: "What was the name of William Shakespeare's wife?",
+		answer: "👰 Anne Hathaway",
+		options: ["👰 Mary Arden", "👰 Jane Austen", "👰 Elizabeth Barrett Browning", "👰 Anne Hathaway"]
+	},
+	{
+		question: "What was the name of the acting company that William Shakespeare was a member of?",
+		answer: "🎭 The Lord Chamberlain's Men",
+		options: ["🎭 The King's Men", "🎭 The Globe Players", "🎭 The Royal Shakespeare Company", "🎭 The Lord Chamberlain's Men"]
+	},
+	{
+		question: "What is the name of the hormone that is associated with the fight-or-flight response?",
+		answer: "🚀 Adrenaline",
+		options: ["🎉 Serotonin", "🏥 Insulin", "🚀 Adrenaline", "💊 Opioid"]
+	},
+
+	{
+		question: "What is the highest rank in the US Army?",
+		answer: "🎖️ General of the Army",
+		options: ["🎖️ General of the Army", "🎖️ Sergeant Major", "🎖️ Lieutenant Colonel", "🎖️ Major General"]
+	},
+	{
+		question: "What is the term for a group of soldiers who march or drill together?",
+		answer: "🏃‍♂️ Squad",
+		options: ["🚀 Platoon", "🏃‍♂️ Squad", "🚁 Company", "🐴 Cavalry"]
+	},
+	{
+		question: "What is the term for a soldier who has been given a dishonorable discharge?",
+		answer: "🙅‍♂️ Disgraced",
+		options: ["🏆 Decorated", "🤵‍♂️ Distinguished", "🙅‍♂️ Disgraced", "👨‍✈️ Commissioned"],
+	},
+	{
+		question: "What is the term for a soldier who is responsible for the care of horses?",
+		answer: "🐎 Farrier",
+		options: ["🔫 Sharpshooter", "🐎 Farrier", "🚒 Firefighter", "👨‍✈️ Pilot"],
+	},
+	{
+		question: "What is the term for a soldier who has completed basic training but has not yet been assigned to a unit?",
+		answer: "🎓 Trainee",
+		options: ["🧑‍✈️ Cadet", "🎓 Trainee", "👮‍♂️ Recruit", "🤵‍♂️ Officer Candidate"],
+	},
+	{
+		question: "What is the name of the US Army's special operations unit?",
+		answer: "🔪 Delta Force",
+		options: ["🌊 Navy SEALs", "🔪 Delta Force", "🐴 Green Berets", "🛩️ Airborne Rangers"],
+	},
+	{
+		question: "What is the term for a soldier who is trained to provide medical care?",
+		answer: "🚑 Medic",
+		options: ["👨‍✈️ Pilot", "🧑‍🚀 Astronaut", "🚑 Medic", "🔍 Investigator"],
+	},
+	{
+		question: "What is the term for a soldier who is responsible for the maintenance and repair of weapons?",
+		answer: "🔧 Armorer",
+		options: ["🚛 Driver", "🔧 Armorer", "📈 Analyst", "👨‍💼 Administrator"],
+	},
+	{
+		question: "What is the term for a soldier who is responsible for the transportation of troops and equipment?",
+		answer: "🚚 Transporter",
+		options: ["🚂 Conductor", "🚚 Transporter", "🚁 Helicopter Pilot", "🛳️ Sailor"],
+	},
+	{
+		question: "What is the term for a soldier who is responsible for gathering intelligence?",
+		answer: "🕵️‍♂️ Intelligence Officer",
+		options: ["📡 Radar Operator", "🕵️‍♂️ Intelligence Officer", "🎯 Target Acquisition Specialist", "🔫 Sniper"],
+	},
+	{
+		question: "What does PES stand for in physics?",
+		answer: "🔬 Photoelectron Spectroscopy",
+		options: ["🔬 Photon Electron Synthesis", "🔬 Photoelectric Synapse", "🔬 Particle Energy Spectrum", "🔬 Photoelectron Spectroscopy"]
+	},
+	{
+		question: "What is the principle behind PES?",
+		answer: "🔬 The energy of a photon is absorbed by an atom or molecule, which releases an electron.",
+		options: ["🔬 The energy of a photon is reflected by an atom or molecule, which releases an electron.", "🔬 The energy of a photon is absorbed by an atom or molecule, which releases a proton.", "🔬 The energy of a photon is absorbed by an atom or molecule, which releases a neutron.", "🔬 The energy of a photon is absorbed by an atom or molecule, which releases an electron."]
+	},
+	{
+		question: "What type of information can be obtained through PES?",
+		answer: "🔬 The electronic structure of a material, including the number of valence electrons and their binding energies.",
+		options: ["🔬 The chemical formula of a material and its crystal structure.", "🔬 The temperature at which a material undergoes phase transition.", "🔬 The physical properties of a material such as density, color, and melting point.", "🔬 The electronic structure of a material, including the number of valence electrons and their binding energies."]
+	},
+	{
+		question: "What type of energy source is typically used in PES experiments?",
+		answer: "🔬 Synchrotron radiation.",
+		options: ["🔬 Fossil fuels.", "🔬 Nuclear power.", "🔬 Solar energy.", "🔬 Synchrotron radiation."]
+	},
+	{
+		question: "What is the name of the Nobel Prize-winning technique that uses PES?",
+		answer: "🔬 X-ray Photoelectron Spectroscopy (XPS)",
+		options: ["🔬 Nuclear Magnetic Resonance (NMR)", "🔬 Mass Spectrometry (MS)", "🔬 Infrared Spectroscopy (IR)", "🔬 X-ray Photoelectron Spectroscopy (XPS)"]
+	},
+	{
+		question: "What is the advantage of using synchrotron radiation over other energy sources for PES?",
+		answer: "🔬 Synchrotron radiation provides a higher intensity of photons, allowing for higher-resolution data and faster data acquisition.",
+		options: ["🔬 Synchrotron radiation is cheaper and more widely available than other energy sources.", "🔬 Synchrotron radiation produces less radiation than other energy sources, making it safer for researchers.", "🔬 Synchrotron radiation can be easily focused on a specific sample, resulting in a more precise measurement.", "🔬 Synchrotron radiation provides a higher intensity of photons, allowing for higher-resolution data and faster data acquisition."]
+	},
+	{
+		question: "Which astrological sign is represented by the ram?",
+		answer: "♈ Aries",
+		options: ["♈ Aries", "♓ Pisces", "♑ Capricorn", "♋ Cancer"]
+	},
+	{
+		question: "Which astrological sign is represented by the bull?",
+		answer: "♉ Taurus",
+		options: ["♊ Gemini", "♉ Taurus", "♎ Libra", "♐ Sagittarius"]
+	},
+	{
+		question: "Which astrological sign is represented by the twins?",
+		answer: "♊ Gemini",
+		options: ["♌ Leo", "♏ Scorpio", "♊ Gemini", "♒ Aquarius"]
+	},
+	{
+		question: "Which astrological sign is represented by the crab?",
+		answer: "♋ Cancer",
+		options: ["♉ Taurus", "♋ Cancer", "♑ Capricorn", "♐ Sagittarius"]
+	},
+	{
+		question: "Which astrological sign is represented by the lion?",
+		answer: "♌ Leo",
+		options: ["♍ Virgo", "♌ Leo", "♒ Aquarius", "♏ Scorpio"]
+	},
+	{
+		question: "Which astrological sign is represented by the scales?",
+		answer: "♎ Libra",
+		options: ["♎ Libra", "♓ Pisces", "♏ Scorpio", "♐ Sagittarius"]
+	},
+	{
+		question: "Which astrological sign is represented by the scorpion?",
+		answer: "♏ Scorpio",
+		options: ["♉ Taurus", "♍ Virgo", "♏ Scorpio", "♑ Capricorn"]
+	},
+	{
+		question: "Which astrological sign is represented by the archer?",
+		answer: "♐ Sagittarius",
+		options: ["♌ Leo", "♒ Aquarius", "♐ Sagittarius", "♊ Gemini"]
+	},
+	{
+		question: "Which astrological sign is represented by the goat?",
+		answer: "♑ Capricorn",
+		options: ["♋ Cancer", "♏ Scorpio", "♑ Capricorn", "♎ Libra"]
+	},
+	{
+		question: "Which astrological sign is represented by the water bearer?",
+		answer: "♒ Aquarius",
+		options: ["♓ Pisces", "♒ Aquarius", "♎ Libra", "♊ Gemini"]
+	},
+	{
+		question: "Which astrological sign is represented by the fish?",
+		answer: "♓ Pisces",
+		options: ["♈ Aries", "♓ Pisces", "♐ Sagittarius", "♌ Leo"]
+	},
+	{
+		question: "What was the name of William Shakespeare's wife?",
+		answer: "👰 Anne Hathaway",
+		options: ["👩‍🎓 Margaret Hughes", "🎭 Sarah Siddons", "👰 Anne Hathaway", "📜 Emilia Lanier"]
+	},
+	{
+		question: "What is the name of the play that features the famous line 'to be or not to be'?",
+		answer: "🎭 Hamlet",
+		options: ["🎭 Hamlet", "🗡️ Macbeth", "🎓 Julius Caesar", "🎭 Romeo and Juliet"]
+	},
+	{
+		question: "What is the name of the theater company that Shakespeare was associated with?",
+		answer: "🎭 Lord Chamberlain's Men",
+		options: ["🎭 The King's Men", "🎭 Lord Chamberlain's Men", "🎭 The Globe Players", "🎭 The Royal Shakespeare Company"]
+	},
+	{
+		question: "What was the name of Shakespeare's only son?",
+		answer: "👦 Hamnet",
+		options: ["👦 Hamlet", "👦 Horatio", "👦 Hector", "👦 Hamnet"]
+	},
+	{
+		question: "What was the name of the first published collection of Shakespeare's plays?",
+		answer: "📚 First Folio",
+		options: ["📚 Second Quarto", "📚 Third Folio", "📚 Fourth Quarto", "📚 First Folio"]
+	},
+	{
+		question: "What is the name of the romantic comedy in which the character Viola disguises herself as a man?",
+		answer: "👩‍✈️ Twelfth Night",
+		options: ["🎭 A Midsummer Night's Dream", "👑 The Tempest", "👩‍✈️ Twelfth Night", "🗡️ The Two Gentlemen of Verona"]
+	},
+	{
+		question: "What is the name of the tragedy in which the title character murders the Scottish king?",
+		answer: "🗡️ Macbeth",
+		options: ["🗡️ Macbeth", "🎭 Hamlet", "🎓 Othello", "🎭 Romeo and Juliet"]
+	},
+	{
+		question: "What is the name of the play that features the famous balcony scene?",
+		answer: "🎭 Romeo and Juliet",
+		options: ["🎓 Julius Caesar", "🎭 Hamlet", "🎭 Romeo and Juliet", "🗡️ Macbeth"]
+	},
+	{
+		question: "What is the name of the play that features the character of Shylock, a Jewish moneylender?",
+		answer: "🎭 The Merchant of Venice",
+		options: ["👑 King Lear", "👑 Richard III", "🎭 The Merchant of Venice", "👑 Henry V"]
+	},
+	{
+		question: "What is the name of the play that features the character of Lady Macbeth?",
+		answer: "🗡️ Macbeth",
+		options: ["🎭 Romeo and Juliet", "🎓 Othello", "🗡️ Macbeth", "🎭 A Midsummer Night's Dream"]
+	},
+	{
+		question: "What was the name of the theater where many of Shakespeare's plays were performed?",
+		answer: "🎭 The Globe Theatre",
+		options: ["🎭 The Globe Theatre", "🎨 The Louvre Museum", "🎥 The Hollywood Bowl", "🎤 Carnegie Hall"]
+	},
+	{
+		question: "What was the title of Shakespeare's first published collection of plays?",
+		answer: "📜 The First Folio",
+		options: ["📜 The First Folio", "📘 Harry Potter and the Philosopher's Stone", "📙 The Catcher in the Rye", "📕 To Kill a Mockingbird"]
+	},
+	{
+		question: "What is the title of Shakespeare's longest play?",
+		answer: "🤴🏻 Hamlet",
+		options: ["🔥 Macbeth", "👑 King Lear", "🤴🏻 Hamlet", "🐍 Othello"]
+	},
+	{
+		question: "What was the name of the queen who was on the throne during much of Shakespeare's career?",
+		answer: "👑 Queen Elizabeth I",
+		options: ["👸🏻 Queen Victoria", "👑 Queen Elizabeth I", "👑 Queen Elizabeth II", "👸🏼 Queen Anne"]
+	},
+	{
+		question: "What was the name of Shakespeare's wife?",
+		answer: "💍 Anne Hathaway",
+		options: ["💐 Elizabeth Barrett Browning", "🌷 Jane Austen", "💍 Anne Hathaway", "📚 Virginia Woolf"]
+	},
+	{
+		question: "What is the name of the character in Shakespeare's play 'The Merchant of Venice' who demands a pound of flesh from the protagonist?",
+		answer: "⚖️ Shylock",
+		options: ["🗡️ Romeo", "🕰️ Macbeth", "⚖️ Shylock", "👸🏻 Lady Macbeth"]
+	},
+	{
+		question: "What is the name of the character in Shakespeare's play 'Romeo and Juliet' who serves as Romeo's confidant and friend?",
+		answer: "🗡️ Mercutio",
+		options: ["🌹 Juliet", "🎭 Tybalt", "🗡️ Mercutio", "🎻 Friar Laurence"]
+	},
+	{
+		question: "What is the name of the character in Shakespeare's play 'Macbeth' who manipulates Macbeth into murdering King Duncan?",
+		answer: "👸🏻 Lady Macbeth",
+		options: ["🧙🏼‍♀️ The Three Witches", "🔨 Macduff", "🗡️ Banquo", "👸🏻 Lady Macbeth"]
+	},
+	{
+		question: "What is the name of the character in Shakespeare's play 'Othello' who is manipulated into believing his wife has been unfaithful?",
+		answer: "🎭 Othello",
+		options: ["🎻 Desdemona", "🧐 Iago", "👥 Roderigo", "🎭 Othello"]
+	},
+	{
+		question: "What is the process by which a male and female come together to produce offspring?",
+		answer: "👶 Reproduction",
+		options: ["🍔 Digestion", "🚪 Egress", "👶 Reproduction", "💤 Sleep"]
+	},
+	{
+		question: "What was the name of the collection of Shakespeare's plays that was published in 1623?",
+		answer: "📜 The First Folio",
+		options: ["📜 The Second Folio", "📜 The Complete Works of Shakespeare", "📜 The First Folio", "📜 The Quarto Editions"]
+	},
+	{
+		question: "What is the name of the historical play series written by Shakespeare?",
+		answer: "👑 The Henry VI trilogy and the Richard III",
+		options: ["👑 The War of the Roses", "👑 The Tudor Dynasty", "👑 The Henry VI trilogy and the Richard III", "👑 The Julius Caesar trilogy"]
+	},
+	{
+		question: "What is the title of Shakespeare's comedy play about a pair of separated twins?",
+		answer: "👬 Twelfth Night",
+		options: ["🎭 A Midsummer Night's Dream", "🧜‍♀️ The Tempest", "👬 Twelfth Night", "🎩 The Taming of the Shrew"]
+	},
+	{
+		question: "What is the title of Shakespeare's play that tells the story of a Scottish general who becomes consumed by ambition?",
+		answer: "🗡️ Macbeth",
+		options: ["🗡️ Macbeth", "👑 Henry V", "🏺 Antony and Cleopatra", "🏰 King Lear"]
+	},
+	{
+		question: "What is the scientific term for the study of how genes influence behavior?",
+		answer: "🧬 Behavioral genetics",
+		options: ["📚 Psychology", "👥 Sociology", "🧬 Behavioral genetics", "🌱 Botany"]
+	},
+	{
+		question: "What is the chemical responsible for the feeling of love and happiness?",
+		answer: "💕 Dopamine",
+		options: ["💊 Penicillin", "💉 Insulin", "💕 Dopamine", "🧪 Lithium"]
+	},
+	{
+		question: "In what year was William Shakespeare born?",
+		answer: "🎭 1564",
+		options: ["🎭 1578", "🎭 1601", "🎭 1564", "🎭 1589"]
+	},
+	{
+		question: "What is the name of the theater company Shakespeare worked for?",
+		answer: "🎬 Lord Chamberlain's Men",
+		options: ["🎭 King's Men", "🎬 Lord Chamberlain's Men", "🎭 Queen's Men", "🎬 Shakespearean Troupe"],
+	},
+	{
+		question: "In which city did Shakespeare spend most of his career?",
+		answer: "🏙️ London",
+		options: ["🏰 Edinburgh", "🌉 New York", "🏙️ London", "🏞️ Stratford-upon-Avon"],
+	},
+	{
+		question: "What is the title of Shakespeare's longest play?",
+		answer: "👑 Hamlet",
+		options: ["🔥 Macbeth", "👑 Hamlet", "🏰 Othello", "🎭 Romeo and Juliet"],
+	},
+	{
+		question: "What is the name of the theater where many of Shakespeare's plays were first performed?",
+		answer: "🎭 The Globe Theatre",
+		options: ["🎭 The Royal Shakespeare Theatre", "🎭 The Globe Theatre", "🎭 The Apollo Theatre", "🎭 The National Theatre"],
+	},
+	{
+		question: "What is the name of Shakespeare's wife?",
+		answer: "👰 Anne Hathaway",
+		options: ["👰 Anne Boleyn", "👰 Anne Hathaway", "👰 Mary Arden", "👰 Elizabeth Tudor"],
+	},
+	{
+		question: "What is the name of the book that was published in 1623 containing most of Shakespeare's plays?",
+		answer: "📖 First Folio",
+		options: ["📜 The King's Men", "📖 First Folio", "📜 The Complete Works", "📜 The Shakespearean Canon"],
+	},
+	{
+		question: "What is the name of the character in Shakespeare's 'The Tempest' who is the rightful Duke of Milan?",
+		answer: "🤴 Prospero",
+		options: ["🧙 Merlin", "🤴 Prospero", "👸 Miranda", "🦜 Ariel"],
+	},
+	{
+		question: "What is the name of the Shakespearean play in which the character Iago is a villain?",
+		answer: "🕵️ Othello",
+		options: ["🎭 Romeo and Juliet", "👑 Henry V", "🕵️ Othello", "👑 Richard III"],
+	},
+	{
+		question: "In what year did Shakespeare die?",
+		answer: "💀 1616",
+		options: ["💀 1603", "💀 1616", "💀 1625", "💀 1632"],
+	},
+	{
+		question: "What is the scientific term for the 'butterflies in the stomach' feeling?",
+		answer: "🦋 Euphoria",
+		options: ["🤢 Nausea", "😢 Sadness", "🦋 Euphoria", "🤮 Vomiting"],
+	},
+	{
+		question: "What is the hormone associated with bonding and affection?",
+		answer: "🤍 Oxytocin",
+		options: ["💉 Adrenaline", "👨‍🔬 Insulin", "🤍 Oxytocin", "🧬 Testosterone"],
+	},
+	{
+		question: "What is the phenomenon of an electric current flowing through a gas, producing light and heat?",
+		answer: "🔌 Plasma",
+		options: ["🔋 Voltage", "🔥 Combustion", "🌪️ Tornado", "🔌 Plasma"]
+	},
+	{
+		question: "What is the study of the physical and chemical properties of rocks and minerals?",
+		answer: "🪨 Petrology",
+		options: ["🌍 Geology", "🐚 Paleontology", "🦷 Odontology", "🪨 Petrology"]
+	},
+	{
+		question: "What is the process of converting a liquid into a gas called?",
+		answer: "💨 Vaporization",
+		options: ["🌊 Sublimation", "💨 Vaporization", "🧊 Freezing", "🌬️ Wind"]
+	},
+	{
+		question: "What is the unit of measurement for electrical resistance?",
+		answer: "🔥 Ohm",
+		options: ["👥 Watt", "💡 Lumen", "🔥 Ohm", "🌡️ Celsius"]
+	},
+	{
+		question: "What is the study of the interaction between organisms and their environment called?",
+		answer: "🌿 Ecology",
+		options: ["🦁 Zoology", "🌿 Ecology", "🧬 Genetics", "🔬 Microbiology"]
+	},
+	{
+		question: "What is the measure of the degree of hotness or coldness of an object?",
+		answer: "🌡️ Temperature",
+		options: ["📏 Length", "📈 Velocity", "🌡️ Temperature", "🔌 Current"]
+	},
+	{
+		question: "What is the phenomenon of an object continuing to move at a constant velocity in the absence of an external force?",
+		answer: "🌀 Inertia",
+		options: ["🔥 Combustion", "🏃‍♂️ Motion", "🌀 Inertia", "🌪️ Cyclone"]
+	},
+	{
+		question: "What is the study of the properties and behavior of matter and energy called?",
+		answer: "🔬 Physics",
+		options: ["🧬 Biology", "🔬 Physics", "🔍 Chemistry", "🌍 Geology"]
+	},
+	{
+		question: "What is the process of reducing the size of a particle by crushing, grinding or milling called?",
+		answer: "🔨 Comminution",
+		options: ["📏 Measurement", "👥 Collaboration", "🔨 Comminution", "🌡️ Transmutation"]
+	},
+	{
+		question: "What is the ability of an atom or molecule to attract electrons towards itself called?",
+		answer: "🔒 Electronegativity",
+		options: ["📈 Velocity", "📈 Momentum", "🔒 Electronegativity", "🔌 Conductivity"]
+	},
+	{
+		question: "What is the process of removing salt and other minerals from seawater called?",
+		answer: "🚰 Desalination",
+		options: ["🌊 Erosion", "🚰 Desalination", "🌡️ Thermal inversion", "🧊 Solidification"]
+	},
+	{
+		question: "What is the phenomenon in which two people's heartbeats synchronize when they are close to each other?",
+		answer: "💓 Interpersonal synchronization",
+		options: ["🌀 Vortex shedding", "💓 Interpersonal synchronization", "🐟 Flocking behavior", "🔒 Coupling"],
+	},
+
+	{
+		question: "What is the scientific term for a 'love hormone'?",
+		answer: "💕 Oxytocin",
+		options: ["👀 Dopamine", "💉 Insulin", "💕 Oxytocin", "🧠 Endorphins"]
+	},
+	{
+		question: "What is the term for the chemical reaction that causes the feeling of love and attraction?",
+		answer: "❤️ Phenylethylamine (PEA)",
+		options: ["🔥 Combustion", "💊 Serotonin", "❤️ Phenylethylamine (PEA)", "🌡️ Thermogenesis"]
+	},
+	{
+		question: "What is the name of the part of the brain that is associated with the feeling of love?",
+		answer: "🧠 Limbic system",
+		options: ["👁️ Occipital lobe", "🧠 Limbic system", "👂 Auditory cortex", "🗣️ Broca's area"]
+	},
+	{
+		question: "What is the term for the physical attraction to someone based on their appearance?",
+		answer: "👀 Aesthetic attraction",
+		options: ["🧠 Emotional attraction", "👥 Social attraction", "👀 Aesthetic attraction", "💕 Romantic attraction"]
+	},
+	{
+		question: "What is the term for the attraction to someone's personality and character traits?",
+		answer: "🧠 Sapiosexual",
+		options: ["👥 Social attraction", "👀 Aesthetic attraction", "🧠 Emotional attraction", "🧠 Sapiosexual"]
+	},
+	{
+		question: "What is the term for the feeling of strong admiration and devotion towards someone?",
+		answer: "🥰 Adoration",
+		options: ["🔥 Passion", "💔 Heartbreak", "👻 Infatuation", "🥰 Adoration"]
+	},
+	{
+		question: "What is the term for the state of being deeply in love and feeling happy and content?",
+		answer: "🌞 Bliss",
+		options: ["🔥 Passion", "🌧️ Heartache", "🌞 Bliss", "🌪️ Turmoil"]
+	},
+	{
+		question: "What is the term for the attraction to people who do not conform to traditional gender roles or expressions?",
+		answer: "🌈 Androgyny",
+		options: ["🧔 Masculinity", "💄 Femininity", "🌈 Androgyny", "👥 Non-binary"]
+	},
+	{
+		question: "What is the term for the attraction to people of multiple genders or gender expressions?",
+		answer: "🌈 Pansexuality",
+		options: ["👥 Bisexuality", "🌈 Pansexuality", "👥 Polysexuality", "👥 Asexuality"]
+	},
+	{
+		question: "What is the name of the part of the brain that is responsible for romantic love?",
+		answer: "💘 Ventral tegmental area",
+		options: ["🧠 Cerebellum", "💘 Ventral tegmental area", "👁️‍🗨️ Occipital lobe", "🤖 Cingulate cortex"],
+	},
+	{
+		question: "What is the term for the study of the biological basis of social behavior?",
+		answer: "🐒 Sociobiology",
+		options: ["🌍 Geology", "👥 Sociology", "🐒 Sociobiology", "🌿 Botany"],
+	},
+	{
+		question: "What is the term for the evolutionary phenomenon in which an animal helps others at a cost to itself?",
+		answer: "🐝 Altruism",
+		options: ["🐍 Aggression", "🐒 Socialization", "🐝 Altruism", "🦁 Dominance"],
+	},
+	{
+		question: "What is the scientific term for 'puppy love' or a crush?",
+		answer: "💘 Limerence",
+		options: ["😍 Infatuation", "💔 Heartbreak", "💘 Limerence", "👫 Intimacy"],
+	},
+	{
+		question: "What is the term for the feeling of deep affection between two people?",
+		answer: "❤️ Love",
+		options: ["🤝 Friendship", "💔 Heartbreak", "❤️ Love", "💼 Business"]
+	},
+	{
+		question: "What is the name of the psychological theory that suggests that people are attracted to those who are similar to them?",
+		answer: "👫 Similarity-attraction theory",
+		options: ["🔥 Passionate love theory", "👥 Social exchange theory", "👫 Similarity-attraction theory", "🤝 Equity theory"]
+	},
+	{
+		question: "What is the name for the hormone that is produced during stress and increases heart rate and blood pressure?",
+		answer: "🐅 Cortisol",
+		options: ["🌞 Vitamin D", "🌿 Melatonin", "🐅 Cortisol", "🧪 Insulin"]
+	},
+	{
+		question: "What is the term for the force of attraction between two masses?",
+		answer: "🪐 Gravity",
+		options: ["🔥 Combustion", "🌬️ Wind", "🌊 Wave", "🪐 Gravity"]
+	},
+	{
+		question: "What is the hormone often called the “love hormone”?",
+		answer: "💕 Oxytocin",
+		options: ["🧬 Insulin", "🔬 Cortisol", "💕 Oxytocin", "🧪 Serotonin"]
+	},
+	{
+		question: "What is the scientific study of human attraction and intimate relationships called?",
+		answer: "❤️ Psychobiology",
+		options: ["👨‍👩‍👧‍👦 Sociology", "🧠 Psychology", "❤️ Psychobiology", "📈 Economics"],
+	},
+	{
+		question: "What is the term for the bond between two atoms that share electrons?",
+		answer: "💘 Covalent bond",
+		options: ["🔥 Ionic bond", "💕 Hydrogen bond", "💘 Covalent bond", "🌀 Van der Waals force"],
+	},
+	{
+		question: "What is the name for the chemical reaction that occurs when a metal reacts with oxygen to produce a metal oxide?",
+		answer: "❤️ Combustion",
+		options: ["🔥 Melting", "💧 Dissolving", "❤️ Combustion", "🌀 Evaporation"],
+	},
+	{
+		question: "What is the term for the energy that causes molecules to move faster?",
+		answer: "💓 Heat energy",
+		options: ["🔋 Electrical energy", "💡 Light energy", "💓 Heat energy", "🌀 Sound energy"],
+	},
+	{
+		question: "What is the process by which a sperm cell fuses with an egg cell?",
+		answer: "👶 Fertilization",
+		options: ["🌿 Photosynthesis", "🌋 Eruption", "👶 Fertilization", "🧫 Fermentation"],
+	},
+	{
+		question: "What is the term for the phenomenon in which a group of people become more extreme in their views after discussing them with like-minded individuals?",
+		answer: "❤️ Group polarization",
+		options: ["🗣️ Groupthink", "🌐 Globalization", "❤️ Group polarization", "🧠 Cognitive dissonance"],
+	},
+	{
+		question: "What is the name for the process by which the body converts food into energy?",
+		answer: "💪 Metabolism",
+		options: ["🍽️ Digestion", "🧬 Replication", "💪 Metabolism", "🌡️ Homeostasis"],
+	},
+	{
+		question: "What is the process by which an organism evolves to better suit its environment?",
+		answer: "💕 Natural selection",
+		options: ["👨‍👩‍👧‍👦 Socialization", "🧬 Genetic modification", "💕 Natural selection", "🗺️ Migration"],
+	},
+	{
+		question: "What is the term for the process by which plants convert light energy into chemical energy?",
+		answer: "🌿 Photosynthesis",
+		options: ["🌪️ Tornado", "🌊 Erosion", "🌿 Photosynthesis", "🌋 Eruption"],
+	},
+	{
 		question: "🗽 Which US president issued the Emancipation Proclamation?",
 		answer: "🗽 Abraham Lincoln",
 		options: [
@@ -21,6 +583,372 @@ let questions = [
 		]
 	},
 	{
+		question: "Which symbol is used to indicate a square root?",
+		answer: "🔲",
+		options: ["🔴", "🔵", "🔲", "🔳"]
+	},
+	{
+		question: "What is the process of converting a liquid into a gas called?",
+		answer: "💨",
+		options: ["💧", "🔥", "💨", "❄️"]
+	},
+	{
+		question: "What is the unit of electric current?",
+		answer: "🔌",
+		options: ["🔋", "🔌", "💡", "📡"]
+	},
+	{
+		question: "What is the formula for acceleration?",
+		answer: "🚀",
+		options: ["🚘", "🏃", "🚀", "🚤"]
+	},
+	{
+		question: "What is the largest planet in our solar system?",
+		answer: "🪐",
+		options: ["☀️", "🌕", "🌎", "🪐"]
+	},
+	{
+		question: "What is the process of converting a solid directly to a gas called?",
+		answer: "🌬️",
+		options: ["🌋", "🌊", "🌬️", "🔥"]
+	},
+	{
+		question: "What is the smallest prime number?",
+		answer: "2️⃣",
+		options: ["0️⃣", "1️⃣", "2️⃣", "3️⃣"]
+	},
+	{
+		question: "What is the unit of force?",
+		answer: "🏋️",
+		options: ["🏊", "🚴", "🏋️", "🏃"]
+	},
+	{
+		question: "What is the process of changing a solid directly into a gas without passing through the liquid state called?",
+		answer: "🌫️",
+		options: ["🌡️", "🌬️", "🌫️", "🌋"]
+	},
+	{
+		question: "What is the process of converting a liquid into a gas called?",
+		answer: "Evaporation 💨",
+		options: [
+			"Condensation ❄️",
+			"Freezing 🧊",
+			"Melting 🔥",
+			"Evaporation 💨"
+		]
+	},
+	{
+		question: "What is the smallest prime number?",
+		answer: "2️⃣",
+		options: [
+			"1️⃣ One",
+			"2️⃣ Two",
+			"3️⃣ Three",
+			"4️⃣ Four"
+		]
+	},
+	{
+		question: "What is the formula for calculating the area of a circle?",
+		answer: "πr² 🥧",
+		options: [
+			"πr 🍕",
+			"2πr 🍔",
+			"2r 🍰",
+			"πr² 🥧"
+		]
+	},
+	{
+		question: "What is the name of the device that is used to measure current?",
+		answer: "Ammeter 🔍",
+		options: [
+			"Voltmeter 🔭",
+			"Thermometer 🌡️",
+			"Barometer 🌬️",
+			"Ammeter 🔍"
+		]
+	},
+	{
+		question: "What is the smallest unit of storage in a computer?",
+		answer: "Bit",
+		options: ["Byte", "Kilobyte", "Megabyte", "Bit"]
+	},
+	{
+		question: "Which of the following is not a data structure?",
+		answer: "Binary function",
+		options: ["Stack", "Queue", "Tree", "Binary function"]
+	},
+	{
+		question: "What is the unit of frequency?",
+		answer: "Hertz",
+		options: ["Watt", "Ohm", "Hertz", "Ampere"]
+	},
+	{
+		question: "What is the process called by which a computer retrieves a previously stored instruction?",
+		answer: "Fetch",
+		options: ["Store", "Load", "Fetch", "Execute"]
+	},
+	{
+		question: "What is the term for a positive electrode?",
+		answer: "🔴 Anode",
+		options: ["🟢 Cathode", "🔴 Anode", "🟡 Diode", "🟣 Triode"]
+	},
+	{
+		question: "What is the force that opposes motion called?",
+		answer: "🛑 Friction",
+		options: ["🔥 Combustion", "🌬️ Wind", "🛑 Friction", "⚡ Electricity"]
+	},
+	{
+		question: "What is the formula for the area of a rectangle?",
+		answer: "🟩 Length x Width",
+		options: ["🔺 Base x Height", "🟨 Radius x 2π", "🟩 Length x Width", "🟦 (Base + Top) x Height / 2"]
+	},
+	{
+		question: "What is the smallest unit of digital information?",
+		answer: "💻 Bit",
+		options: ["📁 Byte", "💾 Floppy Disk", "💻 Bit", "🖥️ Monitor"]
+	},
+	{
+		question: "What is the process of nuclear decay in which an atomic nucleus splits into smaller fragments called?",
+		answer: "☢️ Fission",
+		options: ["☢️ Fission", "☢️ Fusion", "🧪 Oxidation", "🔥 Combustion"]
+	},
+	{
+		question: "What is the term for the bending of a wave as it passes through a medium?",
+		answer: "🌊 Refraction",
+		options: ["🌈 Reflection", "🔊 Amplification", "🌊 Refraction", "👻 Ghosting"]
+	},
+	{
+		question: "What is the process of converting sugar into alcohol called?",
+		answer: "🍺 Fermentation",
+		options: ["🌋 Eruption", "🥩 Grilling", "🍺 Fermentation", "🥣 Boiling"]
+	},
+	{
+		question: "What is the study of the Earth's physical structure and substance called?",
+		answer: "🌍 Geology",
+		options: ["🐟 Ichthyology", "🌍 Geology", "🍷 Oenology", "🌌 Cosmology"]
+	},
+	{
+		question: "What is the measure of a material's ability to conduct an electric current called?",
+		answer: "🔌 Conductivity",
+		options: ["📡 Frequency", "📈 Velocity", "🔋 Voltage", "🔌 Conductivity"]
+	},
+	{
+		question: "What is the process of changing a gas into a liquid called?",
+		answer: "💧 Condensation",
+		options: ["🔥 Combustion", "💧 Condensation", "🌪️ Tornado", "🧊 Freezing"]
+	},
+	{
+		question: "What is the name of the particle that carries an electric charge?",
+		answer: "🧲 Electron",
+		options: ["🧲 Electron", "🌞 Photon", "🪐 Neutron", "🌈 Proton"]
+	},
+	{
+		question: "What is the process of converting light energy into chemical energy called?",
+		answer: "🌿 Photosynthesis",
+		options: ["🌪️ Tornado", "🌊 Erosion", "🌿 Photosynthesis", "🌋 Volcanism"]
+	},
+	{
+		question: "What is the SI unit of electric current?",
+		answer: "🔌 Ampere",
+		options: ["🔌 Ampere", "🔋 Volt", "🧲 Tesla", "📏 Meter"]
+	},
+	{
+		question: "What is the branch of science that deals with the study of insects called?",
+		answer: "🐛 Entomology",
+		options: ["🌳 Botany", "🐭 Zoology", "🐛 Entomology", "🧬 Genetics"]
+	},
+	{
+		question: "What is the process of converting a solid directly to a gas without passing through the liquid state called?",
+		answer: "🌬️ Sublimation",
+		options: ["🔥 Combustion", "🌊 Evaporation", "🌬️ Sublimation", "🧊 Freezing"]
+	},
+	{
+		question: "What is the term for the maximum displacement of a wave from its rest position?",
+		answer: "🌊 Amplitude",
+		options: ["🌊 Amplitude", "🌈 Wavelength", "🌊 Frequency", "🔊 Volume"]
+	},
+	{
+		question: "What is the branch of science that deals with the study of fungi called?",
+		answer: "🍄 Mycology",
+		options: ["🌿 Botany", "🐟 Ichthyology", "🍄 Mycology", "🐅 Zoology"]
+	},
+	{
+		question: "What is the process of converting a liquid into a gas called?",
+		answer: "🌊 Vaporization",
+		options: ["🔥 Combustion", "🌊 Vaporization", "🧊 Freezing", "💧 Condensation"]
+	},
+	{
+		question: "What is the term for the ability of a material to be drawn out into a thin wire?",
+		answer: "🔗 Ductility",
+		options: ["🔋 Voltage", "🔗 Ductility", "🔌 Conductivity", "📏 Density"]
+	},
+	{
+		question: "What is the branch of science that deals with the study of rocks called?",
+		answer: "🪨 Petrology",
+		options: ["🔬 Chemistry", "🪨 Petrology", "🍷 Oenology", "🌌 Astronomy"]
+	},
+	{
+		question: "What is the process of converting a gas into a liquid called?",
+		answer: "💧 Condensation",
+		options: ["🔥 Combustion", "💧 Condensation", "🌬️ Sublimation", "🧊 Freezing"]
+	},
+	{
+		question: "What is the term for the curved path of an object around a point in space?",
+		answer: "🛰️ Orbit",
+		options: ["🔭 Telescope", "🛸 UFO", "🛰️ Orbit", "🌌 Galaxy"]
+	},
+	{
+		question: "What is the study of the relationship between living organisms and their environment called?",
+		answer: "🌱 Ecology",
+		options: ["🐒 Anthropology", "🌱 Ecology", "🌳 Botany", "🐟 Ichthyology"]
+	},
+	{
+		question: "What is the study of the relationship between living organisms and their environment called?",
+		answer: "🌱 Ecology",
+		options: ["🧬 Genetics", "🔬 Microbiology", "🌱 Ecology", "🧪 Chemistry"]
+	},
+	{
+		question: "What is the term for the force that holds atoms together in a molecule?",
+		answer: "💞 Chemical bond",
+		options: ["🔥 Thermal energy", "🌬️ Wind force", "💞 Chemical bond", "👥 Social bond"]
+	},
+	{
+		question: "What is the process of converting a liquid into a gas called?",
+		answer: "💨 Evaporation",
+		options: ["🧊 Solidification", "💨 Evaporation", "🌊 Flooding", "🔥 Combustion"]
+	},
+	{
+		question: "What is the term for the measure of how much matter an object contains?",
+		answer: "🔍 Mass",
+		options: ["📏 Length", "🌡️ Temperature", "🔍 Mass", "📈 Velocity"]
+	},
+	{
+		question: "What is the study of the behavior and properties of matter called?",
+		answer: "🧪 Chemistry",
+		options: ["🔭 Astronomy", "🧬 Genetics", "🧪 Chemistry", "🌌 Cosmology"]
+	},
+	{
+		question: "What is the process of converting a solid directly into a gas called?",
+		answer: "🌬️ Sublimation",
+		options: ["💨 Evaporation", "🧊 Freezing", "🌬️ Sublimation", "🌊 Erosion"]
+	},
+	{
+		question: "What is the term for the amount of space an object takes up?",
+		answer: "📐 Volume",
+		options: ["📏 Length", "🔍 Mass", "📐 Volume", "🔺 Area"]
+	},
+	{
+		question: "What is the measure of the amount of light that passes through a material called?",
+		answer: "🌞 Transparency",
+		options: ["🌡️ Temperature", "🌞 Transparency", "👻 Invisibility", "🔥 Combustion"]
+	},
+	{
+		question: "What is the term for the measure of the average kinetic energy of the particles in a substance?",
+		answer: "🌡️ Temperature",
+		options: ["📈 Velocity", "🔍 Mass", "🌡️ Temperature", "🔋 Voltage"]
+	},
+	{
+		question: "Which device is used to amplify electrical signals?",
+		answer: "Amplifier",
+		options: ["Modulator", "Transducer", "Amplifier", "Attenuator"]
+	},
+	{
+		question: "What is the process of converting a digital signal into an analog signal?",
+		answer: "Digital-to-Analog Conversion",
+		options: ["Analog-to-Digital Conversion", "Digital-to-Analog Conversion", "Frequency Modulation", "Amplitude Modulation"]
+	},
+
+	{
+		question: "What is the process of converting a gas into a liquid called?",
+		answer: "Condensation 💧",
+		options: [
+			"Evaporation 💨",
+			"Freezing 🧊",
+			"Melting 🔥",
+			"Condensation 💧"
+		]
+	},
+	{
+		question: "Which of the following is not a type of loop in programming?",
+		answer: "Conditional loop",
+		options: ["For loop", "While loop", "Do-while loop", "Conditional loop"]
+	},
+	{
+		question: "What is the study of the relationships between living organisms and their environment called?",
+		answer: "Ecology 🌳",
+		options: [
+			"Biology 🧬",
+			"Chemistry 🔬",
+			"Physics 🌌",
+			"Ecology 🌳"
+		]
+	},
+	{
+		question: "What is the process of converting a solid directly to a gas called?",
+		answer: "Sublimation 🌫️",
+		options: [
+			"Melting 🔥",
+			"Freezing 🧊",
+			"Sublimation 🌫️",
+			"Evaporation 💨"
+		]
+	},
+	{
+		question: "What is the unit of electric current?",
+		answer: "Ampere 🔌",
+		options: [
+			"Volt 🔋",
+			"Watt 💡",
+			"Ohm 📡",
+			"Ampere 🔌"
+		]
+	},
+	{
+		question: "What is the formula for acceleration?",
+		answer: "a = (v₂ - v₁) / t 🚀",
+		options: [
+			"v = d / t 🚘",
+			"d = v / t 🏃",
+			"f = m × a 🏋️",
+			"a = (v₂ - v₁) / t 🚀"
+		]
+	},
+	{
+		question: "What is the name of the first computer programmer, known for her work on Charles Babbage's early mechanical general-purpose computer, the Analytical Engine?",
+		answer: "Ada Lovelace 👩‍💻",
+		options: [
+			"Grace Hopper 👩",
+			"Kathleen Antonelli 🧑",
+			"Ada Lovelace 👩‍💻",
+			"Annie Easley 👩‍"
+		]
+	},
+	{
+		question: "What is the name of the first computer programmer, known for her work on Charles Babbage's early mechanical general-purpose computer, the Analytical Engine?",
+		answer: "👩‍💻",
+		options: ["🧔", "🧑", "👩", "👩‍💻"]
+	},
+	{
+		question: "What is the formula for calculating the area of a circle?",
+		answer: "🥧",
+		options: ["🍔", "🍕", "🥧", "🍰"]
+	},
+	{
+		question: "What is the name of the device that is used to measure current?",
+		answer: "🔍",
+		options: ["📏", "🔍", "🔭", "📌"]
+	},
+	{
+		question: "What is the process of converting a gas into a liquid called?",
+		answer: "💧",
+		options: ["💥", "💧", "🔥", "💨"]
+	},
+	{
+		question: "What is the study of the relationships between living organisms and their environment called?",
+		answer: "🌳",
+		options: ["🌞", "🌳", "🌊", "🐻"]
+	},
+	{
 		question: "🎬 Who directed the 1994 crime film 'Pulp Fiction'?",
 		answer: "🎬 Quentin Tarantino",
 		options: [
@@ -28,6 +956,916 @@ let questions = [
 			"🎬 Martin Scorsese",
 			"🎬 Quentin Tarantino",
 			"🎬 Francis Ford Coppola"
+		]
+	},
+	{
+		question: "What is the unit of measurement for electric current?",
+		answer: "🔌 Ampere",
+		options: ["🧲 Gauss", "🔌 Ampere", "🔋 Volt", "📡 Hertz"]
+	},
+	{
+		question: "What is the term for a substance that cannot be broken down into simpler substances by chemical means?",
+		answer: "🧪 Element",
+		options: ["🔬 Molecule", "🧫 Virus", "🧪 Element", "🍞 Carbohydrate"]
+	},
+	{
+		question: "What is the process of changing a solid directly into a gas without passing through a liquid phase called?",
+		answer: "🌬️ Sublimation",
+		options: ["🔥 Combustion", "🌬️ Sublimation", "💧 Condensation", "🧊 Freezing"]
+	},
+	{
+		question: "What is the measure of the amount of matter in an object called?",
+		answer: "⚖️ Mass",
+		options: ["📈 Velocity", "🔋 Voltage", "⚖️ Mass", "📡 Frequency"]
+	},
+	{
+		question: "What is the term for the force that opposes the flow of electric current?",
+		answer: "🧊 Resistance",
+		options: ["🔋 Voltage", "🌊 Current", "🧊 Resistance", "📈 Power"]
+	},
+	{
+		question: "What is the process of converting light energy into electrical energy called?",
+		answer: "🔆 Photovoltaics",
+		options: ["🌪️ Tornado", "🧊 Freezing", "🔆 Photovoltaics", "🌊 Wave energy"]
+	},
+	{
+		question: "What is the term for a substance that speeds up a chemical reaction without being consumed in the reaction?",
+		answer: "🧪 Catalyst",
+		options: ["🔥 Fuel", "🧪 Catalyst", "🧫 Antibiotic", "🔬 Reagent"]
+	},
+	{
+		question: "What is the measure of the degree of hotness or coldness of an object or substance?",
+		answer: "🌡️ Temperature",
+		options: ["📏 Length", "🔋 Voltage", "🌡️ Temperature", "⏰ Time"]
+	},
+	{
+		question: "What is the term for the process of converting a liquid into a gas?",
+		answer: "🌫️ Evaporation",
+		options: ["💧 Condensation", "🌬️ Sublimation", "🌫️ Evaporation", "🔥 Combustion"]
+	},
+	{
+		question: "What is the term for a substance that can accept a pair of electrons from another molecule or atom?",
+		answer: "🧪 Lewis acid",
+		options: ["🧪 Lewis base", "🧪 Organic compound", "🧪 Lewis acid", "🧫 Antibody"]
+	},
+	{
+		question: "What is a database?",
+		answer: "A collection of data that is organized and can be accessed, managed, and updated 🗃️",
+		options: [
+			"A type of animal 🐘",
+			"A type of food 🍕",
+			"A collection of data that is organized and can be accessed, managed, and updated 🗃️",
+			"A type of car 🚗"
+		]
+	},
+	{
+		question: "What is the primary function of a 🔋 battery?",
+		answer: "To store and release electrical energy ⚡",
+		options: [
+			"To store and release electrical energy ⚡",
+			"To generate electrical energy ⚡",
+			"To convert electrical energy to mechanical energy ⚙️",
+			"To convert mechanical energy to electrical energy ⚙️"
+		]
+	},
+	{
+		question: "What does CSS stand for?",
+		answer: "Cascading Style Sheets ✨",
+		options: [
+			"Cascading Style Sheets ✨",
+			"Creative Style Sheets 🎨",
+			"Cascading Style Scripts 💻",
+			"Computer Style Sheets 🖥️"
+		]
+	},
+	{
+		question: "What is the programming language used to create Android apps?",
+		answer: "Java ☕",
+		options: [
+			"C++ 🖥️",
+			"Python 🐍",
+			"Swift 🍎",
+			"Java ☕"
+		]
+	},
+	{
+		question: "What does SQL stand for?",
+		answer: "Structured Query Language 🗃️",
+		options: [
+			"Structured Query Language 🗃️",
+			"Simple Query Language 🔍",
+			"System Query Language 💻",
+			"Standard Query Language 📈"
+		]
+	},
+	{
+		question: "What is the name of the coding language used to create web pages?",
+		answer: "HTML 🌐",
+		options: [
+			"CSS ✨",
+			"JavaScript 🚀",
+			"Python 🐍",
+			"HTML 🌐"
+		]
+	},
+	{
+		question: "What is the name of the open-source software development platform created by Microsoft?",
+		answer: "GitHub 🐙",
+		options: [
+			"GitLab 🦊",
+			"Bitbucket 🐶",
+			"SourceForge 🌍",
+			"GitHub 🐙"
+		]
+	},
+	{
+		question: "What is the 🌡️ boiling point of water at sea level?",
+		answer: "100 °C (212 °F)",
+		options: [
+			"0 °C (32 °F)",
+			"25 °C (77 °F)",
+			"50 °C (122 °F)",
+			"100 °C (212 °F)"
+		]
+	},
+	{
+		question: "What is the most common 🐍 snake found in North America?",
+		answer: "The garter snake 🐍",
+		options: [
+			"The coral snake 🐍",
+			"The diamondback rattlesnake 🐍",
+			"The copperhead snake 🐍",
+			"The garter snake 🐍"
+		]
+	},
+	{
+		question: "What does the 💡 acronym CPU stand for?",
+		answer: "Central Processing Unit",
+		options: [
+			"Central Programming Unit",
+			"Core Programming Unit",
+			"Central Processing Unit",
+			"Core Processing Unit"
+		]
+	},
+	{
+		question: "What type of personality test measures your unconscious thoughts and feelings?",
+		answer: "Projective personality test",
+		options: [
+			"Trait personality test",
+			"Projective personality test",
+			"Self-report personality test",
+			"Behavioral personality test"
+		]
+	},
+	{
+		question: "What do you call a type of programming that involves building applications using pre-built components?",
+		answer: "Low-code development",
+		options: [
+			"Low-code development",
+			"Object-oriented programming",
+			"Functional programming",
+			"Procedural programming"
+		]
+	},
+	{
+		question: "Which programming language is most commonly used for web development?",
+		answer: "JavaScript",
+		options: [
+			"Python",
+			"Java",
+			"Ruby",
+			"JavaScript"
+		]
+	},
+	{
+		question: "What is a type of artificial intelligence that involves training a model on large amounts of data?",
+		answer: "Machine learning",
+		options: [
+			"Neural networks",
+			"Expert systems",
+			"Fuzzy logic",
+			"Machine learning"
+		]
+	},
+	{
+		question: "What type of database is designed to handle large amounts of data and high traffic?",
+		answer: "NoSQL database",
+		options: [
+			"Relational database",
+			"Object-oriented database",
+			"Hierarchical database",
+			"NoSQL database"
+		]
+	},
+	{
+		question: "What is the process of improving a website's ranking in search engine results pages called?",
+		answer: "Search engine optimization (SEO)",
+		options: [
+			"Pay-per-click advertising",
+			"Content marketing",
+			"Social media marketing",
+			"Search engine optimization (SEO)"
+		]
+	},
+	{
+		question: "What is a type of network topology where each node is connected to every other node?",
+		answer: "Full mesh topology",
+		options: [
+			"Star topology",
+			"Bus topology",
+			"Ring topology",
+			"Full mesh topology"
+		]
+	},
+	{
+		question: "What do you call the process of converting a source code written in a high-level programming language into machine code?",
+		answer: "Compilation",
+		options: [
+			"Interpretation",
+			"Compilation",
+			"Debugging",
+			"Profiling"
+		]
+	},
+	{
+		question: "What type of encryption uses the same key for both encryption and decryption?",
+		answer: "Symmetric-key encryption",
+		options: [
+			"Asymmetric-key encryption",
+			"Hash encryption",
+			"Symmetric-key encryption",
+			"Transposition encryption"
+		]
+	},
+	{
+		question: "What is a type of cybersecurity attack that involves tricking someone into revealing their login credentials?",
+		answer: "Phishing",
+		options: [
+			"Malware",
+			"Ransomware",
+			"Phishing",
+			"Denial of Service (DoS)"
+		]
+	},
+	{
+		question: "What is the highest mountain in the world?",
+		answer: "Mount Everest",
+		options: [
+			"Mount Kilimanjaro",
+			"Mount Everest",
+			"Mount Denali",
+			"Mount Aconcagua"
+		]
+	},
+	{
+		question: "What is cloud computing?",
+		answer: "The delivery of computing services over the Internet ☁️",
+		options: [
+			"A type of weather ☀️",
+			"A type of dance 💃",
+			"The delivery of computing services over the Internet ☁️",
+			"A type of plant 🌿"
+		]
+	},
+	{
+		question: "What is blockchain?",
+		answer: "A decentralized, distributed ledger technology that maintains a continuously growing list of records using cryptography 🔗",
+		options: [
+			"A type of building material 🏠",
+			"A type of candy 🍬",
+			"A decentralized, distributed ledger technology that maintains a continuously growing list of records using cryptography 🔗",
+			"A type of exercise 🏋️"
+		]
+	},
+	{
+		question: "What is machine learning?",
+		answer: "A subset of artificial intelligence that involves the development of algorithms and statistical models that enable computer systems to learn from and improve upon their performance on a specific task over time, without being explicitly programmed 🤖📈",
+		options: [
+			"A type of art 🎨",
+			"A type of sport 🏀",
+			"A subset of artificial intelligence that involves the development of algorithms and statistical models that enable computer systems to learn from and improve upon their performance on a specific task over time, without being explicitly programmed 🤖📈",
+			"A type of insect 🐛"
+		]
+	},
+	{
+		question: "What is the difference between a psychologist and a psychiatrist?",
+		answer: "A psychologist is a mental health professional who specializes in talk therapy and behavior modification, while a psychiatrist is a medical doctor who can prescribe medication in addition to talk therapy.",
+		options: [
+			"A psychologist can prescribe medication in addition to talk therapy.",
+			"A psychiatrist is a mental health professional who specializes in talk therapy and behavior modification.",
+			"A psychologist is a medical doctor who can prescribe medication in addition to talk therapy.",
+			"A psychologist is a mental health professional who specializes in talk therapy and behavior modification, while a psychiatrist is a medical doctor who can prescribe medication in addition to talk therapy."
+		]
+	},
+	{
+		question: "What is an API?",
+		answer: "A set of protocols, routines, and tools for building software applications 🛠️",
+		options: [
+			"A type of drink commonly found in South America ☕",
+			"A machine that automates repetitive tasks 🤖",
+			"A set of protocols, routines, and tools for building software applications 🛠️",
+			"A type of music synthesizer 🎹"
+		]
+	},
+	{
+		question: "What is the most popular programming language?",
+		answer: "JavaScript 🚀",
+		options: [
+			"Java ☕️",
+			"Python 🐍",
+			"JavaScript 🚀",
+			"C++ 💻"
+		]
+	},
+	{
+		question: "What is the largest unit of memory?",
+		answer: "Terabyte 💾",
+		options: [
+			"Byte 🧮",
+			"Kilobyte 📀",
+			"Gigabyte 💽",
+			"Terabyte 💾"
+		]
+	},
+	{
+		question: "What does CSS stand for?",
+		answer: "Cascading Style Sheets 🎨",
+		options: [
+			"Creative Style Sheets 🎭",
+			"Cascading Style Sheets 🎨",
+			"Cascading Sheet Styles 📃",
+			"Cascading Style Selection 🎯"
+		]
+	},
+	{
+		question: "What does HTML stand for?",
+		answer: "Hypertext Markup Language 🌐",
+		options: [
+			"Hyperspace Markup Language 🚀",
+			"Hypertext Markup Language 🌐",
+			"Hyperlink Markup Language 🔗",
+			"Hypertext Marking Language ✏️"
+		]
+	},
+	{
+		question: "What is the shortcut to paste on Windows?",
+		answer: "Ctrl + V 📋",
+		options: [
+			"Ctrl + P 🖨️",
+			"Ctrl + C 📑",
+			"Ctrl + A 🗂️",
+			"Ctrl + V 📋"
+		]
+	},
+	{
+		question: "What does SQL stand for?",
+		answer: "Structured Query Language 📊",
+		options: [
+			"Simple Query Language 🔍",
+			"Structured Question Language ❓",
+			"Structured Query Language 📊",
+			"Specialized Query Language 🎓"
+		]
+	},
+	{
+		question: "What is the default port for HTTP?",
+		answer: "80 🌐",
+		options: [
+			"22 🛡️",
+			"80 🌐",
+			"443 🔒",
+			"8080 🌐"
+		]
+	},
+	{
+		question: "What is the shortcut to save on Windows?",
+		answer: "Ctrl + S 💾",
+		options: [
+			"Ctrl + P 🖨️",
+			"Ctrl + C 📑",
+			"Ctrl + A 🗂️",
+			"Ctrl + S 💾"
+		]
+	},
+	{
+		question: "What is the smallest unit of data in a computer?",
+		answer: "Bit 0️⃣/1️⃣",
+		options: [
+			"Byte 🖥️",
+			"Nibble 🍫",
+			"Pixel 🖼️",
+			"Bit 0️⃣/1️⃣"
+		]
+	},
+	{
+		question: "What programming language is commonly used for creating Android apps?",
+		answer: "Java ☕",
+		options: [
+			"Python 🐍",
+			"Ruby 💎",
+			"Java ☕",
+			"Swift 🍎"
+		]
+	},
+	{
+		question: "What does CPU stand for in computer terms?",
+		answer: "Central Processing Unit 💻",
+		options: [
+			"Computer Programming Unit 👨‍💻",
+			"Central Programming Unit 💾",
+			"Central Processing Unit 💻",
+			"Computer Processing Unit 🖥️"
+		]
+	},
+	{
+		question: "What is the name for a computer program that converts code written in a high-level programming language into machine code?",
+		answer: "Compiler 🖥️",
+		options: [
+			"Interpreter 🌐",
+			"Debugger 🐛",
+			"Compiler 🖥️",
+			"Assembler 🛠️"
+		]
+	},
+	{
+		question: "What is the name for a data structure that allows you to store and retrieve items in a last-in, first-out (LIFO) order?",
+		answer: "Stack 📚",
+		options: [
+			"Queue 🚶",
+			"Array 🗂️",
+			"Stack 📚",
+			"Linked List 🔗"
+		]
+	},
+	{
+		question: "What is the name for a programming language that allows you to create dynamic, interactive web pages?",
+		answer: "JavaScript 🌐",
+		options: [
+			"HTML 📄",
+			"CSS 🎨",
+			"Java ☕",
+			"JavaScript 🌐"
+		]
+	},
+	{
+		question: "What is the name for a system for naming and organizing files and folders on a computer?",
+		answer: "File system 🗃️",
+		options: [
+			"Operating system 🖥️",
+			"File system 🗃️",
+			"Directory structure 📁",
+			"Command prompt 📜"
+		]
+	},
+	{
+		question: "What is the name for a method of encryption that uses two keys, one for encryption and one for decryption?",
+		answer: "Public-key encryption 🔒",
+		options: [
+			"Private-key encryption 🔑",
+			"Symmetric encryption 🗝️",
+			"Asymmetric encryption 🎭",
+			"Public-key encryption 🔒"
+		]
+	},
+	{
+		question: "What is a network firewall designed to do?",
+		answer: "Protect a computer or network from unauthorized access 🛡️",
+		options: [
+			"Block all internet traffic 🚫",
+			"Speed up internet connectivity 🚀",
+			"Encrypt all internet traffic 🔒",
+			"Protect a computer or network from unauthorized access 🛡️"
+		]
+	},
+	{
+		question: "What is HTML an acronym for?",
+		answer: "HyperText Markup Language 📝",
+		options: [
+			"HyperLink Markup Language 🔗",
+			"Hyperspace Markup Language 🚀",
+			"HyperTech Markup Language 🤖",
+			"HyperText Markup Language 📝"
+		]
+	},
+	{
+		question: "What is the function of a router in a computer network?",
+		answer: "Direct network traffic between devices 📡",
+		options: [
+			"Block all incoming network traffic 🚫",
+			"Increase internet connectivity speed 🚀",
+			"Encrypt all network traffic 🔒",
+			"Direct network traffic between devices 📡"
+		]
+	},
+	{
+		question: "What is the name of the primary protocol used for sending email on the internet?",
+		answer: "SMTP 📧",
+		options: [
+			"IMAP 📨",
+			"POP3 📩",
+			"SMTP 📧",
+			"HTTP 🌐"
+		]
+	},
+	{
+		question: "What does RAM stand for in computer terms?",
+		answer: "Random Access Memory 🧠",
+		options: [
+			"Read Access Memory 📖",
+			"Real-time Access Memory ⏰",
+			"Rapid Access Memory 🏃",
+			"Random Access Memory 🧠"
+		]
+	},
+	{
+		question: "What is the function of a modem in a computer network?",
+		answer: "Convert digital data to analog signals and vice versa 📶",
+		options: [
+			"Block all incoming network traffic 🚫",
+			"Increase internet connectivity speed 🚀",
+			"Encrypt all network traffic 🔒",
+			"Convert digital data to analog signals and vice versa 📶"
+		]
+	},
+	{
+		question: "What is a DoS attack?",
+		answer: "An attack meant to prevent legitimate users from accessing a network 🚫",
+		options: [
+			"An attack meant to steal data from a network 🔍",
+			"An attack meant to encrypt data on a network 🔒",
+			"An attack meant to speed up a network 🚀",
+			"An attack meant to prevent legitimate users from accessing a network 🚫"
+		]
+	},
+	{
+		question: "What does FTP stand for?",
+		answer: "File Transfer Protocol 📁",
+		options: [
+			"File Type Protocol 📊",
+			"File Transfer Protocol 📁",
+			"File Transmission Process 📨",
+			"File Transfer Procedure 📥"
+		]
+	},
+	{
+		question: "What is the shortcut to cut on Windows?",
+		answer: "Ctrl + X ✂️",
+		options: [
+			"Ctrl + P 🖨️",
+			"Ctrl + C 📑",
+			"Ctrl + A 🗂️",
+			"Ctrl + X ✂️"
+		]
+	},
+	{
+		question: "What is a unit of measurement used to describe the amount of data in a digital file?",
+		answer: "Byte 📊",
+		options: [
+			"Hertz 🎵",
+			"Watt ⚡️",
+			"Ampere ⚡️",
+			"Byte 📊"
+		]
+	},
+	{
+		question: "What is the programming language used to create web pages?",
+		answer: "HTML 🌐",
+		options: [
+			"Python 🐍",
+			"Java ☕️",
+			"C++ 🖥",
+			"HTML 🌐"
+		]
+	},
+	{
+		question: "What is the programming language used to create dynamic web pages?",
+		answer: "JavaScript 🌐",
+		options: [
+			"CSS 🎨",
+			"PHP 🐘",
+			"Ruby 💎",
+			"JavaScript 🌐"
+		]
+	},
+	{
+		question: "What is the process of removing errors from a program called?",
+		answer: "Debugging 🐞",
+		options: [
+			"Encoding 🔡",
+			"Compiling 🛠",
+			"Debugging 🐞",
+			"Decoding 🔤"
+		]
+	},
+	{
+		question: "What is the name for the standardized format for compressing a file?",
+		answer: "ZIP 📁",
+		options: [
+			"RAR 📁",
+			"TAR 📁",
+			"GZIP 📁",
+			"ZIP 📁"
+		]
+	},
+	{
+		question: "What is the name for the protocol used to access email on a remote server?",
+		answer: "IMAP 📧",
+		options: [
+			"SMTP 📧",
+			"FTP 📂",
+			"SSH 🛡",
+			"IMAP 📧"
+		]
+	},
+	{
+		question: "What is the name for the process of converting analog signals into digital signals?",
+		answer: "Analog-to-Digital Conversion 🔄",
+		options: [
+			"Digital-to-Analog Conversion 🔄",
+			"Analog-to-Digital Conversion 🔄",
+			"Data Encryption 🔒",
+			"Data Compression 📉"
+		]
+	},
+	{
+		question: "What is the name for the process of combining multiple small packets into a single large packet for more efficient transmission?",
+		answer: "Packet Aggregation 📦",
+		options: [
+			"Packet Switching 🔄",
+			"Packet Aggregation 📦",
+			"Packet Filtering 🗑",
+			"Packet Sniffing 👃"
+		]
+	},
+	{
+		question: "What is the name for the technology used to transmit data over a fiber-optic cable?",
+		answer: "Optical Fiber 🌈",
+		options: [
+			"Coaxial Cable 📡",
+			"Ethernet Cable 🌐",
+			"Twisted Pair Cable 🔗",
+			"Optical Fiber 🌈"
+		]
+	},
+	{
+		question: "What is the name for the standard network protocol used to transfer files between computers?",
+		answer: "FTP 📂",
+		options: [
+			"HTTP 🌐",
+			"SSH 🛡",
+			"SMTP 📧",
+			"FTP 📂"
+		]
+	},
+	{
+		question: "What is the smallest unit of digital information?",
+		answer: "Bit 🧑‍💻",
+		options: [
+			"Byte 📜",
+			"Megabyte 💾",
+			"Kilobyte 💽",
+			"Bit 🧑‍💻"
+		]
+	},
+	{
+		question: "What is the process of removing data from a storage device called?",
+		answer: "Deleting 🗑️",
+		options: [
+			"Formatting 💾",
+			"Copying 📂",
+			"Deleting 🗑️",
+			"Encrypting 🔒"
+		]
+	},
+	{
+		question: "What is the most common type of computer processor used today?",
+		answer: "x86 💻",
+		options: [
+			"PowerPC 🕹️",
+			"ARM 📱",
+			"MIPS 🧭",
+			"x86 💻"
+		]
+	},
+	{
+		question: "What is the term for software that is free to use, modify, and distribute?",
+		answer: "Open source 🆓",
+		options: [
+			"Shareware 💻",
+			"Freeware 🆓",
+			"Proprietary 🤫",
+			"Open source 🆓"
+		]
+	},
+	{
+		question: "What type of software allows users to view web pages on the internet?",
+		answer: "Web browser 🌐",
+		options: [
+			"Operating system 💻",
+			"Database software 🗃️",
+			"Graphic design software 🎨",
+			"Web browser 🌐"
+		]
+	},
+	{
+		question: "Which CSS property controls the size of an element's font?",
+		answer: "font-size 📐",
+		options: [
+			"color 🎨",
+			"background-color 🎨",
+			"font-size 📐",
+			"padding 🧦"
+		]
+	},
+	{
+		question: "What programming language is often used for creating interactive web pages?",
+		answer: "JavaScript 🌐",
+		options: [
+			"Python 🐍",
+			"Ruby 💎",
+			"Java ☕",
+			"JavaScript 🌐"
+		]
+	},
+	{
+		question: "What is the term used to describe the process of finding and fixing errors in code?",
+		answer: "Debugging 🐛",
+		options: [
+			"Refactoring ♻️",
+			"Debugging 🐛",
+			"Testing 🧪",
+			"Optimizing ⚡"
+		]
+	},
+	{
+		question: "What does the acronym SQL stand for?",
+		answer: "Structured Query Language 💬",
+		options: [
+			"Standard Query Language 💬",
+			"Structured Query Language 💬",
+			"Simple Query Language 💬",
+			"System Query Language 💬"
+		]
+	},
+	{
+		question: "What is the name of the programming language developed by Apple for macOS and iOS?",
+		answer: "Swift 🍎",
+		options: [
+			"Ruby 💎",
+			"Swift 🍎",
+			"C# 💻",
+			"Kotlin 🐱"
+		]
+	},
+	{
+		question: "What does the acronym API stand for?",
+		answer: "Application Programming Interface 🤖",
+		options: [
+			"Application Programming Interface 🤖",
+			"Application Processing Interface 🤖",
+			"Automated Programming Interface 🤖",
+			"Automated Processing Interface 🤖"
+		]
+	},
+	{
+		question: "What is the process of converting source code into machine code called?",
+		answer: "Compilation 🛠️",
+		options: [
+			"Debugging 🐛",
+			"Refactoring ♻️",
+			"Compilation 🛠️",
+			"Optimizing ⚡"
+		]
+	},
+	{
+		question: "Which CSS property controls the spacing between an element's border and its content?",
+		answer: "padding 🧦",
+		options: [
+			"margin 🌳",
+			"padding 🧦",
+			"border 🚪",
+			"height 📏"
+		]
+	},
+	{
+		question: "What is an algorithm?",
+		answer: "A set of instructions for solving a problem or completing a task, often used in computer programming 🔍",
+		options: [
+			"A type of musical instrument 🎻",
+			"A set of tools for carving wood 🔪",
+			"A set of instructions for solving a problem or completing a task, often used in computer programming 🔍",
+			"A type of dance move popular in the 1980s 🕺"
+		]
+	},
+	{
+		question: "What is cloud computing?",
+		answer: "The on-demand delivery of computing services over the internet, including storage, databases, and software ☁️",
+		options: [
+			"A type of weather phenomenon ☁️",
+			"A form of meditation practiced in Asia 🧘‍♀️",
+			"The on-demand delivery of computing services over the internet, including storage, databases, and software ☁️",
+			"A technique for creating intricate paper designs 📄"
+		]
+	},
+	{
+		question: "What is HTML?",
+		answer: "The standard markup language for creating web pages and web applications 🌐",
+		options: [
+			"A type of metal commonly used in jewelry making 💍",
+			"The standard markup language for creating web pages and web applications 🌐",
+			"A type of food seasoning commonly used in Asian cuisine 🍜",
+			"A technique for creating realistic 3D models using a computer 🖥️"
+		]
+	},
+	{
+		question: "What is the word for the fear of being alone?",
+		answer: "Autophobia 🙍‍♀️",
+		options: [
+			"Agoraphobia 🏢",
+			"Autophobia 🙍‍♀️",
+			"Arachnophobia 🕷️",
+			"Acrophobia 🏔️"
+		]
+	},
+	{
+		question: "What is the emotion of feeling both happy and sad at the same time?",
+		answer: "Melancholy 😔😊",
+		options: [
+			"Euphoria 😁",
+			"Melancholy 😔😊",
+			"Nostalgia 🌅",
+			"Despair 😔"
+		]
+	},
+	{
+		question: "What is the psychological term for the fear of failure?",
+		answer: "Atychiphobia 🤕",
+		options: [
+			"Arachnophobia 🕷️",
+			"Atychiphobia 🤕",
+			"Agoraphobia 🏢",
+			"Acrophobia 🏔️"
+		]
+	},
+	{
+		question: "What is the word for the feeling of being homesick for a place you've never been to?",
+		answer: "Wanderlust 🌍🧳",
+		options: [
+			"Saudade 🕰️",
+			"Hiraeth 🏠",
+			"Fernweh 🗺️",
+			"Wanderlust 🌍🧳"
+		]
+	},
+	{
+		question: "What is the emotion of feeling annoyed and relieved at the same time?",
+		answer: "Justrighting 🤷‍♀️",
+		options: [
+			"Justrighting 🤷‍♀️",
+			"Frustrated 😠",
+			"Indifferent 😐",
+			"Excited 😃"
+		]
+	},
+	{
+		question: "What is cognitive behavioral therapy (CBT)?",
+		answer: "A type of talk therapy that focuses on changing negative or harmful thought patterns and behaviors by identifying and challenging them.",
+		options: [
+			"A type of medication used to treat anxiety disorders.",
+			"A technique used to induce hypnosis.",
+			"A type of talk therapy that focuses on changing negative or harmful thought patterns and behaviors by identifying and challenging them.",
+			"A type of therapy that involves exposure to phobias or fears."
+		]
+	},
+	{
+		question: "What is the difference between anxiety and depression?",
+		answer: "Anxiety is a feeling of unease, such as worry or fear, while depression is a feeling of sadness, loss, or hopelessness.",
+		options: [
+			"Anxiety is a feeling of sadness, loss, or hopelessness, while depression is a feeling of unease, such as worry or fear.",
+			"Anxiety is a mental health disorder, while depression is a physical health disorder.",
+			"Anxiety is a feeling of unease, such as worry or fear, while depression is a feeling of sadness, loss, or hopelessness.",
+			"Anxiety and depression are the same thing."
+		]
+	},
+	{
+		question: "What is the fight or flight response?",
+		answer: "A physiological response to a perceived threat, in which the body prepares to either fight the threat or flee from it.",
+		options: [
+			"A response to a stressful situation in which the individual becomes extremely anxious.",
+			"A type of phobia characterized by an intense fear of enclosed spaces.",
+			"A physiological response to a perceived threat, in which the body prepares to either fight the threat or flee from it.",
+			"A type of personality disorder characterized by an inflated sense of self-importance and a lack of empathy for others."
+		]
+	},
+	{
+		question: "What is the placebo effect?",
+		answer: "A phenomenon in which a person experiences a perceived benefit from a treatment that has no known therapeutic effect.",
+		options: [
+			"A type of cognitive distortion in which an individual believes that their thoughts can influence external events.",
+			"A type of therapy that involves exposure to bright light to treat seasonal affective disorder.",
+			"A phenomenon in which a person experiences a perceived benefit from a treatment that has no known therapeutic effect.",
+			"A type of therapy that involves the use of music to treat mental health disorders."
 		]
 	},
 	{
@@ -5980,16 +7818,6 @@ let questions = [
 		]
 	},
 	{
-		question: "What is the problem with the following HTML code? <p>My name is <em>John Doe</em></p><p>I like to code.",
-		answer: "The second paragraph is missing a closing tag.",
-		options: [
-			"The first paragraph is missing a closing tag.",
-			"The em tag is not defined correctly.",
-			"The second paragraph is missing a closing tag.",
-			"The p tag is not defined correctly."
-		]
-	},
-	{
 		question: "What does HTML stand for?",
 		answer: "Hyper Text Markup Language",
 		options: [
@@ -6963,16 +8791,6 @@ let questions = [
 		]
 	},
 	{
-		question: "Why is the following JavaScript code snippet not working as expected? const myArr = [1, 2, 3]; for (let i = 0; i < myArr.length; i++) { setTimeout(() => { console.log(myArr[i]); }, 1000); }",
-		answer: "The value of i inside the setTimeout callback function will always be the length of myArr.",
-		options: [
-			"The value of myArr is not defined",
-			"The value of i inside the setTimeout callback function will always be the length of myArr.",
-			"The variable i is declared using const instead of let",
-			"The loop never finishes executing"
-		]
-	},
-	{
 		question: "What is the problem with the following JavaScript code? const x = 5; const y = 6; const z = x + y; console.log('The sum of ' + x + ' and ' + y + ' is ' + z);",
 		answer: "There is no problem with this code.",
 		options: [
@@ -7261,16 +9079,6 @@ let questions = [
 			"C++ has garbage collection",
 			"C++ is faster",
 			"C++ has more optimizations"
-		]
-	},
-	{
-		question: `In the above c code snippet, what is "x"?`,
-		answer: "pointer to function",
-		options: [
-			"pointer to function",
-			"pointer to char",
-			"character pointer",
-			"pointer to char pointer"
 		]
 	},
 	{
@@ -7595,16 +9403,6 @@ let questions = [
 		]
 	},
 	{
-		question: `What is the output of the following c code?\nint main()\n{\n int i = 0;\n for(i = 0; i < 3; i++)\n cout << i << " ";\n return 0;\n}`,
-		answer: "0 1 2 ",
-		options: [
-			"0 1 2 ",
-			"1 2 3 ",
-			"0 1 2 3 ",
-			"1 2 3 4 "
-		]
-	},
-	{
 		question: "What is the difference between pass by value and pass by reference in C++?",
 		answer: "Pass by value creates a copy of the argument passed to the function, while pass by reference passes the memory address of the argument to the function.",
 		options: [
@@ -7632,16 +9430,6 @@ let questions = [
 			"Function overloading is when a single function can return multiple values.",
 			"Function overloading is when a single function can take multiple arguments.",
 			"Function overloading is when a single function can be called from multiple classes."
-		]
-	},
-	{
-		question: "What is the output of the following code?\nint main()\n{\n int x = 5;\n cout << (++x) + (x++) << endl;\n return 0;\n}",
-		answer: "11",
-		options: [
-			"10",
-			"11",
-			"12",
-			"undefined behavior"
 		]
 	},
 	{
@@ -7696,16 +9484,6 @@ let questions = [
 	},
 	///////////////////////////////////////////////////////////////python
 	{
-		question: "What is the output of the following python code? \nprint(list(filter(lambda x: x < 5, [1, 2, 3, 4, 5, 6, 7])))",
-		answer: "[1, 2, 3, 4]",
-		options: [
-			"[1, 2, 3, 4]",
-			"[5, 6, 7]",
-			"[1, 2, 3, 4, 5, 6, 7]",
-			"Error"
-		]
-	},
-	{
 		question: "What is the problem with the following Python code? x = [1, 2, 3] y = x * 2",
 		answer: "The result of y will be [1, 2, 3, 1, 2, 3] instead of [2, 4, 6].",
 		options: [
@@ -7723,16 +9501,6 @@ let questions = [
 			"The function only takes two arguments, but three were passed.",
 			"The syntax for defining a function is incorrect.",
 			"The syntax for calling a function is incorrect."
-		]
-	},
-	{
-		question: "What is the problem with the following Python code? x = 10 y = 5 if x > y print('x is greater than y')",
-		answer: "The if statement is not properly indented.",
-		options: [
-			"The if statement is not properly indented.",
-			"The comparison operator should be < instead of >.",
-			"The print statement is not defined correctly.",
-			"The variables x and y are not defined."
 		]
 	},
 	{
@@ -8076,9 +9844,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the difference between 'is' and '==' in Python?",
-		"answer": "'is' checks if two variables refer to the same object in memory, while '==' checks if two variables have the same value.",
-		"options": [
+		question: "What is the difference between 'is' and '==' in Python?",
+		answer: "'is' checks if two variables refer to the same object in memory, while '==' checks if two variables have the same value.",
+		options: [
 			"'is' checks if two variables have the same value, while '==' checks if two variables refer to the same object in memory.",
 			"'is' checks if two variables refer to the same object in memory, while '==' checks if two variables have the same value.",
 			"'is' and '==' are both used for type checking in Python.",
@@ -8086,9 +9854,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the output of the following python code: ' '.join(['1', '2', '3', '4'])?",
-		"answer": "'1 2 3 4'",
-		"options": [
+		question: "What is the output of the following python code: ' '.join(['1', '2', '3', '4'])?",
+		answer: "'1 2 3 4'",
+		options: [
 			"'1234'",
 			"'1, 2, 3, 4'",
 			"'1\n2\n3\n4'",
@@ -8096,9 +9864,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the difference between a list and a tuple in Python?",
-		"answer": "A list is mutable, while a tuple is immutable.",
-		"options": [
+		question: "What is the difference between a list and a tuple in Python?",
+		answer: "A list is mutable, while a tuple is immutable.",
+		options: [
 			"A list is ordered, while a tuple is not ordered.",
 			"A list can only contain strings, while a tuple can contain any data type.",
 			"A list is faster than a tuple for large data sets.",
@@ -8106,9 +9874,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the output of the following python code: [x * x for x in range(5)]?",
-		"answer": "[0, 1, 4, 9, 16]",
-		"options": [
+		question: "What is the output of the following python code: [x * x for x in range(5)]?",
+		answer: "[0, 1, 4, 9, 16]",
+		options: [
 			"[0, 1, 2, 3, 4]",
 			"[1, 2, 3, 4, 5]",
 			"[0, 2, 4, 6, 8]",
@@ -8116,9 +9884,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the output of the following python code: 'hello world'.split()?",
-		"answer": "['hello', 'world']",
-		"options": [
+		question: "What is the output of the following python code: 'hello world'.split()?",
+		answer: "['hello', 'world']",
+		options: [
 			"'hello world'",
 			"['hello', 'world']",
 			"'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'",
@@ -8126,9 +9894,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the output of the following python code: 10 / 3?",
-		"answer": "3.3333333333333335",
-		"options": [
+		question: "What is the output of the following python code: 10 / 3?",
+		answer: "3.3333333333333335",
+		options: [
 			"3",
 			"3.0",
 			"3.333",
@@ -8136,9 +9904,9 @@ let questions = [
 		]
 	},
 	{
-		"question": "What is the difference between 'append' and 'extend' in Python lists?",
-		"answer": "'append' adds a single element to the end of a list, while 'extend' adds multiple elements to the end of a list.",
-		"options": [
+		question: "What is the difference between 'append' and 'extend' in Python lists?",
+		answer: "'append' adds a single element to the end of a list, while 'extend' adds multiple elements to the end of a list.",
+		options: [
 			"'append' adds multiple elements to the end of a list, while 'extend' adds a single element to the end of a list.",
 			"'append' and 'extend' are interchangeable and do the same thing.",
 			"'append' and 'extend' are used to remove elements from a list.",
@@ -8208,7 +9976,7 @@ function shuffleArray(array) {
 
 let quizarray = [];
 let remainingQuestions = [...questions]; // make a copy of the questions array
-for (let i = 0; i < 200; i++) {
+for (let i = 0; i < 100; i++) {
 	let randomIndex = Math.floor(Math.random() * remainingQuestions.length);
 	let randomQuestion = remainingQuestions[randomIndex];
 	remainingQuestions.splice(randomIndex, 1); // remove selected question from remainingQuestions

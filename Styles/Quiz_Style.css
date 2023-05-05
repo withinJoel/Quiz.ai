@@ -110,7 +110,7 @@
 
 .info_box .info-list .info span{
     font-weight: 600;
-    color: #5d22d9;
+    color: black;
 }
 .info_box .buttons{
     height: 60px;
@@ -131,7 +131,7 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    border: 1px solid #5d22d9;
+    border: 1px solid black;
     transition: all 0.3s ease;
 }
 
@@ -202,7 +202,7 @@
     bottom: 0px;
     left: 0px;
     height: 3px;
-    background: rebeccapurple;
+    background: black;
 }
 
 section{
@@ -316,10 +316,10 @@ footer button{
     cursor: pointer;
     border: none;
     outline: none;
-    color: #9e8dd2;
+    color: white;
     border-radius: 5px;
-    background: white;
-    border: 1px solid #311873;
+    background: black;
+    border: 1px solid white;
     line-height: 10px;
     opacity: 0;
     pointer-events: none;
@@ -328,8 +328,9 @@ footer button{
 }
 
 footer button:hover{
-    background: black;
-    color: white;
+    background: white;
+    color: black;
+    border: 1px solid black;
 }
 
 footer button.show{
@@ -355,7 +356,7 @@ footer button.show{
 
 .result_box .icon{
     font-size: 100px;
-    color: #9e8dd2;
+    color: black;
     margin-bottom: 10px;
 }
 
