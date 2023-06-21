@@ -11,6 +11,41 @@ let questions = [
 		]
 	},
 	{
+		question: "What is the full name of the founder of the Tata family business?",
+		answer: "Jamsetji Nusserwanji Tata",
+		options: [
+		  "Jamshedji Ratanji Tata",
+		  "Ratan Naval Tata",
+		  "Jamsetji Nusserwanji Tata",
+		  "Ratan Jamshed Tata"
+		]
+	  },
+	  {
+		question: "What is the official name of the Swedish Parliament?",
+		options: ["Folketinget", "Riksdag", "Althing", "Storting"],
+		answer: "Riksdag"
+	  },
+	  {
+		question: "Which system of government does Sweden have?",
+		options: ["Presidential system", "Parliamentary system", "Federal system", "Monarchical system"],
+		answer: "Parliamentary system"
+	  },
+	  {
+		question: "Which Tata family member established the Tata Institute of Fundamental Research (TIFR)?",
+		options: ["Dorabji Tata", "Ratan Tata", "Jamsetji Tata", "J.R.D. Tata"],
+		answer: "Dorabji Tata"
+	  },
+	  {
+		question: "How many branches of government are there in the United States?",
+		options: ["2", "3", "4", "5"],
+		answer: "3"
+	  },
+	  {
+		question: "What is the maximum number of terms a President can serve?",
+		options: ["1", "2", "3", "4"],
+		answer: "2"
+	  },	  
+	{
 		question: "What is the hormone that is associated with love and bonding?",
 		answer: "💕 Oxytocin",
 		options: ["💤 Melatonin", "💕 Oxytocin", "🧠 Dopamine", "🚀 Adrenaline"]
